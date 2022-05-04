@@ -1,0 +1,121 @@
+[{
+    "pk": 1,
+    "model": "products.category",
+    "fields": {
+        "name": "romance",
+        "friendly_name": "Romance"
+    }
+},
+{
+    "pk": 2,
+    "model": "products.category",
+    "fields": {
+        "name": "mystery",
+        "friendly_name": "Mystery"
+    }
+},
+{
+    "pk": 3,
+    "model": "products.category",
+    "fields": {
+        "name": "fiction",
+        "friendly_name": "Fiction"
+    }
+},
+{
+    "pk": 4,
+    "model": "products.category",
+    "fields": {
+        "name": "nonfiction",
+        "friendly_name": "Nonfiction"
+    }
+},
+{
+    "pk": 5,
+    "model": "products.category",
+    "fields": {
+        "name": "young_adult",
+        "friendly_name": "Young Adult"
+    }
+},
+{
+    "pk": 6,
+    "model": "products.category",
+    "fields": {
+        "name": "classics",
+        "friendly_name": "Classics"
+    }
+},
+{
+    "pk": 7,
+    "model": "products.category",
+    "fields": {
+        "name": "fantasy",
+        "friendly_name": "Fantasy"
+    }
+},
+{
+    "pk": 8,
+    "model": "products.category",
+    "fields": {
+        "name": "thriller",
+        "friendly_name": "Thriller"
+    }
+},
+{
+    "pk": 9,
+    "model": "products.category",
+    "fields": {
+        "name": "history",
+        "friendly_name": "History"
+    }
+},
+{
+    "pk": 10,
+    "model": "products.category",
+    "fields": {
+        "name": "irish_fiction",
+        "friendly_name": "Irish Fiction"
+    }
+},
+{
+    "pk": 11,
+    "model": "products.category",
+    "fields": {
+        "name": "irish_nonfiction",
+        "friendly_name": "Irish Nonfiction"
+    }
+},
+{
+    "pk": 12,
+    "model": "products.category",
+    "fields": {
+        "name": "irish_truecrime",
+        "friendly_name": "Irish True Crime"
+    }
+},
+{
+    "pk": 13,
+    "model": "products.category",
+    "fields": {
+        "name": "irish_cookery",
+        "friendly_name": "Irish Cookery"
+    }
+},
+{
+    "pk": 14,
+    "model": "products.category",
+    "fields": {
+        "name": "new_arrivals",
+        "friendly_name": "New Arrivals"
+    }
+},
+{
+    "pk": 15,
+    "model": "products.category",
+    "fields": {
+        "name": "deals",
+        "friendly_name": "deals"
+    }
+}
+]

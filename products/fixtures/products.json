@@ -1,0 +1,1502 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "BOSTON BLACK TEA",
+            "brand": "looseleaf",
+            "description": "This strong and aromatic black tea with some real depth, where earthy flavour meets fresh sour cherries and sweet papaya. This is a charming tea, which invokes a bookish atmosphere of Boston’s narrow streets and brick buildings, and cosy bookshops.",
+            "price": 6.70,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1598661152775-D7VEMXBCIXORMPXYXKV1/Bon+Tea+T%26C.png",
+            "image": "Boston+Tea+T&C.png"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001600425",
+            "name": "AHINSA, CEYLON OP, SRI LANKA, ORGANIC",
+            "brand": "looseleaf",
+            "description": "This organic tea is from the fields of a small family-run farm located in the southwestern part of the Sri Lanka island, almost at sea level. Wiry dark leaves give a wonderful copper coloured infusion and full-bodied, slightly spicy taste. This is a great breakfast tea to start your morning on a high note!",
+            "price": 8.80,
+            "category": 1,
+            "rating": 3.99,
+            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1638756829814-9CC8XH7BE12VUQF7N25G/Ahinsa%2C+Ceylon+OP%2C+Organic+T%26C.png",
+            "image": "Ahinsa,+Ceylon+OP,+Organic+T&C.png"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001730010",
+            "name": "TURMERIC CHAI",
+            "brand": "looseleaf",
+            "description": "Warming chillies let you adjust the spiciness to your liking. Our Turmeric Chai with no added flavouring can be brewed like normal tea or used as a foundation for various chai recipes!",
+            "price": 6.20,
+            "category": 1,
+            "rating": 2.79,
+            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1594429904199-TFX9RTD0BFM97U8MLE6I/Turmeric+Chai+T%26C.png",
+            "image": "Turmeric+Chai+T&C.png"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001890157",
+            "name": "CHUNG HAO JASMINE, CHINA OP",
+            "brand": "looseleaf",
+            "description": "This special tea was exclusively reserved for the Imperial Court in former times. Luxury green tea with a light yellow cup and the expressive jasmine scent and a light fruity-tangy note.",
+            "price": 11.50,
+            "category": 1,
+            "rating": 5,
+            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1579035821204-NYM1LGZR7A8PBQJ2H04M/Jasmin+Chung+Hao+T%26C.png",
+            "image": "Jasmin+Chung+Hao+T&C.png"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002111605",
+            "name": "EARL GREY PREMIUM, SRI LANKA",
+            "brand": "looseleaf",
+            "description": "The excellent basis of the spicy Ceylon with its wiry and regular leaf and elegant Yunnan are in perfect harmony, with just right touch of bergamot.",
+            "price": 6.20,
+            "category": 1,
+            "rating": 3.94,
+            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1598132240261-GA59VYU1N0B56X60ZGAF/Earl+Grey+Premium+T%26C.png",
+            "image": "Earl+Grey+Premium+T&C.png"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002260206",
+            "name": "SUNDA PURWA PS, JAVA",
+            "brand": "looseleaf",
+            "description": "Sunda Purwa OP green tea is harvested and produced in Kiwidey, south of Bandung. This coarse Pekoe-type tea is a very down-to-earth variety made from medium leaves. Expressive body and intensive flavour, it is great for multiple infusions.",
+            "price": 5.20,
+            "category": 1,
+            "rating": 4.02,
+            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1526824091686-KHH954XCEL5V2PSPIQPG/Sunda+Purwa+T%26C.jpg",
+            "image": "Sunda+Purwa+T&C.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002440521",
+            "name": "Lavazza Gran Riserva Coffee Beans 1kg",
+            "brand": "Lavazza",
+            "description": "With hints of maple syrup and walnut, Gran Riserva is an excellent medium to dark blend with a harmonious selection of the finest coffee that conveys a velvety, rich and round taste, accompanied by intense and persistent after taste.",
+            "price": 17.60,
+            "category": 1,
+            "rating": 3.96,
+            "image_url": "https://m.media-amazon.com/images/I/31AVkqTluJL._AC_.jpg",
+            "image": "31AVkqTluJL._AC_.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002601115",
+            "name": "Decadent Decaf Dark Roast Blend Coffee Beans",
+            "brand": "Decadent Decaf",
+            "description": "Multiple Great Taste Awards Winner and The Telegraph Newspaper's selected 'Best Buy' Decaf Coffee For those who like their coffee big, brash, bold and dark - this one is for you - our very own Decadent Decaf Dark Roast.",
+            "price": 9.90,
+            "category": 1,
+            "rating": 4.61,
+            "image_url": "https://m.media-amazon.com/images/I/91aslm2K6aL._AC_SX679_.jpg",
+            "image": "91aslm2K6aL._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002690715",
+            "name": "Pack Café Pilão Tradicional 4x1 - 250g Brazilian Coffee",
+            "brand": "Café Pilão",
+            "description": "Pilão is one of the best Coffee Brands in Brazil!, Brazilian very fine ground coffee with light bodied and smooth tasting",
+            "price": 22.60,
+            "category": 1,
+            "rating": 4.25,
+            "image_url": "https://m.media-amazon.com/images/I/51eeQKDW6EL._AC_.jpg",
+            "image": "51eeQKDW6EL._AC_.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002701115",
+            "name": "Union Hand Roasted Coffee - Natural Process Decaf Coffee Beans",
+            "brand": "Union Hand",
+            "description": "Decaffeinated coffee beans that dont compromise on flavour or character - indulgent, rich and full-bodied, with hints of dark caramel, Our coffee is ethically sourced direct from smallholder farmers. We pay a fair, sustainable price making coffee better for everyone",
+            "price": 19.86,
+            "category": 1,
+            "rating": 4.06,
+            "image_url": "https://m.media-amazon.com/images/I/41fCLHgT5iL._AC_SX679_.jpg",
+            "image": "41fCLHgT5iL._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002761055",
+            "name": "Magic Salt 3-5 KG Salt Lamp, Natural Himalayan Crystal",
+            "brand": "Giggi",
+            "description": "This stress relief salt lamp is a magic bullet that can may you feel relax and may reduce your stress level. It's light does not make your eyes feel stressed.",
+            "price": 14.99,
+            "category": 2,
+            "rating": 5,
+            "image_url": "https://m.media-amazon.com/images/I/41ObY0ozOTL._AC_.jpg",
+            "image": "41ObY0ozOTL._AC_.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002820069",
+            "name": "Cat Salt Lamp Himalayan Salt Lamps containing Pink Rock Salt",
+            "brand": "Giggi",
+            "description": "Authentic Himalayan Salt Lamp - Klass Home Salt Lamps are hand crafted & manufactured with highest quality standards from 100% natural pink himalayan rock salt crystals. When lit, the rock salt lamp produces beautiful therapeutic ambient glow for a calm & relaxing room setting. The brightness can be controlled via the dimmer light switch",
+            "price": 19.99,
+            "category": 2,
+            "rating": 3.65,
+            "image_url": "https://m.media-amazon.com/images/I/71g9Fy9dlpL._AC_SX679_.jpg",
+            "image": "71g9Fy9dlpL._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002820147",
+            "name": "Giggi 100% Natural Himalayan Salt LAMP Rare Grey",
+            "brand": "Giggi",
+            "description": "GIGGI Salt Lamp is hand carved by expert professionals from 100% Natural Himalayan Crystal Rock Salt. The USB Grey Salt Lamp is fixed on a Beautiful carved Rose Wooden panel which gives it an Executive look. Reduces Allergy and Asthma Symptoms.",
+            "price": 12.99,
+            "category": 2,
+            "rating": 3.92,
+            "image_url": "https://m.media-amazon.com/images/I/71ea0uc9J0L._AC_SX679_.jpg",
+            "image": "71ea0uc9J0L._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002910572",
+            "name": "Himalayan Salt Lamp White Noise Machine",
+            "brand": "YASAY",
+            "description": "3-in-1 Salt Lamp, White Noise Machine and Aromatherapy Diffuser. This must have 3-in-1 design combines 3 incredibly important natural remedies to provide ultimate calm, relaxation and deeper sleep.",
+            "price": 24.99,
+            "category": 2,
+            "rating": 3.72,
+            "image_url": "https://m.media-amazon.com/images/I/61Wx6dW8YmL._AC_SX569_.jpg",
+            "image": "61Wx6dW8YmL._AC_SX569_.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5002990740",
+            "name": "Himalayan Salt lamp 4kg ",
+            "brand": "YASAY",
+            "description": "Self-Care Gift for Stress Relief & Meditation, andcrafted Unique Rectangle Rock Salt. Home Decor Accessory for Mood Lighting in Bedroom",
+            "price": 44.00,
+            "category": 2,
+            "rating": 4.03,
+            "image_url": "https://m.media-amazon.com/images/I/7190PY6Dh4S._AC_SX679_.jpg",
+            "image": "7190PY6Dh4S._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003050248",
+            "name": "Proworks Yoga Mat, Eco Friendly NBR, Non-Slip",
+            "brand": "YASAY",
+            "description": "Improve your health, fitness and wellbeing with these thick, cushioned exercise mats from Proworks; perfect for yoga, gymnastics, Pilates, stretching, abdominal exercises and general workouts.",
+            "price": 22.22,
+            "category": 3,
+            "rating": 3.76,
+            "image_url": "https://m.media-amazon.com/images/I/61jtsQyyqHL._AC_SX679_.jpg",
+            "image": "61jtsQyyqHL._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003070787",
+            "name": "Xn8 Sports Yoga Mat Non Slip Workout Mat 6mm",
+            "brand": "YASAY",
+            "description": "Landing on a good yoga mat is a thing of luck and a challenge on its own. Either you are in luck landing here or your research skills are phenomenal to find out the Xn8 Sports yoga mat. Now, don’t overthink your decision of buying this phenomenal gymnastics mat because we only have few left in the store.",
+            "price": 17.99,
+            "category": 3,
+            "rating": 3.83,
+            "image_url": "https://m.media-amazon.com/images/I/81WIJW9jLDL._AC_SX679_.jpg",
+            "image": "81WIJW9jLDL._AC_SX679_.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003090182",
+            "name": "Yoga Deck: 50 Poses and Meditations",
+            "brand": "YASAY",
+            "description": "Now beginners, experts, and teachers alike can make rejuvenating meditations part of daily life with this beautifully illustrated deck of fifty yoga poses and meditations. Each easy-to-use card gives detailed instructions, benefits, and an affirmation.",
+            "price": 10.55,
+            "category": 3,
+            "rating": 3.62,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41PGq0Z1oaL._SY338_BO1,204,203,200_.jpg",
+            "image": "41PGq0Z1oaL._SY338_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003090186",
+            "name": "Yoga Blocks Set of 2",
+            "brand": "YASAY",
+            "description": "Non-slip high density foam blocks offer superior traction ensuring stable support on all surfaces; feel confident to perform all moves with our yoga blocks and strap set; accompanied by lightweight foam for easy transport",
+            "price": 12.99,
+            "category": 2,
+            "rating": 3.74,
+            "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1636282560l/59559565._SY475_.jpg",
+            "image": "59559565._SY475_.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003161326",
+            "name": "Again, Rachel",
+            "brand": "Marian Keyes",
+            "description": "In her twenties, Rachel Walsh was a mess. Since her spell in rehab, though, she's come a long way on the road to recovery - and now, she's ready to go back to where it all began. But this time, the student has become the teacher. She used to hate the staff in charge of treating her addiction. Now, she's one of them. Rachel's finally got herself on track - but life never stops being messy. And when an old flame resurfaces, will she go back to who she once was? Or nearing fifty, can she find herself all over again?",
+            "price": 12.99,
+            "category": 3,
+            "rating": 4.52,
+            "image_url": "https://m.media-amazon.com/images/I/71be8HNSHYL.jpg",
+            "image": "71be8HNSHYL.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003230723",
+            "name": "Lessons in Chemistry",
+            "brand": "Bonnie Garmus",
+            "description": "A delight for readers of Where'd You Go, Bernadette and The Marvellous Mrs. Maisel, this blockbuster debut set in 1960s California features the singular voice of Elizabeth Zott, a scientist whose career takes a detour when she becomes the star of a beloved TV cooking show. Chemist Elizabeth Zott is not your average woman. In fact, Elizabeth Zott would be the first to point out that there is no such thing as an average woman. But it's the early 1960s and her all-male team at Hastings Research Institute takes a very unscientific view of equality. Except for one: Calvin Evans; the lonely, brilliant, Nobel-prize nominated grudge-holder who falls in love with--of all things--her mind. True chemistry results. But like science, life is unpredictable. Which is why a few years later Elizabeth Zott finds herself not only a single mother, but the reluctant star of America's most beloved cooking show Supper at Six. Elizabeth's unusual approach to cooking ('combine one tablespoon acetic acid with a pinch of sodium chloride') proves revolutionary. But as her following grows, not everyone is happy. Because as it turns out, Elizabeth Zott isn't just teaching women to cook. She's daring them to change the status quo. Laugh-out-loud funny, shrewdly observant, and studded with a dazzling cast of supporting characters, Lessons in Chemistry is as original and vibrant as its protagonist.",
+            "price": 18.20,
+            "category": 3,
+            "rating": 4.52,
+            "image_url": "https://images.penguinrandomhouse.com/cover/9780385547345",
+            "image": "9780385547345.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003270936",
+            "name": "None of This is Serious",
+            "brand": "Catherine Prasifka",
+            "description": "'Extraordinary' Naoise Dolan 'Seriously good' Louise Nealon Dublin student life is ending for Sophie and her friends. They've got everything figured out, and Sophie feels left behind as they all start to go their separate ways. She's overshadowed by her best friend Grace. She's been in love with Finn for as long as she's known him. And she's about to meet Rory, who's suddenly available to her online. At a party, what was already unstable completely falls apart and Sophie finds herself obsessively scrolling social media, waiting for something (anything) to happen. None of This Is Serious is about the uncertainty and absurdity of being alive today. It's about balancing the real world with the online, and the vulnerabilities in yourself, your relationships, your body. At its heart, this is a novel about friendships strong enough to withstand anything.",
+            "price": 18.20,
+            "category": 3,
+            "rating": 3.58,
+            "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632760172l/59085460._SY475_.jpg",
+            "image": "59085460._SY475_.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003360384",
+            "name": "Rachel's Holiday",
+            "brand": "Marian Keyes",
+            "description": "Meet Rachel Walsh. She has a pair of size 8 feet and such a fondness for recreational drugs that her family has forked out the cash for a spell in Cloisters Dublin's answer to the Betty Ford Clinic. She's only agreed to her incarceration because she's heard that rehab is wall-to-wall jacuzzis, gymnasiums and rock stars going tepid turkey and it's about time she had a holiday. But what Rachel doesn't count on are the toe-curling embarrassments heaped on her by family and group therapy, the dearth of sex, drugs and rock'n'roll and missing Luke, her ex. What kind of a new start in life is this?",
+            "price": 12.60,
+            "category": 3,
+            "rating": 3.98,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41THlZ3l7DL.jpg",
+            "image": "41THlZ3l7DL.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003440111",
+            "name": "Royal Velvet Down Chamber Pillow",
+            "brand": "Taylor Jenkins Reid",
+            "description": "Ageing and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life. But when she chooses unknown magazine reporter Monique Grant for the job, no one is more astounded than Monique herself. Why her? Why now? Monique is not exactly on top of the world. Her husband has left her, and her professional life is going nowhere. Regardless of why Evelyn has selected her to write her biography, Monique is determined to use this opportunity to jump start her career. Summoned to Evelyn's luxurious apartment, Monique listens in fascination as the actress tells her story. From making her way to Los Angeles in the 1950s to her decision to leave show business in the '80s, and, of course, the seven husbands along the way, Evelyn unspools a tale of ruthless ambition, unexpected friendship, and a great forbidden love. Monique begins to feel a very real connection to the legendary star, but as Evelyn's story near its conclusion, it becomes clear that her life intersects with Monique's own in tragic and irreversible ways.",
+            "price": 12.60,
+            "category": 3,
+            "rating": 4.48,
+            "image_url": "https://m.media-amazon.com/images/I/51kVpauOUAL.jpg",
+            "image": "51kVpauOUAL.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003540313",
+            "name": "The Diamond Eye",
+            "brand": "Kate Quinn",
+            "description": "In 1937 in the snowbound city of Kiev (now known as Kyiv), wry and bookish history student Mila Pavlichenko organizes her life around her library job and her young son--but Hitler's invasion of Ukraine and Russia sends her on a different path. Given a rifle and sent to join the fight, Mila must forge herself from studious girl to deadly sniper--a lethal hunter of Nazis known as Lady Death. When news of her three hundredth kill makes her a national heroine, Mila finds herself torn from the bloody battlefields of the eastern front and sent to America on a goodwill tour. Still reeling from war wounds and devastated by loss, Mila finds herself isolated and lonely in the glittering world of Washington, DC--until an unexpected friendship with First Lady Eleanor Roosevelt and an even more unexpected connection with a silent fellow sniper offer the possibility of happiness. But when an old enemy from Mila's past joins forces with a deadly new foe lurking in the shadows, Lady Death finds herself battling her own demons and enemy bullets in the deadliest duel of her life. Based on a true story, The Diamond Eye is a haunting novel of heroism born of desperation, of a mother who became a soldier, of a woman who found her place in the world and changed the course of history forever.",
+            "price": 16.99,
+            "category": 3,
+            "rating": 4.0,
+            "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1641777418l/58490567.jpg",
+            "image": "58490567.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003560513",
+            "name": "The Paris Apartment",
+            "brand": "Lucy Foley",
+            "description": "From the New York Times bestselling author of The Guest List comes a new locked room mystery, set in a Paris apartment building in which every resident has something to hide. Jess needs a fresh start. She's broke and alone, and she's just left her job under less than ideal circumstances. Her half-brother Ben didn't sound thrilled when she asked if she could crash with him for a bit, but he didn't say no, and surely everything will look better from Paris. Only when she shows up to find a very nice apartment, could Ben really have afforded this? he's not there. The longer Ben stays missing, the more Jess starts to dig into her brother's situation, and the more questions she has. Ben's neighbours are an eclectic bunch, and not particularly friendly. Jess may have come to Paris to escape her past, but it's starting to look like it's Ben's future that's in question. The socialite The nice guy The alcoholic The girl on the verge The concierge Everyone's a neighbour. Everyone's a suspect. And everyone knows something they're not telling.",
+            "price": 18.20,
+            "category": 3,
+            "rating": 3.72,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/8168WpLC11L.jpg",
+            "image": "8168WpLC11L.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003560948",
+            "name": "It Ends with Us",
+            "brand": "Colleen Hoover",
+            "description": "Sometimes it is the one who loves you who hurts you the most. Lily hasn't always had it easy, but that's never stopped her from working hard for the life she wants. She's come a long way from the small town in Maine where she grew up she graduated from college, moved to Boston, and started her own business. So when she feels a spark with a gorgeous neurosurgeon named Ryle Kincaid, everything in Lily's life suddenly seems almost too good to be true. Ryle is assertive, stubborn, maybe even a little arrogant. He's also sensitive, brilliant, and has a total soft spot for Lily. And the way he looks in scrubs certainly doesn't hurt. Lily can't get him out of her head. But Ryle's complete aversion to relationships is disturbing. Even as Lily finds herself becoming the exception to his 'no dating' rule, she can't help but wonder what made him that way in the first place.",
+            "price": 12.60,
+            "category": 3,
+            "rating": 4.43,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81PdOsc95OL.jpg",
+            "image": "81PdOsc95OL.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003570628",
+            "name": "Ugly Love",
+            "brand": "Colleen Hoover",
+            "description": "When Tate Collins meets airline pilot Miles Archer, she knows it isn't love at first sight. They wouldn't even go so far as to consider themselves friends. The only thing Tate and Miles have in common is an undeniable mutual attraction. Once their desires are out in the open, they realise they have the perfect set-up. He doesn't want love, she doesn't have time for love, so that just leaves the sex. Their arrangement could be surprisingly seamless, as long as Tate can stick to the only two rules Miles has for her. Never ask about the past. Don't expect a future. They think they can handle it, but realise almost immediately they can't handle it at all. Hearts get infiltrated. Promises get broken. Rules get shattered. Love gets ugly.",
+            "price": 12.60,
+            "category": 3,
+            "rating": 4.26,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/613KCs7szvL.jpg",
+            "image": "613KCs7szvL.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003620308",
+            "name": "Where the Crawdads Sing",
+            "brand": "Delia Owens",
+            "description": "For years, rumours of the 'Marsh Girl' haunted Barkley Cove, a quiet fishing village. Kya Clark is barefoot and wild; unfit for polite society. So in late 1969, when the popular Chase Andrews was found dead, locals immediately suspected her. But Kya is not what they say. A born naturalist with just one day of school, she takes life's lessons from the land, learning the real ways of the world from the dishonest signals of fireflies. But while she has the skills to live in solitude forever, the time comes when she yearns to be touched and loved. Drawn to two young men from town, who are each intrigued by her wild beauty, Kya opens herself to a new and startling world until the unthinkable happens. In Where the Crawdads Sing, Owens juxtaposes an exquisite ode to the natural world against a profound coming of age story and haunting mystery. Thought-provoking, wise, and deeply moving, Owens's debut novel reminds us that we are forever shaped by the child within us, while also subject to the beautiful and violent secrets that nature keeps. The story asks how isolation influences the behaviour of a young woman, who like all of us, has the genetic propensity to belong to a group. The clues to the mystery are brushed into the lush habitat and natural histories of its wild creatures.",
+            "price": 12.99,
+            "category": 3,
+            "rating": 4.46,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81HA6TJ5K-L.jpg",
+            "image": "81HA6TJ5K-L.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003690115",
+            "name": "Journey's End: The Truth about Life after Death",
+            "brand": "Colm Keane",
+            "description": "Journey's End reveals how death is not an end but a new beginning. This groundbreaking book explains how our consciousness survives physical death and lives on in a hereafter of our own making.What life will be like in this otherworld is outlined. The book also shows that we will meet again deceased relatives and beloved pets.Based on 13 years of research, Colm Keane discovers the truth about heaven, purgatory, hell, God, Satan and reincarnation. He debunks myths such as fiery punishments and the concept of a grotesque devil.Journey's End draws from the latest scientific evidence, hundreds of near-death experiences and writings from the great mystics and scholars. It is a must-read for everyone interested in what happens after death.Colm Keane has published 30 books, including eight No.1 bestsellers, and an overall total of 19 Top Six bestsellers.",
+            "price": 14.99,
+            "category": 4,
+            "rating": 4.80,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41%2BJi-NplNL._SX342_SY445_QL70_ML2_.jpg",
+            "image": "41%2BJi-NplNL._SX342_SY445_QL70_ML2_.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003690116",
+            "name": "Let's Talk: About Relationships, Sex and Intimacy",
+            "brand": "Richie Sadlier",
+            "description": "Let's Talk is a ground-breaking new book for teenage boys that talks about the stuff they really want to talk about, learn and understand. From being single to being a boyfriend, being gay, being straight, sex, relationships, dating, sexting, drinking and break-ups, this book covers it all. It discusses porn, pleasure and fun, condoms and safety and all the ways to understand consent. In a radical departure from previous generations' attitudes towards talking about difficult subjects, Let's Talk empowers teenagers to make wise decisions when they are having their first experiences, informing and preparing them to have positive encounters. Nobody gets everything right. There'll still be mistakes and awkward moments, but there's a far better chance of positive experiences if you've had the chance to talk, read and learn about these things in advance. So, let's talk!",
+            "price": 19.99,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "https://m.media-amazon.com/images/I/51BKPXkkihL.jpg",
+            "image": "51BKPXkkihL.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003780391",
+            "name": "Manifest: 7 Steps to Living Your Best Life",
+            "brand": "Roxie Nafousi",
+            "description": "Written by self-development coach and 'Queen of Manifesting' Roxie Nafousi, this book is the essential guide to anyone and everyone wanting to feel more empowered in their lives. In just seven simple steps you can understand the true art of manifestation and create the life you have always dreamed of. Whether you want to attract your soulmate, land the perfect job, buy the home you have always wanted, or simply find more inner-peace and confidence, Manifest will teach you exactly how to get there . . . 1. Be clear in your vision. 2. Remove fear and doubt. 3. Align your behaviour. 4. Overcome tests from the universe. 5. Embrace gratitude without caveats. 6. Turn envy into inspiration. 7. Trust in the universe. A meeting of science and wisdom, manifesting is a philosophy and a self-development practice to help you reach for your goals, cultivate self-love and live your best life. Unlock the magic for yourself and begin your journey to turning your dreams into reality.",
+            "price": 15.99,
+            "category": 4,
+            "rating": 4.43,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/31R6sKenehL.jpg",
+            "image": "31R6sKenehL.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003790542",
+            "name": "The Irish Difference: A Tumultuous History of Ireland's Breakup with Britain",
+            "brand": "Fergal Tobin",
+            "description": "A fascinating and entertaining investigation into what makes Ireland so different from its neighbours, by a respected Irish historian. For hundreds of years, the islands and their constituent tribes that make up the British Isles have lived next door to each other in a manner that, over time, suggested some movement towards political union. It was an uneven, stop-start business and it worked better in some places than in others. Still, England, Wales and Scotland have hung together through thick and thin, despite internal divisions of language, religion, law, culture and disposition that might have broken up a less resilient polity. And, for a long time, it seemed that something similar might have been said about the smaller island to the west: Ireland. Ireland was always a more awkward fit in the London-centric mini-imperium but no one imagined that it might detach itself altogether, until the moment came for rupture, quite suddenly and dramatically, in the fall-out from World War I. So, what was it - is it - about Ireland that is so different? Different enough to sever historical ties of centuries with such sudden violence and unapologetic efficiency. Wherein lies the Irish difference, a difference sufficient to have caused a rupture of that nature? In a wide-ranging and witty narrative, historian Fergal Tobin traces the relationship between Ireland and her neighbours, taking in everything from sports and culture to religion and politics, and reveals what it is that makes the Irish so different.",
+            "price": 23.80,
+            "category": 4,
+            "rating": 4.0,
+            "image_url": "https://cdn.waterstones.com/bookjackets/large/9781/8389/9781838952617.jpg",
+            "image": "9781838952617.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003831225",
+            "name": "Good Vibes, Good Life: How Self-Love Is the Key to Unlocking Your Greatness",
+            "brand": "Vex King",
+            "description": "A beautifully designed book full of inspiring quotes and tried-and-tested wisdom on using positivity to create a life you love. How can you learn to truly love yourself? How can you transform negative emotions into positive ones? Is it possible to find lasting happiness? With this book, Vex will show you that when you change the way you think, feel, speak and act, you begin to change the world.",
+            "price": 15.40,
+            "category": 4,
+            "rating": 4.09,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61TGDPQr+YL.jpg",
+            "image": "61TGDPQr+YL.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003861402",
+            "name": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+            "brand": "James Clear",
+            "description": "No matter your goals, Atomic Habits offers a proven framework for improving--every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviours that lead to remarkable results. If you're having trouble changing your habits, the problem isn't you. The problem is your system. Bad habits repeat themselves again and again not because you don't want to change, but because you have the wrong system for change. You do not rise to the level of your goals. You fall to the level of your systems. Here, you'll get a proven system that can take you to new heights. Clear is known for his ability to distil complex topics into simple behaviours that can be easily applied to daily life and work. Here, he draws on the most proven ideas from biology, psychology, and neuroscience to create an easy-to-understand guide for making good habits inevitable and bad habits impossible. Along the way, readers will be inspired and entertained with true stories from Olympic gold medalists, award-winning artists, business leaders, life-saving physicians, and star comedians who have used the science of small habits to master their craft and vault to the top of their field. Learn how to: make time for new habits (even when life gets crazy); overcome a lack of motivation and willpower; design your environment to make success easier; get back on track when you fall off course; ...and much more. Atomic Habits will reshape the way you think about progress and success, and give you the tools and strategies you need to transform your habits--whether you are a team looking to win a championship, an organisation hoping to redefine an industry, or simply an individual who wishes to quit smoking, lose weight, reduce stress, or achieve any other goal.",
+            "price": 13.80,
+            "category": 4,
+            "rating": 4.38,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81wgcld4wxL.jpg",
+            "image": "81wgcld4wxL.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003910638",
+            "name": "The Boy, the Mole, the Fox and the Horse",
+            "brand": "Charlie Mackesy",
+            "description": "Enter the world of Charlie's four unlikely friends, discover their story and their most important life lessons. The boy, the mole, the fox and the horse have been shared millions of times online - perhaps you've seen them? They've also been recreated by children in schools and hung on hospital walls. They sometimes even appear on lamp posts and on cafe and bookshop windows. Perhaps you saw the boy and mole on the Comic Relief T-shirt, Love Wins? Here, you will find them together in this book of Charlie's most-loved drawings, adventuring into the Wild and exploring the thoughts and feelings that unite us all.",
+            "price": 23.80,
+            "category": 4,
+            "rating": 4.58,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81PdkxXJObL.jpg",
+            "image": "81PdkxXJObL.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003950574",
+            "name": "The Secret to Love, Health, and Money: A Masterclass",
+            "brand": "Rhonda Byrne",
+            "description": "This in-depth master class from the author of the groundbreaking bestseller The Secret illustrates how to apply the law of attraction to three of life's most important areas: relationships, health, and money. Discover how to achieve personal happiness, wellbeing, and success with this collection of lessons, advice, and case studies from the bestselling author of the Secret series Rhonda Byrne. In the first part, she further explores the power of positive thoughts and how we can use the creative process to attract and maintain new and healthier relationships. The second part offers in-depth lessons that will help you apply the law of attraction to your health and physical wellbeing, featuring inspiring anecdotes from those who have used The Secret to overcome health crises such as cancer, chronic pain, depression, and more. Finally, learn how to improve your relationship with money by discovering the power you have to bring money into your life. From job hunting to adopting a wealth mindset, Byrne provides all that you need to achieve prosperity and professional success. With these impactful and accessible processes, you will experience firsthand a powerful transformation across all aspects of your life for the better.",
+            "price": 18.20,
+            "category": 4,
+            "rating": 4.15,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81Iet7um1QL.jpg",
+            "image": "81Iet7um1QL.jpg"
+        }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003950576",
+            "name": "Your One Wild and Precious Life: An Inspiring Guide to Becoming Your Best Self At Any Age",
+            "brand": "Maureen Gaffney",
+            "description": "WINNER OF THE AUDIENCE CHOICE IRISH BOOK AWARD 2021. Once you've got a few decades on the clock, life can seem sort of cross-roads. Once you're no longer thinking of yourself as 'young', you may be looking back, thinking 'How did I get here?' And also looking ahead, wondering: 'What do I do now?' This realisation that neither time nor choices are limitless is both daunting and exciting. This is the moment to take stock and figure out how to make the best of every precious moment of the rest of your life. And to develop the tools to be able to do so again and again. Your One Wild and Precious Life is an eye-opening account of this surprisingly liberating process. Using the latest ground-breaking research, leading psychologist Maureen Gaffney has written an inspiring and practical guide for getting to grips with time. Taking the key stages of our life - from infancy to old age - she explores what we learn at each stage. And, crucially, she explains how, no matter what has happened in the past, and what age you are, you can find a better route forward. Your One Wild and Precious Life is both profound and reassuring. It will transform your thinking, connect you with who you truly are and help you to reclaim control over your life. Crucially, it will empower you to face the future with optimism. It is a book to fundamentally alter your relationship with time and show you that every age can be your best age. 'A profound, important work; simultaneously wise, instructive and a love letter to humanity' IRISH TIMES 'Fascinating and engaging' SUNDAY TIMES 'A must-read' IRISH DAILY MAIL '[It] will transform your thinking' IRISH FARMERS JOURNAL",
+            "price": 21.00,
+            "category": 4,
+            "rating": 3.67,
+            "image_url": "https://kbimages1-a.akamaihd.net/d56d2217-8ccb-4bcb-ab37-3a9d90ce5aa4/353/569/90/False/your-one-wild-and-precious-life-4.jpg",
+            "image": "your-one-wild-and-precious-life-4.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960062",
+            "name": "Home Expressions Microfiber Twin XL Sheet Set",
+            "brand": "Professor Rose Anne Kenny",
+            "description": "Did you know that we can lead longer and healthier lives by making simple changes right now? Professor Rose Anne Kenny has 35 years of experience at the forefront of ageing medicine. In Age Proof, she draws on her own pioneering research and the latest evidence to demystify why we age and shows us that 80% of our ageing biology is within our control: we can not only live longer lives but become happier and healthier deep into our later years. Effortlessly distilling scientific theory into practical advice that we can apply to our everyday lives, Professor Kenny examines the impact that food, genetics, friendships, purpose, sex, exercise and laughter have on how our cells age. This illuminating book will show you the steps you can take to stay younger for longer - and will prove that you really are just as young as you feel.",
+            "price": 21.00,
+            "category": 4,
+            "rating": 3.79,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61w3zbkqweL.jpg",
+            "image": "61w3zbkqweL.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960682",
+            "name": "One of Us Is Lying",
+            "brand": "Karen M. McManus",
+            "description": "Pay close attention and you might solve this. On Monday afternoon, five students at Bayview High walked into detention. Bronwyn, the brain, is Yale-bound and never breaks a rule. Addy, the beauty, is the picture-perfect homecoming princess. Nate, the criminal, is already on probation for dealing. Cooper, the athlete, is the all-star baseball pitcher. And Simon, the outcast, is the creator of Bayview High's notorious gossip app. Only, Simon never makes it out of that classroom. Before the end of detention Simon's dead. And according to investigators, his death wasn't an accident. On Monday, he died. But on Tuesday, he'd planned to post juicy reveals about all four of his high-profile classmates, which makes all four of them suspects in his murder. Or are they the perfect patsies for a killer who's still on the loose? Everyone has secrets, right? What really matters is how far you would go to protect them. ",
+            "price": 8.99,
+            "category": 5,
+            "rating": 4.02,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91rcpJsm-HL.jpg",
+            "image": "91rcpJsm-HL.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003960775",
+            "name": "A Good Girl's Guide to Murder",
+            "brand": "Holly Jackson",
+            "description": "The case is closed. Five years ago, schoolgirl Andie Bell was murdered by Sal Singh. The police know he did it. Everyone in town knows he did it. But having grown up in the same small town that was consumed by the murder, Pippa Fitz-Amobi isn't so sure. When she chooses the case as the topic for her final year project, she starts to uncover secrets that someone in town desperately wants to stay hidden. And if the real killer is still out there, how far will they go to keep Pip from the truth? ",
+            "price": 11.20,
+            "category": 5,
+            "rating": 4.37,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91r3afbnQsL.jpg",
+            "image": "91r3afbnQsL.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003990736",
+            "name": "Harry Potter and the Sorcerer's Stone",
+            "brand": "J. K. Rowling",
+            "description": "Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. A mysterious visitor rescues him from his relatives and takes him to his new home, Hogwarts School of Witchcraft and Wizardry. After a lifetime of bottling up his magical powers, Harry finally feels like a normal kid. But even within the Wizarding community, he is special. He is the boy who lived: the only person to have ever survived a killing curse inflicted by the evil Lord Voldemort, who launched a brutal takeover of the Wizarding world, only to vanish after failing to kill Harry. Though Harry's first year at Hogwarts is the best of his life, not everything is perfect. There is a dangerous secret object hidden within the castle walls, and Harry believes it's his responsibility to prevent it from falling into evil hands. But doing so will bring him into contact with forces more terrifying than he ever could have imagined. Full of sympathetic characters, wildly imaginative situations, and countless exciting details, the first instalment in the series assembles an unforgettable magical world and sets the stage for many high-stakes adventures to come. ",
+            "price": 11.20,
+            "category": 5,
+            "rating": 4.48,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81YOuOGFCJL.jpg",
+            "image": "81YOuOGFCJL.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5003990746",
+            "name": "The Weight of Water",
+            "brand": "Sarah Crossan",
+            "description": "Armed with a suitcase and an old laundry bag filled with clothes, Kasienka and her mother head for England. Life is lonely for Kasienka. At home her mother's heart is breaking and at school friends are scarce. But when someone special swims into her life, Kasienka learns that there might be more than one way for her to stay afloat. The Weight of Water is a startlingly original piece of fiction. A brilliant coming of age story, it also tackles the alienation experienced by many young immigrants. Moving, unsentimental, and utterly page turning, we meet and share the experiences of a remarkable girl who shows us how quiet courage prevails.",
+            "price": 11.20,
+            "category": 5,
+            "rating": 3.84,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91nwftv13xL.jpg",
+            "image": "91nwftv13xL.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004111503",
+            "name": "Good girl, bad blood",
+            "brand": "Holly Jackson",
+            "description": "Pip is not a detective anymore. With the help of Ravi Singh, she released a true crime podcast about the murder case they solved together last year. The podcast has gone viral, yet Pip insists her investigating days are behind her. But she will have to break that promise when someone she knows goes missing. Jamie Reynolds has disappeared, on the very same night the town hosted a memorial for the sixth year anniversary of the deaths of Andie Bell and Sal Singh. The police won't do anything about it. And if they won't look for Jamie then Pip will, uncovering more of her town's dark secrets along the way... and this time everyone is listening. But will she find him before it's too late?",
+            "price": 11.20,
+            "category": 5,
+            "rating": 4.39,
+            "image_url": "https://m.media-amazon.com/images/I/41I-nm31zmL._AC_SY780_.jpg",
+            "image": "41I-nm31zmL._AC_SY780_.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004230059",
+            "name": "Guard Your Heart",
+            "brand": "Sue Divin",
+            "description": "Derry. Summer 2016. Aidan and Iona, now eighteen, were both born on the day of the Northern Ireland peace deal. Aidan is Catholic, Irish, and Republican. With his expolitical prisoner father gone and his mother dead, Aidan's hope is pinned on exam results earning him a one-way ticket out of Derry. To anywhere. Iona, Protestant and British, has a brother and father in the police. She's got university ambitions, a strong faith and a fervent belief that boys without one track minds are a myth. At a post-exam party, Aidan wanders alone across the Peace Bridge and becomes the victim of a brutal sectarian attack. Iona witnessed the attack; picked up Aidan's phone and filmed what happened, and got in touch with him to return the phone. When the two meet, alone and on neutral territory, the differences between them seem insurmountable. Both their fathers held guns, but safer to keep that secret for now Despite their differences and the secrets they have to keep from each other, there is mutual intrigue, and their friendship grows. And so what? It's not the Troubles. But for both Iona and Aidan it seems like everything is keeping them apart , when all they want is to be together . . . (less) GET A COPY",
+            "price": 11.20,
+            "category": 5,
+            "rating": 4.12,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51xsfGDrjGL.jpg",
+            "image": "51xsfGDrjGL.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004310089",
+            "name": "Two for Joy",
+            "brand": "Zoe Sugg",
+            "description": "Audrey and Ivy, determined to bring their fellow student Lola Radcliffe's killer to justice, find themselves in the middle of another mystery when a friend disappears in suspicious circumstances. Their only clue is a mysterious card left by the enigmatic Magpie Society. With time running out and the police baffled, Audrey and Ivy must delve deeper than ever into the dark secrets that their school is hiding. But someone is playing a deadly game. And to beat them, Audrey and Ivy have to start rewriting the rules...",
+            "price": 16.80,
+            "category": 5,
+            "rating": 4.5,
+            "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634197354l/56871462._SY475_.jpg",
+            "image": "56871462._SY475_.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004610254",
+            "name": "Konitz Dots and Stripes Set of 2 Bone China Mugs",
+            "brand": "Ali Hazelwood",
+            "description": "As a third-year Ph.D. candidate, Olive Smith doesn't believe in lasting romantic relationships--but her best friend does, and that's what got her into this situation. Convincing Anh that Olive is dating and well on her way to a happily ever after was always going to take more than hand-wavy Jedi mind tricks: Scientists require proof. So, like any self-respecting biologist, Olive panics and kisses the first man she sees. That man is none other than Adam Carlsen, a young hotshot professor--and well-known ass. Which is why Olive is positively floored when Stanford's reigning lab tyrant agrees to keep her charade a secret and be her fake boyfriend. But when a big science conference goes haywire, putting Olive's career on the Bunsen burner, Adam surprises her again with his unyielding support and even more unyielding... six-pack abs. Suddenly their little experiment feels dangerously close to combustion. And Olive discovers that the only thing more complicated than a hypothesis on love is putting her own heart under the microscope.",
+            "price": 12.60,
+            "category": 5,
+            "rating": 4.36,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81kYj5Uyu8L.jpg",
+            "image": "81kYj5Uyu8L.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004650050",
+            "name": "Shadow and Bone",
+            "brand": "Leigh Bardugo",
+            "description": "Surrounded by enemies, the once-great nation of Ravka has been torn in two by the Shadow Fold, a swath of near impenetrable darkness crawling with monsters who feast on human flesh. Now its fate may rest on the shoulders of one lonely refugee. Alina Starkov has never been good at anything. But when her regiment is attacked on the Fold and her best friend is brutally injured, Alina reveals a dormant power that saves his life—a power that could be the key to setting her war-ravaged country free. Wrenched from everything she knows, Alina is whisked away to the royal court to be trained as a member of the Grisha, the magical elite led by the mysterious Darkling. Yet nothing in this lavish world is what it seems. With darkness looming and an entire kingdom depending on her untamed power, Alina will have to confront the secrets of the Grisha . . . and the secrets of her heart.",
+            "price": 11.20,
+            "category": 5,
+            "rating": 3.96,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91i7MSrNHXL.jpg",
+            "image": "91i7MSrNHXL.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004821375",
+            "name": "The Cruel Prince",
+            "brand": "Holly Black",
+            "description": "This is a previously published cover edition of ISBN 9780316310277. An alternative cover edition for this ISBN can be found here.Of course I want to be like them. They're beautiful as blades forged in some divine fire. They will live forever. And Cardan is even more beautiful than the rest. I hate him more than all the others. I hate him so much that sometimes when I look at him, I can hardly breathe. Jude was seven when her parents were murdered and she and her two sisters were stolen away to live in the treacherous High Court of Faerie. Ten years later, Jude wants nothing more than to belong there, despite her mortality. But many of the fey despise humans. Especially Prince Cardan, the youngest and wickedest son of the High King. To win a place at the Court, she must defy him and face the consequences. As Jude becomes more deeply embroiled in palace intrigues and deceptions, she discovers her own capacity for trickery and bloodshed. But as betrayal threatens to drown the Courts of Faerie in violence, Jude will need to risk her life in a dangerous alliance to save her sisters, and Faerie itself.",
+            "price": 12.60,
+            "category": 5,
+            "rating": 4.10,
+            "image_url": "https://kbimages1-a.akamaihd.net/0feaa855-7baa-4bf1-9756-b931e138d75c/1200/1200/False/the-cruel-prince-the-folk-of-the-air.jpg",
+            "image": "the-cruel-prince-the-folk-of-the-air.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004900522",
+            "name": "Pride and Prejudice",
+            "brand": "Jane Austen",
+            "description": "Since its immediate success in 1813, Pride and Prejudice has remained one of the most popular novels in the English language. Jane Austen called this brilliant work 'her own darling child' and its vivacious heroine, Elizabeth Bennet, 'as delightful a creature as ever appeared in print.' The romantic clash between the opinionated Elizabeth and her proud beau, Mr. Darcy, is a splendid performance of civilised sparring. And Jane Austen's radiant wit sparkles as her characters dance a delicate quadrille of flirtation and intrigue, making this book the most superb comedy of manners of Regency England.",
+            "price": 9.80,
+            "category": 6,
+            "rating": 4.28,
+            "image_url": "https://almabooks.com/wp-content/uploads/2016/10/9781847493699.jpg",
+            "image": "9781847493699.jpg"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004910158",
+            "name": "Stylus Short-Sleeve V-Neck Slub Tee - Plus",
+            "brand": "Daphne Du Maurier",
+            "description": "Last night I dreamt I went to Manderley again . . .The novel begins in Monte Carlo, where our heroine is swept off her feet by the dashing widower Maxim de Winter and his sudden proposal of marriage. Orphaned and working as a lady's maid, she can barely believe her luck. It is only when they arrive at his massive country estate that she realises how large a shadow his late wife will cast over their lives--presenting her with a lingering evil that threatens to destroy their marriage from beyond the grave.",
+            "price": 12.60,
+            "category": 6,
+            "rating": 4.24,
+            "image_url": "https://cdn.waterstones.com/bookjackets/large/9781/8440/9781844080380.jpg",
+            "image": "9781844080380.jpg"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004910477",
+            "name": "Dracula",
+            "brand": "Bram Stoker",
+            "description": "A rich selection of background and source materials is provided in three areas: Contexts includes probable inspirations for Dracula in the earlier works of James Malcolm Rymer and Emily Gerard. Also included are a discussion of Stoker's working notes for the novel and 'Dracula's Guest,' the original opening chapter to Dracula. Reviews and Reactions reprints five early reviews of the novel. 'Dramatic and Film Variations' focuses on theatre and film adaptations of Dracula, two indications of the novel's unwavering appeal. David J. Skal, Gregory A. Waller, and Nina Auerbach offer their varied perspectives. Checklists of both dramatic and film adaptations are included. Criticism collects seven theoretical interpretations of Dracula by Phyllis A. Roth, Carol A. Senf, Franco Moretti, Christopher Craft, Bram Dijkstra, Stephen D. Arata, and Talia Schaffer. A Chronology and a Selected Bibliography are included.",
+            "price": 3.99,
+            "category": 6,
+            "rating": 4.01,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91wOUFZCE+L.jpg",
+            "image": "91wOUFZCE+L.jpg"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004940703",
+            "name": "Little Women",
+            "brand": "Louisa May Alcott",
+            "description": "Generations of readers young and old, male and female, have fallen in love with the March sisters of Louisa May Alcott's most popular and enduring novel, Little Women. Here are talented tomboy and author-to-be Jo, tragically frail Beth, beautiful Meg, and romantic, spoiled Amy, united in their devotion to each other and their struggles to survive in New England during the Civil War. It is no secret that Alcott based Little Women on her own early life. While her father, the freethinking reformer and abolitionist Bronson Alcott, hobnobbed with such eminent male authors as Emerson, Thoreau, and Hawthorne, Louisa supported herself and her sisters with 'woman's work,' including sewing, doing laundry, and acting as a domestic servant. But she soon discovered she could make more money writing. Little Women brought her lasting fame and fortune, and far from being the 'girl's book' her publisher requested, it explores such timeless themes as love and death, war and peace, the conflict between personal ambition and family responsibilities, and the clash of cultures between Europe and America.",
+            "price": 9.80,
+            "category": 6,
+            "rating": 4.12,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91l1EHFs8dL.jpg",
+            "image": "91l1EHFs8dL.jpg"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004991006",
+            "name": "The Picture of Dorian Gray",
+            "brand": "Oscar Wilde",
+            "description": "With an Introduction and Notes by John M.L. Drew, University of Buckingham. Wilde's only novel, first published in 1890, is a brilliantly designed puzzle, intended to tease conventional minds with its exploration of the myriad interrelationships between art, life, and consequence. From its provocative Preface, challenging the reader to believe in 'art for art's sake', to its sensational conclusion, the story self-consciously experiments with the notion of sin as an element of design. Yet Wilde himself underestimated the consequences of his experiment, and its capacity to outrage the Victorian establishment. Its words returned to haunt him in his court appearances in 1895, and he later recalled the 'note of doom' which runs like 'a purple thread' through its carefully crafted prose.",
+            "price": 3.99,
+            "category": 6,
+            "rating": 4.10,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71Yl9WYd4+S.jpg",
+            "image": "71Yl9WYd4+S.jpg"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5004991162",
+            "name": "adidas climacool Boxer Briefs",
+            "brand": "Arizona Original Bootcut Jeans",
+            "description": "These climacool mesh boxer briefs are the ideal blend of performance and comfort, with a streamlined fit to complement your body's movement. fabric combines soft finish with moisture-wicking management mesh panels for ventilation double-lined support pouch no ride-up leg construction non-chafing stitching tag free polyester/spandex washable imported",
+            "price": 28.99,
+            "category": 6,
+            "rating": 4.5,
+            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0428201617042837M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+            "image": "DP0428201617042837M.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005000046",
+            "name": "The Great Gatsby",
+            "brand": "F. Scott Fitzgerald",
+            "description": "The Great Gatsby, F. Scott Fitzgerald's third book, stands as the supreme achievement of his career. This exemplary novel of the Jazz Age has been acclaimed by generations of readers. The story is of the fabulously wealthy Jay Gatsby and his new love for the beautiful Daisy Buchanan, of lavish parties on Long Island at a time when The New York Times noted 'gin was the national drink and sex the national obsession,' it is an exquisitely crafted tale of America in the 1920s.",
+            "price": 3.50,
+            "category": 6,
+            "rating": 3.93,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+            "image": "The_Great_Gatsby_Cover_1925_Retouched.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005070254",
+            "name": "Ulysses",
+            "brand": "James Joyce",
+            "description": "Loosely based on the Odyssey, this landmark of modern literature follows ordinary Dubliners in 1904. Capturing a single day in the life of Dubliner Leopold Bloom, his friends Buck Mulligan and Stephen Dedalus, his wife Molly, and a scintillating cast of supporting characters, Joyce pushes Celtic lyricism and vulgarity to splendid extremes. Captivating experimental techniques range from interior monologues to exuberant wordplay and earthy humour. A major achievement in 20th century literature.",
+            "price": 3.99,
+            "category": 6,
+            "rating": 3.74,
+            "image_url": "https://c8.alamy.com/comp/EXTFE5/1960s-uk-ulysses-book-cover-EXTFE5.jpg",
+            "image": "1960s-uk-ulysses-book-cover-EXTFE5.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005071145",
+            "name": "The Murder at the Vicarage",
+            "brand": "Agatha Christie",
+            "description": "The Murder at the Vicarage is Agatha Christie's first mystery to feature the beloved investigator Miss Marple as a dead body in a clergyman's study proves to the indomitable sleuth that no place, holy or otherwise, is a sanctuary from homicide. Miss Marple encounters a compelling murder mystery in the sleepy little village of St. Mary Mead, where under the seemingly peaceful exterior of an English country village lurks intrigue, guilt, deception and death. Colonel Protheroe, local magistrate and overbearing land-owner is the most detested man in the village. Everyone even in the vicar wishes he were dead. And very soon he is shot in the head in the vicar's own study. Faced with a surfeit of suspects, only the inscrutable Miss Marple can unravel the tangled web of clues that will lead to the unmasking of the killer.",
+            "price": 12.59,
+            "category": 6,
+            "rating": 4.06,
+            "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328343048l/11602151.jpg",
+            "image": "1328343048l/11602151.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005140282",
+            "name": "Frankenstein: The 1818 Text",
+            "brand": "Mary Wollstonecraft Shelley",
+            "description": "Mary Shelley's seminal novel of the scientist whose creation becomes a monster This edition is the original 1818 text, which preserves the hard-hitting and politically charged aspects of Shelley's original writing, as well as her unflinching wit and strong female voice. This edition also includes a new introduction and suggestions for further reading by author and Shelley expert Charlotte Gordon, literary excerpts and reviews selected by Gordon and a chronology and essay by preeminent Shelley scholar Charles E. Robinson.",
+            "price": 3.99,
+            "category": 6,
+            "rating": 3.83,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61O0anb7sjL.jpg",
+            "image": "61O0anb7sjL.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005200166",
+            "name": "Court of Silver Flames",
+            "brand": "Sarah J. Maas",
+            "description": "Nesta Archeron has always been prickly-proud, swift to anger, and slow to forgive. And ever since being forced into the Cauldron and becoming High Fae against her will, she's struggled to find a place for herself within the strange, deadly world she inhabits. Worse, she can't seem to move past the horrors of the war with Hybern and all she lost in it. The one person who ignites her temper more than any other is Cassian, the battle-scarred warrior whose position in Rhysand and Feyre's Night Court keeps him constantly in Nesta's orbit. But her temper isn't the only thing Cassian ignites. The fire between them is undeniable, and only burns hotter as they are forced into close quarters with each other. Meanwhile, the treacherous human queens who returned to the Continent during the last war have forged a dangerous new alliance, threatening the fragile peace that has settled over the realms. And the key to halting them might very well rely on Cassian and Nesta facing their haunting pasts. Against the sweeping backdrop of a world seared by war and plagued with uncertainty, Nesta and Cassian battle monsters from within and without as they search for acceptance-and healing-in each other's arms.",
+            "price": 21.00,
+            "category": 7,
+            "rating": 4.4,
+            "image_url": "https://www.norli.no/media/catalog/product/cache/c4a11e66ee9433953f551e1adfcb16b9/9/7/9781526620644_1_4.jpg",
+            "image": "9781526620644_1_4.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005210241",
+            "name": "Project Hail Mary",
+            "brand": "Andy Weir",
+            "description": "Ryland Grace is the sole survivor on a desperate, last-chance mission and if he fails, humanity and the Earth itself will perish.Except that right now, he doesn't know that. He can't even remember his own name, let alone the nature of his assignment or how to complete it. All he knows is that he's been asleep for a very, very long time. And he's just been awakened to find himself millions of miles from home, with nothing but two corpses for company. His crewmates dead, his memories fuzzily returning, he realises that an impossible task now confronts him. Alone on this tiny ship that's been cobbled together by every government and space agency on the planet and hurled into the depths of space, it's up to him to conquer an extinction level threat to our species. And thanks to an unexpected ally, he just might have a chance. Part scientific mystery, part dazzling interstellar journey, Project Hail Mary is a tale of discovery, speculation, and survival to rival The Martian while taking us to places it never dreamed of going. ",
+            "price": 18.20,
+            "category": 7,
+            "rating": 4.53,
+            "image_url": "https://www.easons.com/globalassets/book-covers/2021-01/project-hail-mary.png",
+            "image": "project-hail-mary.png"
+        }
+    },
+    {
+        "pk": 62,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005280104",
+            "name": "A Court of Frost and Starlight",
+            "brand": "Sarah J. Maas",
+            "description": "Feyre, Rhys, and their close-knit circle of friends are still busy rebuilding the Night Court and the vastly changed world beyond. But Winter Solstice is finally near, and, with it, a hard earned reprieve. Yet even the festive atmosphere can't keep the shadows of the past from looming. As Feyre navigates her first Winter Solstice as High Lady, she finds that those dearest to her have more wounds than she anticipated scars that will have a far reaching impact on the future of their court. Narrated by Feyre and Rhysand, this wondrous tale of hope and promise picks up after A Court of Wings and Ruin and sets the stage for the thrilling events in the future books. ",
+            "price": 11.20,
+            "category": 7,
+            "rating": 3.81,
+            "image_url": "https://www.norli.no/media/catalog/product/cache/c4a11e66ee9433953f551e1adfcb16b9/9/7/9781526617187_1_5.jpg",
+            "image": "9781526617187_1_5.jpg"
+        }
+    },
+    {
+        "pk": 63,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005310360",
+            "name": "The Silence of the Girls",
+            "brand": "Pat Barker",
+            "description": "The ancient city of Troy has withstood a decade under siege by the powerful Greek army, which continues to wage bloody war over a stolen woman Helen. In the Greek camp, another woman Briseis watches and waits for the war's outcome. She was queen of one of Troy's neighboring kingdoms, until Achilles, Greece's greatest warrior, sacked her city and murdered her husband and brothers. Briseis becomes Achilles's concubine, a prize of battle, and must adjust quickly in order to survive a radically different life, as one of the many conquered women who serve the Greek army. When Agamemnon, the brutal political leader of the Greek forces, demands Briseis for himself, she finds herself caught between the two most powerful of the Greeks. Achilles refuses to fight in protest, and the Greeks begin to lose ground to their Trojan opponents. Keenly observant and coolly unflinching about the daily horrors of war, Briseis finds herself in an unprecedented position, able to observe the two men driving the Greek army in what will become their final confrontation, deciding the fate not only of Briseis's people but also of the ancient world at large. Briseis is just one among thousands of women living behind the scenes in this war the slaves and prostitutes, the nurses, the women who lay out the dead all of them erased by history. With breathtaking historical detail and luminous prose, Pat Barker brings the teeming world of the Greek camp to vivid life. She offers nuanced, complex portraits of characters and stories familiar from mythology, which, seen from Briseis's perspective, are rife with newfound revelations. Barker's latest builds on her decades-long study of war and its impact on individual lives and it is nothing short of magnificent. ",
+            "price": 12.60,
+            "category": 7,
+            "rating": 3.92,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91WbTtMDZ+L.jpg",
+            "image": "91WbTtMDZ+L.jpg"
+        }
+    },
+    {
+        "pk": 64,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005330595",
+            "name": "Arizona Graphic Tee - Boys 8-20 and Husky",
+            "brand": "Schwab V E",
+            "description": "A Life No One Will Remember. A Story You Will Never Forget. France, 1714: in a moment of desperation, a young woman makes a Faustian bargain to live forever and is cursed to be forgotten by everyone she meets. Thus begins the extraordinary life of Addie LaRue, and a dazzling adventure that will play out across centuries and continents, across history and art, as a young woman learns how far she will go to leave her mark on the world. But everything changes when, after nearly 300 years, Addie stumbles across a young man in a hidden bookstore and he remembers her name. ",
+            "price": 19.60,
+            "category": 7,
+            "rating": 4.23,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91Ql48Y0mqL.jpg",
+            "image": "91Ql48Y0mqL.jpg"
+        }
+    },
+    {
+        "pk": 65,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005330596",
+            "name": "Dune",
+            "brand": "Frank Herbert",
+            "description": "Set on the desert planet Arrakis, Dune is the story of the boy Paul Atreides, heir to a noble family tasked with ruling an inhospitable world where the only thing of value is the 'spice' melange, a drug capable of extending life and enhancing consciousness. Coveted across the known universe, melange is a prize worth killing for...When House Atreides is betrayed, the destruction of Paul's family will set the boy on a journey toward a destiny greater than he could ever have imagined. And as he evolves into the mysterious man known as Muad'Dib, he will bring to fruition humankind's most ancient and unattainable dream.",
+            "price": 14.00,
+            "category": 7,
+            "rating": 4.0,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81ym3QUd3KL.jpg",
+            "image": "81ym3QUd3KL.jpg"
+        }
+    },
+    {
+        "pk": 66,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005430914",
+            "name": "The Eye of the World",
+            "brand": "Robert Jordan",
+            "description": "The Wheel of Time turns and Ages come and pass. What was, what will be, and what is, may yet fall under the Shadow. Let the Dragon ride again on the winds of time. The Wheel of Time turns and Ages come and go, leaving memories that become legend. Legend fades to myth, and even myth is long forgotten when the Age that gave it birth returns again. In the Third Age, an Age of Prophecy, the World and Time themselves hang in the balance. What was, what will be, and what is, may yet fall under the Shadow. When The Two Rivers is attacked by Trollocs-a savage tribe of half-men, half-beasts- five villagers flee that night into a world they barely imagined, with new dangers waiting in the shadows and in the light.",
+            "price": 14.00,
+            "category": 7,
+            "rating": 4.18,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91cJ0-MXtGL.jpg",
+            "image": "91cJ0-MXtGL.jpg"
+        }
+    },
+    {
+        "pk": 67,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005430944",
+            "name": "These Violent Delights",
+            "brand": "Chloe Gong",
+            "description": "The year is 1926, and Shanghai hums to the tune of debauchery. A blood feud between two gangs runs the streets red, leaving the city helpless in the grip of chaos. At the heart of it all is eighteen-year-old Juliette Cai, a former flapper who has returned to assume her role as the proud heir of the Scarlet Gang a network of criminals far above the law. Their only rivals in power are the White Flowers, who have fought the Scarlets for generations. And behind every move is their heir, Roma Montagov, Juliette's first love, and first betrayal. But when gangsters on both sides show signs of instability culminating in clawing their own throats out, the people start to whisper. Of a contagion, a madness. Of a monster in the shadows. As the deaths stack up, Juliette and Roma must set their guns and grudges aside and work together, for if they can't stop this mayhem, then there will be no city left for either to rule. Perfect for fans of The Last Magician and Descendant of the Crane, this heart-stopping debut is an imaginative Romeo and Juliet retelling set in 1920s Shanghai, with rival gangs and a monster in the depths of the Huangpu River.",
+            "price": 72.99,
+            "category": 7,
+            "rating": 4.0,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91a9UDAbngL.jpg",
+            "image": "91a9UDAbngL.jpg"
+        }
+    },
+    {
+        "pk": 68,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005510265",
+            "name": "Pet Sematary",
+            "brand": "Stephen King",
+            "description": "When the Creeds move into a beautiful old house in rural Maine, it all seems too good to be true: physician father, beautiful wife, charming little daughter, adorable infant son-and now an idyllic home. As a family, they've got it all...right down to the friendly car. But the nearby woods hide a blood-chilling truth-more terrifying than death itself-and hideously more powerful. The Creeds are going to learn that sometimes dead is better.",
+            "price": 14.00,
+            "category": 7,
+            "rating": 4.03,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91ndIrptO4L.jpg",
+            "image": "91ndIrptO4L.jpg"
+        }
+    },
+    {
+        "pk": 69,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005520201",
+            "name": "Realm Breaker",
+            "brand": "Victoria Aveyard",
+            "description": "A strange darkness grows in Allward. Even Corayne an-Amarat can feel it, tucked away in her small town at the edge of the sea. She soon discovers the truth: She is the last of an ancient lineage and the last hope to save the world from destruction. But she won't be alone. Even as darkness falls, she is joined by a band of unlikely companions: A squire, forced to choose between home and honour. An immortal, avenging a broken promise. An assassin, exiled and bloodthirsty. An ancient sorceress, whose riddles hide an eerie foresight. A forger with a secret past. A bounty hunter with a score to settle. Together they stand against a vicious opponent, invincible and determined to burn all kingdoms to ash, and an army unlike anything the realm has ever witnessed.",
+            "price": 19.60,
+            "category": 7,
+            "rating": 3.68,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51+QySyLaXS._SX329_BO1,204,203,200_.jpg",
+            "image": "51+QySyLaXS._SX329_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 70,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005520205",
+            "name": "The Book of Cold Cases",
+            "brand": "Simone St. James",
+            "description": "In 1977, Claire Lake, Oregon, was shaken by the Lady Killer Murders: Two men, seemingly randomly, were murdered with the same gun, with strange notes left behind. Beth Greer was the perfect suspect--a rich, eccentric twenty-three-year-old woman, seen fleeing one of the crimes. But she was acquitted, and she retreated to the isolation of her mansion. Oregon, 2017. Shea Collins is a receptionist, but by night, she runs a true crime website, the Book of Cold Cases--a passion fueled by the attempted abduction she escaped as a child. When she meets Beth by chance, Shea asks her for an interview. To Shea's surprise, Beth says yes. They meet regularly at Beth's mansion, though Shea is never comfortable there. Items move when she's not looking, and she could swear she's seen a girl outside the window. The allure of learning the truth about the case from the smart, charming Beth is too much to resist, but even as they grow closer, Shea senses something isn't right. Is she making friends with a manipulative murderer, or are there other dangers lurking in the darkness of the Greer house? A true crime blogger gets more than she bargained for while interviewing the woman acquitted of two cold case slayings in this chilling new novel from the New York Times bestselling author of The Sun Down Motel.",
+            "price": 18.99,
+            "category": 8,
+            "rating": 3.96,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91UDguUf+cL.jpg",
+            "image": "91UDguUf+cL.jpg"
+        }
+    },
+    {
+        "pk": 71,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630545",
+            "name": "The Match",
+            "brand": "Harlan Coben",
+            "description": "Wilde has grown up knowing nothing of his family, and even less about his own identity . All he knows is that, as a young child, he was found living a feral existence in the Ramapo mountains of New Jersey. He became known simply as Wilde, the boy from the woods. Now Wilde has had a hit on the DNA website he has been researching. A 100% match. His father. They meet up, and Wilde soon realises that his father doesn't even know he had a son and is as mystified as Wilde is by his existence. Undaunted, Wilde continues his research for his family on DNA websites where he becomes caught up in a community of online doxxers, a secret group committed to exposing anonymous trolls. Then one by one these doxxers start to die, and it soon becomes clear that a serial killer is targeting this secret community - and that his next victim might be Wilde himself ... ",
+            "price": 18.99,
+            "category": 8,
+            "rating": 4.34,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/516z-D3WmCL._SX329_BO1,204,203,200_.jpg",
+            "image": "516z-D3WmCL._SX329_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 72,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630605",
+            "name": "My Dearest Darkest",
+            "brand": "Kayla Cottingham",
+            "description": "Finch Chamberlin is the newest transfer student to the ultra-competitive Ulalume Academy... but she's also not what she seems. Months before school started, Finch and her parents got into an accident that should have left her dead at the bottom of a river. But something monstrous, and ancient, and terrifying, wouldn't let her drown. Finch doesn't know why she woke up after her heart stopped, but since dying she's felt a constant pull from the school and the surrounding town of Rainwater, like something on the island is calling to her. Selena St. Clair sees right through Finch, and she knows something is seriously wrong with her. But despite Selena's suspicion, she feels drawn to Finch and has a sinking feeling that from now on the two will be inexplicably linked to one another. One night Finch, Selena, and her friends accidentally summon a carnivorous creature of immense power in the depths of the school. It promises to grant every desire the girls have kept locked away in their insecure hearts beauty, power, adoration in exchange for a price: human body parts. But as the cost of their wanting becomes more deadly, Finch and Selena must learn to work together to stop the horror they unleashed, before it consumes the entire island.",
+            "price": 10.99,
+            "category": 8,
+            "rating": 3.89,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/919iXZLwgrL.jpg",
+            "image": "919iXZLwgrL.jpg"
+        }
+    },
+    {
+        "pk": 73,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630637",
+            "name": "Tell Me Everything: The Story of a Private Investigation",
+            "brand": "Erika Krouse",
+            "description": "Erika Krouse has one of those faces. 'I don't know why I'm telling you this,' people say, spilling confessions. In fall 2002, Krouse accepted a new contract job investigating lawsuits as a private investigator. The role seems perfect for her, but she quickly realises she has no idea what she's doing. Then a lawyer named Grayson assigns her to investigate a sexual assault, a college student who was attacked by football players and recruits at a party a year earlier. Krouse knows she should turn the assignment down; her own history with sexual violence makes it all too personal. But she takes the job anyway, inspired by Grayson's conviction that he could help change things forever--and maybe she could, too. Over the next five years, Krouse learns everything she can about P. I. technique, tracking down witnesses and investigating a culture of sexual assault and harassment ingrained in the university's football program. But as the investigation grows into a national scandal and a historic civil rights case, she finds herself increasingly consumed. When the case and her life both implode at the same time, she must figure out how to help win the case without losing herself.",
+            "price": 10.99,
+            "category": 8,
+            "rating": 3.80,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91totM2rThS.jpg",
+            "image": "91totM2rThS.jpg"
+        }
+    },
+    {
+        "pk": 74,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005630638",
+            "name": "Tell Me an Ending",
+            "brand": "Jo Harkin",
+            "description": "Across the world, thousands of people are shocked by a notification that they once chose to have a memory removed. Now they are being given an opportunity to get that memory back. Four individuals are filled with new doubts, grappling with the unexpected question of whether to remember unknown events, or to leave them buried forever. Finn, an Irish architect living in the Arizona desert, begins to suspect his charming wife of having an affair. Mei, a troubled grad school dropout in Kuala Lumpur, wonders why she remembers a city she has never visited. William, a former police inspector in England, struggles with PTSD, the breakdown of his marriage, and his own secret family history. Oscar, a handsome young man with almost no memories at all, travels the world in a constant state of fear. Into these characters' lives comes Noor, a psychologist working at the Nepenthe memory removal clinic in London. The process of reinstating patients' memories begins to shake the moral foundations of her world. As she delves deeper into how the program works, she will have to risk everything to uncover the cost of this miraculous technology.A provocative exploration of secrets, grief, and identity of the stories we tell ourselves Tell Me an Ending is a sharp, dark, and devastating novel about the power of memory Never Let Me Go meets Black Mirror in this thrilling speculative debut about a tech company that deletes unwanted memories, the consequences for those forced to contend with what they tried to forget, and the dissenting doctor who seeks to protect her patients from further harm.",
+            "price": 15.99,
+            "category": 8,
+            "rating": 3.70,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91UlKL3QpTL.jpg",
+            "image": "91UlKL3QpTL.jpg"
+        }
+    },
+    {
+        "pk": 75,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005650677",
+            "name": "The Club",
+            "brand": "Ellery Lloyd",
+            "description": "The Home Group is a glamorous collection of celebrity members' clubs dotted across the globe, where the rich and famous can party hard and then crash out in its five-star suites, far from the prying eyes of fans and the media. The most spectacular of all is Island Home a closely-guarded, ultraluxurious resort, just off the English coast and its three-day launch party is easily the most coveted A-list invite of the decade. But behind the scenes, tensions are at breaking point: the ambitious and expensive project has pushed the Home Group's CEO and his long-suffering team to their absolute limits. All of them have something to hide and that's before the beautiful people with their own ugly secrets even set foot on the island. As tempers fray and behaviour worsens, as things get more sinister by the hour and the body count piles up, some of Island Home's members will begin to wish they'd never made the guest list. Because at this club, if your name's on the list, you're not getting out.",
+            "price": 18.99,
+            "category": 8,
+            "rating": 3.48,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71zxq-LTYbL.jpg",
+            "image": "71zxq-LTYbL.jpg"
+        }
+    },
+    {
+        "pk": 76,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005700140",
+            "name": "Remember Me Gone",
+            "brand": "Stacy Stokes",
+            "description": "Lucy Miller's family has the unique ability to remove people's painful memories--but Lucy isn't prepared for the truths she will uncover. People come from everywhere to forget. At the Memory House, in Tumble Tree, Texas, Lucy's father can literally erase folks' heartache and tragic memories. Lucy can't wait to learn the family trade and help alleviate others' pain, and now, at sixteen, she finally can. But everything is not as it seems. When Lucy practices memory-taking on her dad, his memory won't come loose, and in the bit that Lucy sees, there's a flash of Mama on the day she died, tinged red with guilt. Then Lucy wakes up the next morning with a bruised knee, a pocketful of desert sand, and no memory of what happened. She has no choice but to listen to Marco Warman--a local boy she's always wondered about, who seems to know more than he should. As Lucy and Marco realise there are gaps in their own memories, they team up to fill in the missing pieces--to figure out what's really going on in their town, and to uncover their own stolen history along the way. But as the mysteries pile up one thing becomes certain: There are some secrets people will do anything to keep. ",
+            "price": 20.99,
+            "category": 8,
+            "rating": 4.08,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91nFH1d6lqL.jpg",
+            "image": "91nFH1d6lqL.jpg"
+        }
+    },
+    {
+        "pk": 77,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005740430",
+            "name": "This Golden State",
+            "brand": "Marit Weisenberg",
+            "description": "The Winslow family lives by five principles: 1. No one can know your real name. 2. Don't stay in one place too long. 3. If you sense anything is wrong, go immediately to the meeting spot. 4. Keeping our family together is everything. 5. We wish we could tell you who we are, but we can't. Please do not ask. Poppy doesn't know why her family has been running her whole life, but she does know that there are dire consequences if they're ever caught. Still, her curiosity grows each year, as does her desire for real friends and the chance to build on something, instead of leaving behind school projects, teams, and crushes at a moment's notice. When a move to California exposes a crack in her parents' airtight planning, Poppy realises how fragile her world is. Determined to find out the truth, she mails in a home DNA test. Just as she starts to settle into her new life and even begins opening up to a boy in her maths class, the forgotten test results bring her crashing back to reality. Unravelling the shocking truth of her parents' real identities, Poppy realises that the DNA test has undone decades of careful work to keep her family anonymous and the past is dangerously close to catching up to them. Determined to protect her family but desperate for more, Poppy must ask: How much of herself does she owe her family? And is it a betrayal to find her own place in the world?",
+            "price": 16.99,
+            "category": 8,
+            "rating": 4.19,
+            "image_url": "https://img1.od-cdn.com/ImageType-100/2390-1%7B0A74045E-378B-4B3E-BCCF-C46CB3824A3F%7DImg100.jpg/",
+            "image": "%7B0A74045E-378B-4B3E-BCCF-C46CB3824A3F%7DImg100.jpg"
+        }
+    },
+    {
+        "pk": 78,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005740561",
+            "name": "Smile and Look Pretty",
+            "brand": "Amanda Pellegrino",
+            "description": "A whip-smart, piercing debut novel, Smile and Look Pretty follows four assistants who band together to take on their toxic office environments in the ultimate comeuppance. Online they're the Aggressive One, the Bossy One, the Bitchy One and the Emotional One. In real life, best friends Cate, Lauren, Olivia and Max all have one thing in common--they're overworked, overtired and underpaid assistants to some of the most powerful men in the entertainment industries. When they secretly start an anonymous blog detailing their experiences, their posts go viral and hundreds of other women come forward with stories of their own. Confronted with the risks of newfound fame and the possibility of their identities being revealed, they have to contend with what happens when you try to change the world. Gripping, razor sharp and scathingly funny, Smile and Look Pretty is a fast-paced millennial rallying cry about the consequences of whistleblowing for an entire generation, and a testament to the strength of female friendship and what can be accomplished when women come together.",
+            "price": 20.99,
+            "category": 8,
+            "rating": 3.79,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81qwagoRCdL.jpg",
+            "image": "81qwagoRCdL.jpg"
+        }
+    },
+    {
+        "pk": 79,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005740634",
+            "name": "The Summer We Forgot",
+            "brand": "Caroline George",
+            "description": "Caroline George once again transports readers with lush, evocative prose, leading them to ask the question: what happens when we can't even trust ourselves? Some memories are better left forgotten. Darby and Morgan haven't spoken for two years, and their friend group has splintered. But when the body of their former science teacher is found in the marsh where they attended camp that summer, they realize they have more questions than answers . . . and even fewer memories. No one remembers or no one is talking. The group of reunited friends begins to suspect that a murderer is stalking the coastal highway 30A, and they must try to recover their memories as quickly as possible . . . before the history they can't remember repeats itself. Everyone has a secret. As tensions rise and time runs out, Darby and Morgan begin to wonder if they can believe one another . . . or if they can even trust themselves.",
+            "price": 10.99,
+            "category": 8,
+            "rating": 3.71,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51yst7Xx-GL._SX326_BO1,204,203,200_.jpg",
+            "image": "51yst7Xx-GL._SX326_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 80,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005760088",
+            "name": "A Brief History of Equality",
+            "brand": "Thomas Piketty",
+            "description": "The world's leading economist of inequality presents a short but sweeping and surprisingly optimistic history of human progress toward equality despite crises, disasters, and backsliding. A perfect introduction to the ideas developed in his monumental earlier books. It's easy to be pessimistic about inequality. We know it has increased dramatically in many parts of the world over the past two generations. No one has done more to reveal the problem than Thomas Piketty. Now, in this surprising and powerful new work, Piketty reminds us that the grand sweep of history gives us reasons to be optimistic. Over the centuries, he shows, we have been moving toward greater equality. Piketty guides us with elegance and concision through the great movements that have made the modern world for better and worse: the growth of capitalism, revolutions, imperialism, slavery, wars, and the building of the welfare state. It's a history of violence and social struggle, punctuated by regression and disaster. But through it all, Piketty shows, human societies have moved fitfully toward a more just distribution of income and assets, a reduction of racial and gender inequalities, and greater access to health care, education, and the rights of citizenship. Our rough march forward is political and ideological, an endless fight against injustice. To keep moving, Piketty argues, we need to learn and commit to what works, to institutional, legal, social, fiscal, and educational systems that can make equality a lasting reality. At the same time, we need to resist historical amnesia and the temptations of cultural separatism and intellectual compartmentalization. At stake is the quality of life for billions of people. We know we can do better, Piketty concludes. The past shows us how. The future is up to us.",
+            "price": 29.0,
+            "category": 9,
+            "rating": 4.09,
+            "image_url": "https://m.media-amazon.com/images/I/31-y51sQV4L.jpg",
+            "image": "31-y51sQV4L.jpg"
+        }
+    },
+    {
+        "pk": 81,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005810108",
+            "name": "A Short History of the Blockade",
+            "brand": "Leanne Betasamosake Simpson",
+            "description": "In A Short History of the Blockade, award-winning writer Leanne Betasamosake Simpson uses Michi Saagiig Nishnaabeg stories, storytelling aesthetics, and practices to explore the generative nature of Indigenous blockades through our relative, the beaver or in Nishnaabemowin, Amik. Moving through genres, shifting through time, amikwag stories become a lens for the life-giving possibilities of dams and the world-building possibilities of blockades, deepening our understanding of Indigenous resistance, as both a negation and an affirmation. Widely recognized as one of the most compelling Indigenous voices of her generation, Simpson's work breaks open the intersections between politics, story, and song, bringing audiences into a rich and layered world of sound, light, and sovereign creativity. A Short History of the Blockade reveals how the practice of telling stories is also a culture of listening, 'a thinking through together,' and ultimately, like the dam or the blockade, an affirmation of life.",
+            "price": 13.99,
+            "category": 9,
+            "rating": 4.36,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41q6Uo1lcnL._SX342_SY445_QL70_ML2_.jpg",
+            "image": "41q6Uo1lcnL._SX342_SY445_QL70_ML2_.jpg"
+        }
+    },
+    {
+        "pk": 82,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005820197",
+            "name": "The Secret History",
+            "brand": "Donna Tartt",
+            "description": "Add a cosy layer to any game-ready style with this insulated performance hoodie, featuring a pullover design and Therma-FIT fabric for warmth. Therma-FIT microfiber fleece fabric keeps you warm and insulated mesh-lined hood for breathable coverage long sleeves ribbed cuffs and hem kangaroo pocket polyester washable imported",
+            "price": 12.60,
+            "category": 9,
+            "rating": 4.14,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91EWBiFTnGL.jpg",
+            "image": "91EWBiFTnGL.jpg"
+        }
+    },
+    {
+        "pk": 83,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005840598",
+            "name": "Gender in History: Global Perspectives",
+            "brand": "Merry E. Wiesner",
+            "description": "Updated with new material to reflect the latest developments in the field, Gender in History Global Perspectives, 2nd Edition, provides a concise overview of the construction of gender in world cultures from the Palaeolithic era to modern times. Includes examples drawn from the most recent scholarship relating to a diverse range of cultures, from Ancient Mesopotamia to post-Soviet Russia, and from the Igbo of Nigeria, to the Iroquois of north eastern North America. Reflects new developments in the field with added coverage of primates, slavery, colonialism, masculinity, and transgender issues Features significant discussion of the Paleolithic and Neolithic periods, an important trend in the study of world history Lays out key theoretical and methodological issues in an introduction that is written in accessible language Supplementary material for instructors and students available at www.wiley.com/go/wiesnerhanks",
+            "price": 46.19,
+            "category": 9,
+            "rating": 3.83,
+            "image_url": "https://media.wiley.com/product_data/coverImage300/29/14443517/1444351729.jpg",
+            "image": "1444351729.jpg"
+        }
+    },
+    {
+        "pk": 84,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005840776",
+            "name": "History Has Begun",
+            "brand": "Bruno Maçães",
+            "description": "Popular consensus says that the US rose over two centuries to Cold War victory and world domination, and is now in slow decline. But is this right? History's great civilisations have always lasted much longer, and for all its colossal power, the US was overshadowed by Europe until recently. What if this isn't the end? Bruno Maçães offers a compelling vision of America's future, both fascinating and unnerving. From the early American Republic, Maçães takes us to the turbulent present, when, he argues, America is finally forging its own path. We can see the birth pangs of this new civilisation in today's debates on guns, religion, foreign policy and the significance of Trump. What will its values be, and what will this new America look like?",
+            "price": 18.19,
+            "category": 9,
+            "rating": 3.74,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41d-ifxdSrL._SX327_BO1,204,203,200_.jpg",
+            "image": "41d-ifxdSrL._SX327_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 85,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005850180",
+            "name": "A Brief History of Time",
+            "brand": "Stephen Hawking",
+            "description": "In the ten years since its publication in 1988, Stephen Hawking's classic work has become a landmark volume in scientific writing, with more than nine million copies in forty languages sold worldwide. That edition was on the cutting edge of what was then known about the origins and nature of the universe. But the intervening years have seen extraordinary advances in the technology of observing both the micro- and the macrocosmic worlds. These observations have confirmed many of Professor Hawking's theoretical predictions in the first edition of his book, including the recent discoveries of the Cosmic Background Explorer satellite (COBE), which probed back in time to within 300,000 years of the universe's beginning and revealed wrinkles in the fabric of space-time that he had projected. Eager to bring to his original text the new knowledge revealed by these observations, as well as his own recent research, Professor Hawking has prepared a new introduction to the book, written an entirely new chapter on wormholes and time travel, and updated the chapters throughout.",
+            "price": 14.00,
+            "category": 9,
+            "rating": 4.20,
+            "image_url": "https://dj4fsg3e1je59.cloudfront.net/9780857501004/img/0",
+            "image": "0.jpg"
+        }
+    },
+    {
+        "pk": 86,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005851218",
+            "name": "The Secret History of Here: A Year in the Valley",
+            "brand": "Alistair Moffat",
+            "description": "The Secret History of Here is the story of a single place, a farm in the Scottish Borders. The site on which Alistair Moffat's farm now stands has been occupied since prehistoric times. The fields have turned up ancient arrowheads, stone spindles, silver pennies and a stone carved with the rune-like letters of Ogham. Walking this landscape you can feel the presence and see the marks of those who lived here before. But it is also the story of everywhere. In uncovering the history of one piece of land, Moffat shows how history is all around us, if only we have the eyes to see it. Under our feet, carved into the landscape, in the layout of paths and roads, in the stories we pass down, our history leaves its trace on the land. Taking the form of a journal of a year, The Secret History of Here is a walk through the centuries as much as the seasons. We hear the echo of battles long since fought, of lives lived quietly or scandalously, of armies, of kings, of the common folk who mostly inhabited this land, and a little of those that live here now.",
+            "price": 28.00,
+            "category": 9,
+            "rating": 4.18,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51z7N4qFGCL._SX323_BO1,204,203,200_.jpg",
+            "image": "14201504201760M.jpg"
+        }
+    },
+    {
+        "pk": 87,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005860175",
+            "name": "A History of Coventry",
+            "brand": "David McGrory",
+            "description": "In this highly researched and comprehensive book, the author argues for Coventry's Roman past, long doubted, and explores its Saxon roots as home to the monastic houses of St Osburg. He throws new light on Leofric and Godiva, including their involvement in the foundation or endowment of St Mary's Priory, and using recent excavation work he reveals the most up-to-date ideas on its appearance and its destruction. The city's later mediaeval past is explained in detail, including its rise to power in the Wars of the Roses, when the royal court moved to the city, and the connection with Henry VI and his cult. Details of the imprisonment of Mary, Queen of Scots, are given for the first time, while previously unused documents are used to tell the real story of life in Parliamentary Coventry and its famous Siege.Every aspect of daily life in the city is described in the well-illustrated narrative - how Coventry folk earned their living, from weaving to motor-cars, their health, education, religious life, entertainments and crime and punishment. No one who knows the city can fail to be intrigued by this classic book. It is a fund of fascinating information and has become the standard work on Coventry.",
+            "price": 28.00,
+            "category": 9,
+            "rating": 4.8,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71NxsIt7iVS.jpg",
+            "image": "71NxsIt7iVS.jpg"
+        }
+    },
+    {
+        "pk": 88,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005860263",
+            "name": "A History of Solitude",
+            "brand": "David Vincent",
+            "description": "Solitude has always had an ambivalent status: the capacity to enjoy being alone can make sociability bearable, but those predisposed to solitude are often viewed with suspicion or pity. Drawing on a wide array of literary and historical sources, David Vincent explores how people have conducted themselves in the absence of company over the last three centuries. He argues that the ambivalent nature of solitude became a prominent concern in the modern era. For intellectuals in the romantic age, solitude gave respite to citizens living in ever more complex modern societies. But while the search for solitude was seen as a symptom of modern life, it was also viewed as a dangerous pathology: a perceived renunciation of the world, which could lead to psychological disorder and anti-social behaviour. Vincent explores the successive attempts of religious authorities and political institutions to manage solitude, taking readers from the monastery to the prisoner's cell, and explains how western society's increasing secularism, urbanisation and prosperity led to the development of new solitary pastimes at the same time as it made traditional forms of solitary communion, with God and with a pristine nature, impossible. At the dawn of the digital age, solitude has taken on new meanings, as physical isolation and intense sociability have become possible as never before. With the advent of a so-called loneliness epidemic, a proper historical understanding of the natural human desire to disengage from the world is more important than ever.",
+            "price": 3.73,
+            "category": 9,
+            "rating": 4.0,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41BYRtJEKEL._SX330_BO1,204,203,200_.jpg",
+            "image": "41BYRtJEKEL._SX330_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 89,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005870183",
+            "name": "The Plague",
+            "brand": "Albert Camus",
+            "description": "A gripping tale of human unrelieved horror, of survival and resilience, and of the ways in which humankind confronts death, The Plague is at once a masterfully crafted novel, eloquently understated and epic in scope, and a parable of ageless moral resonance, profoundly relevant to our times. In Oran, a coastal town in North Africa, the plague begins as a series of portents, unheeded by the people. It gradually becomes an omnipresent reality, obliterating all traces of the past and driving its victims to almost unearthly extremes of suffering, madness, and compassion.",
+            "price": 12.99,
+            "category": 9,
+            "rating": 4.02,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71D5OByLh0L.jpg",
+            "image": "71D5OByLh0L.jpg"
+        }
+    },
+    {
+        "pk": 90,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005870599",
+            "name": "The Guinness Girls: A Hint of Scandal",
+            "brand": "Emily Hourican",
+            "description": "It's the dawn of the 1930s and the three privileged Guinness sisters, Aileen, Maureen and Oonagh, settle into becoming wives and mothers: Aileen in Luttrellstown Castle outside Dublin, Maureen in Clandeboye in Northern Ireland, and Oonagh in Rutland Place in London. But while Britain becomes increasingly politically polarised, Aileen, Maureen and Oonagh discover conflict within their own marriages. Oonagh's dream of romantic love is countered by her husband's lies; the intense nature of Maureen's marriage means passion, but also rows; while Aileen begins to discover that, for her, being married offers far less than she had expected. Meanwhile, Kathleen, a housemaid from their childhood home in Glenmaroon, travels between the three sisters, helping, listening, watching - even as her own life brings her into conflict with the clash between fascism and communism. As affairs are uncovered and secrets exposed, the three women begin to realise that their gilded upbringing could not have prepared them for the realities of married life, nor for the scandals that seem to follow them around.",
+            "price": 19.60,
+            "category": 10,
+            "rating": 3.63,
+            "image_url": "https://m.media-amazon.com/images/I/41CjdYRow8L.jpg",
+            "image": "41CjdYRow8L.jpg"
+        }
+    },
+    {
+        "pk": 91,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005870638",
+            "name": "Arizona Raglan-Sleeve Thermal Pullover",
+            "brand": "Eithne Shortall",
+            "description": "Their school is about to be taught a lesson... Beverley Franklin will do whatever it takes to protect her local school's reputation. So when a scandal involving her own daughter threatens to derail the annual school musical's appearance on national television, Beverley goes into overdrive. But in her efforts to protect her daughter and keep the musical on track, she misses what's really going, both in her own house and in the insular Glass Lake community - with dramatic consequences. Glass Lake primary school's reputation is about to be shattered...",
+            "price": 18.20,
+            "category": 10,
+            "rating": 3.97,
+            "image_url": "https://www.biblioimages.com/atlantic/getimage.aspx?class=books&assetversionid=181450&cat=default&size=origjpg&id=7696",
+            "image": "9781838951849.jpg"
+        }
+    },
+    {
+        "pk": 92,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005910565",
+            "name": "The Colony",
+            "brand": "Audrey Magee",
+            "description": "The clarity of Colm Toibin's prose is blended with the emotional truth of Anne Enright in this stand-out new novel of belonging and loss. handed the easel to the boatman, reaching down the pier wall towards the sea. Mr Lloyd has decided to travel to the island by boat without engine - the authentic experience. Unbeknownst to him, Mr Masson will also soon be arriving for the summer. Both will strive to encapsulate the truth of this place - one in his paintings, the other with his faithful rendition of its speech, the language he hopes to preserve. But the people who live here on this rock - three miles wide and half-a-mile long - have their own views on what is being recorded, what is being taken and what is given in return. Over the summer each of the women and men in the household this French and Englishman join is forced to question what they value and what they desire. At the end of the summer, as the visitors head home, there will be a reckoning.",
+            "price": 18.20,
+            "category": 10,
+            "rating": 4.3,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51MieO3H8pL._SX308_BO1,204,203,200_.jpg",
+            "image": "51MieO3H8pL._SX308_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 93,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005930313",
+            "name": "The Book Club",
+            "brand": "Roisin Meaney",
+            "description": "A tragic accident leaves the tight-knit book club in the small seaside town of Fairweather reeling. Then stranger Tom McLysaght arrives in the community, and the members of the club find their lives changing in ways they never could have imagined. None of them realise that Tom is hiding a secret. On the surface, his move to Fairweather was to escape his highflying life in London and to put some much-needed distance between him and his ex-fiancee - but deep down Tom knows that there are some things he cannot run from. As the months pass with book club gatherings, secrets are shared and hurts begin to heal. New friendships might be the last thing on their minds but the members of the book club are about to discover that opening themselves up to other people might be the only thing that will help them all to live, and to love, again. This long-sleeve, flannel pyjama set brings brushed cotton warmth to your cold-weather nights. includes top and pants washed for extra softness & reduced shrinkage notch collar long sleeves elastic waist with drawstring 100% cotton washable imported",
+            "price": 12.60,
+            "category": 10,
+            "rating": 4.34,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51aWCtd+fzL._SX325_BO1,204,203,200_.jpg",
+            "image": "51aWCtd+fzL._SX325_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 94,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005940242",
+            "name": "Other Women",
+            "brand": "Cathy Kelly",
+            "description": "Three women. Three secrets. Three tangled lives...  Sid wears her independence like armour. So when she strikes up a rare connection with unlucky-in-love Finn, they are both determined to prove that men and women can just be friends. Can't they? Marin has the perfect home, attentive husband, two beloved children - and a secret addiction to designer clothes. She knows she has it all, so why can't she stop comparing herself to other women? Bea believes that we all have one love story - and she's had hers. Now her life centres around her son, Luke, and her support group of fierce single women. But there's something that she can't tell anyone...",
+            "price": 21.99,
+            "category": 10,
+            "rating": 4.03,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41esA6PrKnL._SX307_BO1,204,203,200_.jpg",
+            "image": "41esA6PrKnL._SX307_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 95,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005940299",
+            "name": "Breaking Point",
+            "brand": "Edel Coffey",
+            "description": "An innocent mistake. A lifetime of guilt. Susannah has two beautiful daughters, a high-flying medical career, a successful husband, and an enviable life. Her hair is glossy, her clothes are expensive; she truly has it all. But when - on the hottest day of the year - her strict morning routine is disrupted, Susannah finds herself running on autopilot. It is hours before she realizes she has made a devastating mistake. Her baby, Louise, is still in the backseat of the car and it is too late to save her. As the press closes in around her, Susannah is put on trial for negligence. It is plain to see that this is not a trial, it's a witch hunt. But what will the court say? ",
+            "price": 19.60,
+            "category": 10,
+            "rating": 4.08,
+            "image_url": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/7515/9780751582383.jpg",
+            "image": "9780751582383.jpg"
+        }
+    },
+    {
+        "pk": 96,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005941612",
+            "name": "Beautiful World, Where Are You",
+            "brand": "Sally Rooney",
+            "description": "Alice, a novelist, meets Felix, who works in a warehouse, and asks him if he'd like to travel to Rome with her. In Dublin, her best friend, Eileen, is getting over a break-up and slips back into flirting with Simon, a man she has known since childhood. Alice, Felix, Eileen, and Simon are still young—but life is catching up with them. They desire each other, they delude each other, they get together, they break apart. They have sex, they worry about sex, they worry about their friendships and the world they live in. Are they standing in the last lighted room before the darkness, bearing witness to something? Will they find a way to believe in a beautiful world?",
+            "price": 19.60,
+            "category": 10,
+            "rating": 3.64,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41RfHWoMEQS._SX308_BO1,204,203,200_.jpg",
+            "image": "41RfHWoMEQS._SX308_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "pk": 97,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005980058",
+            "name": "Arizona Quilted Sweatshirt - Toddler Girls 2t-5t",
+            "brand": "Rachael English",
+            "description": "A rich, heartbreaking novel, moving between west of Ireland and Boston, of a mother's love, a baby girl, a courageous voyage, and a forgotten story that binds two families separated by an ocean... She had left behind everything she loved to forge a future for the one she treasured most... 2019 Dublin. When Jessie Daly loses her job, her flat and her relationship, she travels home to Ireland's west coast and helps an old friend researching what happened in the area during the 1840s Famine. They are drawn into the remarkable story of a brave young mother called Bridget Moloney, and Jessie becomes determined to find out what happened to Bridget and her daughter, Norah. On the other side of the Atlantic, Kaitlin Wilson is researching her family tree. She knows her ancestors left Ireland for Boston in the 19th century. Everything else is a mystery. Kaitlin unearths a fascinating story, but her research forces her to confront uncomfortable truths about herself and her family and also uncover a heartbreaking connection to a young woman in the west of Ireland... ",
+            "price": 19.60,
+            "category": 10,
+            "rating": 4.35,
+            "image_url": "https://www.hachette.co.uk/wp-content/uploads/2021/08/hbg-title-9781472264701-33.jpg?fit=440%2C675",
+            "image": "hbg-title-9781472264701-33.jpg"
+        }
+    },
+    {
+        "pk": 98,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5005980146",
+            "name": "Aisling and the City",
+            "brand": "Emer McLysaght",
+            "description": "Aisling is 31, and she's still a complete Aisling. With BallyGoBrunch flying and the door firmly closed on her relationship with John, Aisling accepts an unexpected job offer and boards a business-class flight to New York in her best wrap dress and heels. As she finds her feet in the Big Apple, she throws herself into the dating game, grapples with 'always-on' work culture, forges and fights for new friendships and brings her good wedges to a party in the Hamptons, much to Sadhbh's dismay. But catching up with family and friends on WhatsApp and email is not the same as sitting in Maguire's putting the world to rights over mini bottles of Pinot Greej and a shared bag of Taytos. And yet New York has so much to offer, not least in the ridey fireman department. ",
+            "price": 14.99,
+            "category": 10,
+            "rating": 4.09,
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81sMSNqhUkL.jpg",
+            "image": "81sMSNqhUkL.jpg"
+        }
+    },
+    {
+        "pk": 99,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5006070077",
+            "name": "Freckles",
+            "brand": "Cecelia Ahern",
+            "description": "The brand new novel from million-copy bestselling author Cecelia Ahern. You are the average of the five people you spend the most time with. When a stranger utters these words to Allegra Bird, nicknamed Freckles, it turns her highly ordered life upside down. In her current life as a parking warden, she has left her eccentric father and unconventional childhood behind for a bold new life in the city. But a single encounter leads her to ask the question she's been avoiding for so long:  who are the people who made her the way she is? And who are the five people who can shape and determine her future? Just as she once joined the freckles on her skin to mirror the constellations in the night sky, she must once again look for connections.Told in Allegra's vivid, original voice, moving from Dublin to the fierce Atlantic coast, this is an unforgettable story of human connection, of friendship, and growing into your own skin. Five people. Five stars. Freckle to freckle. Star to star.",
+            "price": 18.20,
+            "category": 10,
+            "rating": 3.76,
+            "image_url": "hhttps://kbimages1-a.akamaihd.net/a74cca92-be96-429e-9392-cacfc25c0ef2/1200/1200/False/freckles-46.jpg",
+            "image": "freckles-46.jpg"
+        }
+    },
+    {
+        "pk": 100,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5006081758",
+            "name": "Jump",
+            "brand": "Daniella Moyles",
+            "description": "'The point of all this has nothing to do with finding yourself. It's about what you can do to lose what you don't need.' It's a dark rainy afternoon on Dublin's jammed M50 motorway. The rain is hammering on the windscreen of Daniella Moyles' car. She is 26, a highly successful radio presenter, model and influencer, but panic is building in her head and chest, the internal state of affairs she has been trying to ignore finally spilling over into something undeniably physical. She is frozen, petrified, looks at her boyfriend and says, 'I don't know who or where I am.' This day changed Daniella's life. It derailed almost everything she had worked to achieve and set her on a new path. Jump is the story of what happened when Daniella quit her job to backpack around the world for two years, and how freedom from the trappings of what society considers success leads to true contentment, strength and authenticity.  ",
+            "price": 17.99,
+            "category": 11,
+            "rating": 4.8,
+            "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590065523l/53449596._SY475_.jpg",
+            "image": "53449596._SY475_.jpg"
+        }
+    }
+]
