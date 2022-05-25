@@ -1,14 +1,14 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.contrib.auth.decorators import login_required
 from .models import Product, Category
 from .forms import ProductForm
 
 
 def all_products(request):
-    """ A view to show all products, including sorting and search queries """
+    """ A view to show all products, by sorting and search queries """
 
     products = Product.objects.all()
     query = None
@@ -39,7 +39,7 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request, "Please enter a valid search criteria!")
                 return redirect(reverse('products'))
 
             queries = Q(name__icontains=query) | Q(description__icontains=query)
@@ -110,7 +110,7 @@ def edit_product(request, product_id):
             messages.success(request, 'Product Successfully updated!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product, please try again')
+            messages.error(request, 'Product update failed, please try again')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -128,7 +128,8 @@ def edit_product(request, product_id):
 def delete_product(request, product_id):
     '''View to delete a product from the store'''
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, you will need to be user to delete.')
+        messages.error(request, 'Sorry, you will need to be owner'
+                                'to delete product.')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
