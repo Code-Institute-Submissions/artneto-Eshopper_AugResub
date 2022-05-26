@@ -1,0 +1,1 @@
+web: e-shopperonline.wsgi:application
