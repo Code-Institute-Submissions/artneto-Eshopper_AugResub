@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container-fluid container-home">
+   
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-12 col-4-lg">
+                <h2 class="main-font section-title text-center">
+                    We have the best products for your healthy lifestyle </h2>
+                <br>
+                <p>Health and wellness is a segment dominated by us at the E-shopper Store, 
+                    we offer a mix of products that are not easily found in the market</p>
+                <p>You can buy more than 50 products from the brand without leaving your home.
+                    Even better: purchases over 50 euros, shipping is free!</p>
+                <br>
+                <hr class="w-75">
+                <div class="my-5">
+                    <h4>
+                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Start Shopping</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
