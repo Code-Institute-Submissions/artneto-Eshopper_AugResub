@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,400&family=Poppins:wght@200&display=swap');
+
+
+/*
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+*/
 html {
     height: 100%;
 }
 
 body {
-    background: url('/media/background_img.jpg') no-repeat center center fixed;
+    background: url('/media/pexels-arthouse-studio-4332238 (1).jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
