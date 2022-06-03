@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,700;1,400&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;500;900&display=swap');
 
 
 /*
@@ -9,28 +9,28 @@
 #F2CB05
 #BF9004
 #0D0D0D
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 */
 body {
     min-height: 100vh; 
     margin: 0; 
     display: grid;
     grid-template-rows: auto 1fr auto;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 /*---Base.html*/
 
-.logo-font {
-    font-size: 26px;
-    letter-spacing: 1vmin;
+.logo-font,
+.logo {
+    font-size: 20px;
     text-align: center;
     color: #0D0D0D;
-    font-family: 'Lato', sans-serif;
-    text-decoration: none;
-}
-
-a {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
 
@@ -40,10 +40,15 @@ a {
 }
 
 .delivery-banner-txt {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 20px;
-    font-style: italic;
+}
+
+
+.bg-header {
+    background: #D7D7D9;
+    height: 75%;
 }
 
 
