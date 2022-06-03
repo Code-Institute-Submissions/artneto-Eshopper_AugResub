@@ -51,5 +51,8 @@ body {
     height: 75%;
 }
 
-
+.container-home {
+    background: url('/media/pexels-min-an-1230157.jpg') no-repeat center center fixed;
+    height: 600px;
+}
 
