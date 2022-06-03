@@ -4,6 +4,47 @@
 /*
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
+#A3B5D9
+#D7D7D9
+#F2CB05
+#BF9004
+#0D0D0D
 */
+body {
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*---Base.html*/
+
+.logo-font {
+    font-size: 26px;
+    letter-spacing: 1vmin;
+    text-align: center;
+    color: #0D0D0D;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.delivery-banner {
+    background: #F2CB05;
+}
+
+.delivery-banner-txt {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+
 
 
