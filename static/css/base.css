@@ -14,11 +14,10 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 body {
-    min-height: 100vh; 
-    margin: 0; 
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    font-family: 'Open Sans', sans-serif;
+    background: url('/media/pexels-min-an-1230157.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: calc(100vh - 164px);
+    font-family: 'Roboto';
 }
 
 
@@ -51,10 +50,7 @@ body {
     height: 75%;
 }
 
-.container-home {
-    background: url('/media/pexels-min-an-1230157.jpg') no-repeat center center fixed;
-    height: 600px;
-}
+
 
 
 /* from Bulma */
@@ -104,7 +100,7 @@ body {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: rgb(212, 60, 60);
     color: white;
 }
 
