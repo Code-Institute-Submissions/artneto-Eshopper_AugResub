@@ -244,6 +244,8 @@ else:
 
 #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
 
+#https://www.youtube.com/watch?v=GQySb3W2feo
+
 SOCIALACCOUNT_PROVIDERS = {
     'google': {
         'SCOPE': [
