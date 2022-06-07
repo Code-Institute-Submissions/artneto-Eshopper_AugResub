@@ -240,9 +240,9 @@ else:
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
 
-#948593758531-lsokpkfdfh0cs6vrti1r49tak6jk6qri.apps.googleusercontent.com
+#954256165109-b6t8i4ah35rkqurjonasj4a0p6htj7l1.apps.googleusercontent.com
 
-#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
+#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
 
 #https://www.youtube.com/watch?v=GQySb3W2feo
 
