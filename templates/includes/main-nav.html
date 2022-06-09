@@ -21,12 +21,12 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Vitamins & Supplements
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=accessory" class="dropdown-item">Homeopathic & Flower Remedies</a>
-                <a href="{% url 'products' %}?category=sport_medicine" class="dropdown-item">cbd oils and creams</a>
-                <a href="{% url 'products' %}?category=sport_and_outdoor" class="dropdown-item">supplements for vegans</a>
-                <a href="{% url 'products' %}?category=gift_ideas" class="dropdown-item">Minerals</a>
-                <a href="{% url 'products' %}?category=accessory,sport_medicine,sport_and_outdoor,gift_ideas" class="dropdown-item">All Products</a>
+            <div class="dropdown-menu border-0" aria-labelledby="supplement-link">
+                <a href="{% url 'products' %}?category=homeopathic" class="dropdown-item">Homeopathic & Flower Remedies</a>
+                <a href="{% url 'products' %}?category=cbd_oils" class="dropdown-item">Cbd Oils and Creams</a>
+                <a href="{% url 'products' %}?category=supplements_vegan" class="dropdown-item">Supplements for Vegans</a>
+                <a href="{% url 'products' %}?category=minerals" class="dropdown-item">Minerals</a>
+                <a href="{% url 'products' %}?category=homeopathic,cbd_oils,supplements_vegan,minerals" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -34,12 +34,12 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Food & Drink
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=health_food" class="dropdown-item">Rice and Pasta</a>
-                <a href="{% url 'products' %}?category=hair_and_beauty" class="dropdown-item">Breakfast Cereals</a>
-                <a href="{% url 'products' %}?category=hair_and_beauty" class="dropdown-item">Gluten Free Food & Drink</a>
-                <a href="{% url 'products' %}?category=hair_and_beauty" class="dropdown-item">Superfoods & Green Powder</a>
-                <a href="{% url 'products' %}?category=health_food,hair_and_beauty" class="dropdown-item">All Products</a>
+            <div class="dropdown-menu border-0" aria-labelledby="food-link">
+                <a href="{% url 'products' %}?category=rice_pasta" class="dropdown-item">Rice and Pasta</a>
+                <a href="{% url 'products' %}?category=breakfast" class="dropdown-item">Breakfast Cereals</a>
+                <a href="{% url 'products' %}?category=gluten_free" class="dropdown-item">Gluten Free Food & Drink</a>
+                <a href="{% url 'products' %}?category=superfood" class="dropdown-item">Superfoods</a>
+                <a href="{% url 'products' %}?category=rice_pasta,breakfast,gluten_free,superfood" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -47,12 +47,10 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Weight Management
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=humidifiers" class="dropdown-item">Weight Management Support</a>
-                <a href="{% url 'products' %}?category=essential_oil" class="dropdown-item">Slimming Tablets</a>
-                <a href="{% url 'products' %}?category=tea_and_coffee" class="dropdown-item">Fat Burners</a>
-                <a href="{% url 'products' %}?category=whole_grains" class="dropdown-item">Lean Protein</a>
-                <a href="{% url 'products' %}?category=humidifiers,essential_oil,tea_and_coffee,whole_grains" class="dropdown-item">All Products</a>
+            <div class="dropdown-menu border-0" aria-labelledby="weight-link">
+                <a href="{% url 'products' %}?category=weight_management" class="dropdown-item">Weight Management Support</a>
+                <a href="{% url 'products' %}?category=protein" class="dropdown-item">Lean Protein</a>
+                <a href="{% url 'products' %}?category=weight_management,protein" class="dropdown-item">All Products</a>
             </div>
         </li>
     </ul>

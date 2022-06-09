@@ -2,80 +2,80 @@
     "pk": 1,
     "model": "products.category",
     "fields": {
-        "name": "tea_and_coffee",
-        "friendly_name": "tea and coffee"
+        "name": "homeopathic",
+        "friendly_name": "Homeopathic & Flower Remedies"
     }
 },
 {
     "pk": 2,
     "model": "products.category",
     "fields": {
-        "name": "accessory",
-        "friendly_name": "Accessory"
+        "name": "cbd_oils",
+        "friendly_name": "Cbd Oils and Creams"
     }
 },
 {
     "pk": 3,
     "model": "products.category",
     "fields": {
-        "name": "sport_and_outdoor",
-        "friendly_name": "sport and outdoor"
+        "name": "supplements_vegan",
+        "friendly_name": "Supplements for Vegans"
     }
 },
 {
     "pk": 4,
     "model": "products.category",
     "fields": {
-        "name": "health_food",
-        "friendly_name": "health food"
+        "name": "minerals",
+        "friendly_name": "Minerals"
     }
 },
 {
     "pk": 5,
     "model": "products.category",
     "fields": {
-        "name": "gift_ideas",
-        "friendly_name": "gift ideas"
+        "name": "rice_pasta",
+        "friendly_name": "Rice and Pasta"
     }
 },
 {
     "pk": 6,
     "model": "products.category",
     "fields": {
-        "name": "sport_medicine",
-        "friendly_name": "Sport Medicine"
+        "name": "breakfast",
+        "friendly_name": "Breakfast Cereals"
     }
 },
 {
     "pk": 7,
     "model": "products.category",
     "fields": {
-        "name": "essential_oil",
-        "friendly_name": "Essential Oil"
+        "name": "gluten_free",
+        "friendly_name": "Gluten Free Food & Drink"
     }
 },
 {
     "pk": 8,
     "model": "products.category",
     "fields": {
-        "name": "humidifiers",
-        "friendly_name": "Humidifiers"
+        "name": "superfood",
+        "friendly_name": "Superfoods"
     }
 },
 {
     "pk": 9,
     "model": "products.category",
     "fields": {
-        "name": "whole_grains",
-        "friendly_name": "Whole Grains"
+        "name": "weight_management",
+        "friendly_name": "Weight Management Support"
     }
 },
 {
     "pk": 10,
     "model": "products.category",
     "fields": {
-        "name": "hair_and_beauty",
-        "friendly_name": "Hair & Beauty"
+        "name": "protein",
+        "friendly_name": "Lean Protein"
     }
 }
 ]
