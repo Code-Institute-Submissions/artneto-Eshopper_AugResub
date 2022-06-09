@@ -53,9 +53,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'storages',
 
-    'allauth.socialaccount.providers.google',
-    #'allauth.socialaccount.providers.facebook',
-    #'allauth.socialaccount.providers.twitter',
 ]
 
 MIDDLEWARE = [
@@ -239,21 +236,3 @@ else:
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
-
-#954256165109-b6t8i4ah35rkqurjonasj4a0p6htj7l1.apps.googleusercontent.com
-
-#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
-
-#https://www.youtube.com/watch?v=GQySb3W2feo
-
-SOCIALACCOUNT_PROVIDERS = {
-    'google': {
-        'SCOPE': [
-            'profile',
-            'email',
-        ],
-        'AUTH_PARAMS': {
-            'access_type': 'online',
-        }
-    }
-}
