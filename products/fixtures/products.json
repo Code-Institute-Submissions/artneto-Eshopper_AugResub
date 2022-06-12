@@ -83,7 +83,7 @@
             "brand": "HIGHER NATURE",
             "description": "Trace minerals are frequently lacking in the modern diet due to intensive farming practices. This producgt provides a full spectrum of trace minerals from botanicals.",
             "price": 5.20,
-            "category": 1,
+            "category": 2,
             "rating": 4.02,
             "image_url": "https://m.media-amazon.com/images/I/51opewWsrUL._AC_SY879_.jpg",
             "image": "51opewWsrUL._AC_SY879_.jpg"
@@ -94,14 +94,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002440521",
-            "name": "Lavazza Gran Riserva Coffee Beans 1kg",
-            "brand": "Lavazza",
-            "description": "With hints of maple syrup and walnut, Gran Riserva is an excellent medium to dark blend with a harmonious selection of the finest coffee that conveys a velvety, rich and round taste, accompanied by intense and persistent after taste.",
+            "name": "Shilajit Resin Liquid Drops 30 Gram Equivalent",
+            "brand": "Shilajit",
+            "description": "Our Shilajit is a plant-based mineral complex that is known to have over 85 different minerals and trace elements in an ionic and bioavailable form. Shilajit also contains fulvic acid, which significantly helps to deliver these nutrients to the body where it is needed the most.",
             "price": 17.60,
-            "category": 1,
+            "category": 2,
             "rating": 3.96,
-            "image_url": "https://m.media-amazon.com/images/I/31AVkqTluJL._AC_.jpg",
-            "image": "31AVkqTluJL._AC_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/718vTsCYQDL._AC_SX679_.jpg",
+            "image": "718vTsCYQDL._AC_SX679_.jpg"
         }
     },
     {
@@ -109,14 +109,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002601115",
-            "name": "Decadent Decaf Dark Roast Blend Coffee Beans",
-            "brand": "Decadent Decaf",
-            "description": "Multiple Great Taste Awards Winner and The Telegraph Newspaper's selected 'Best Buy' Decaf Coffee For those who like their coffee big, brash, bold and dark - this one is for you - our very own Decadent Decaf Dark Roast.",
+            "name": "Ahava Mineral Body Lotion Spring Blossom 250ml",
+            "brand": "Ahava",
+            "description": "This quickly-absorbed body lotion is made with Osmoter™, our signature blend of Dead Sea minerals and nourishing botanical extracts.",
             "price": 9.90,
-            "category": 1,
+            "category": 2,
             "rating": 4.61,
-            "image_url": "https://m.media-amazon.com/images/I/91aslm2K6aL._AC_SX679_.jpg",
-            "image": "91aslm2K6aL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/51pWy1YLBwL._AC_SX466_.jpg",
+            "image": "51pWy1YLBwL._AC_SX466_.jpg"
         }
     },
     {
@@ -124,14 +124,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002690715",
-            "name": "Pack Café Pilão Tradicional 4x1 - 250g Brazilian Coffee",
-            "brand": "Café Pilão",
-            "description": "Pilão is one of the best Coffee Brands in Brazil!, Brazilian very fine ground coffee with light bodied and smooth tasting",
+            "name": "Vegan Collagen Complex - 180 caps",
+            "brand": "WeightWorld",
+            "description": "High Quality Assured Vegan Collagen Supplements - We ensure that our vegetarian collagen supplement is 100% natural. Our collagen Capsules are free from Gluten, Lactose and GMOs.",
             "price": 22.60,
-            "category": 1,
+            "category": 3,
             "rating": 4.25,
-            "image_url": "https://m.media-amazon.com/images/I/51eeQKDW6EL._AC_.jpg",
-            "image": "51eeQKDW6EL._AC_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71qVy4a5A4L._AC_SX679_.jpg",
+            "image": "71qVy4a5A4L._AC_SX679_.jpg"
         }
     },
     {
@@ -139,14 +139,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002701115",
-            "name": "Union Hand Roasted Coffee - Natural Process Decaf Coffee Beans",
-            "brand": "Union Hand",
-            "description": "Decaffeinated coffee beans that dont compromise on flavour or character - indulgent, rich and full-bodied, with hints of dark caramel, Our coffee is ethically sourced direct from smallholder farmers. We pay a fair, sustainable price making coffee better for everyone",
+            "name": "Vegan Collagen Supplement For Skin, Hair, Nails, Joints & Bones",
+            "brand": "Vegan Vitality",
+            "description": "Unlike other Collagen products, we use natural plant based extracts such as Acerola Cherry and Bamboo, plus Llysine, Biotin and 5 other essential vitamins.",
             "price": 19.86,
-            "category": 1,
+            "category": 3,
             "rating": 4.06,
-            "image_url": "https://m.media-amazon.com/images/I/41fCLHgT5iL._AC_SX679_.jpg",
-            "image": "41fCLHgT5iL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/81NUTE60aDS._AC_SX679_.jpg",
+            "image": "81NUTE60aDS._AC_SX679_.jpg"
         }
     },
     {
@@ -154,14 +154,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002761055",
-            "name": "Magic Salt 3-5 KG Salt Lamp, Natural Himalayan Crystal",
-            "brand": "Giggi",
-            "description": "This stress relief salt lamp is a magic bullet that can may you feel relax and may reduce your stress level. It's light does not make your eyes feel stressed.",
+            "name": "Vegan Multivitamins & Minerals with High Strength Vitamin B12, D3 & K2",
+            "brand": "Vegan Vitality",
+            "description": "Our product provides exceptional value, giving you with 180 tablets per pack keeping you replenished for up to 6 months.",
             "price": 14.99,
-            "category": 2,
+            "category": 3,
             "rating": 5,
-            "image_url": "https://m.media-amazon.com/images/I/41ObY0ozOTL._AC_.jpg",
-            "image": "41ObY0ozOTL._AC_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/51yY1KWK9HL._AC_SY879_.jpg",
+            "image": "51yY1KWK9HL._AC_SY879_.jpg"
         }
     },
     {
@@ -169,14 +169,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002820069",
-            "name": "Cat Salt Lamp Himalayan Salt Lamps containing Pink Rock Salt",
-            "brand": "Giggi",
-            "description": "Authentic Himalayan Salt Lamp - Klass Home Salt Lamps are hand crafted & manufactured with highest quality standards from 100% natural pink himalayan rock salt crystals. When lit, the rock salt lamp produces beautiful therapeutic ambient glow for a calm & relaxing room setting. The brightness can be controlled via the dimmer light switch",
+            "name": "Period Support Vitamins & Supplements",
+            "brand": "DR.VEGAN",
+            "description": " Hero is formulated with a blend of clinically tested botanicals, vitamins, and minerals to provide relief from common symptoms of your period including cramps, mood swings, bloating and cravings.",
             "price": 19.99,
-            "category": 2,
+            "category": 3,
             "rating": 3.65,
-            "image_url": "https://m.media-amazon.com/images/I/71g9Fy9dlpL._AC_SX679_.jpg",
-            "image": "71g9Fy9dlpL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/718+x1Ue4+L._AC_SX679_.jpg",
+            "image": "718+x1Ue4+L._AC_SX679_.jpg"
         }
     },
     {
@@ -184,14 +184,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002820147",
-            "name": "Giggi 100% Natural Himalayan Salt LAMP Rare Grey",
-            "brand": "Giggi",
-            "description": "GIGGI Salt Lamp is hand carved by expert professionals from 100% Natural Himalayan Crystal Rock Salt. The USB Grey Salt Lamp is fixed on a Beautiful carved Rose Wooden panel which gives it an Executive look. Reduces Allergy and Asthma Symptoms.",
+            "name": "Digestive Enzyme Supplements - Bloating Relief, 90 Vegan Bromelain Capsules",
+            "brand": "Kula Nutrition",
+            "description": "Our advanced digestive enzymes formula also contains an amazing selection of digestion boosting herbs for trapped wind relief including alfalfa, apple cider vinegar, ginger and peppermint.",
             "price": 12.99,
-            "category": 2,
+            "category": 3,
             "rating": 3.92,
-            "image_url": "https://m.media-amazon.com/images/I/71ea0uc9J0L._AC_SX679_.jpg",
-            "image": "71ea0uc9J0L._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71o2BbXDAHL._AC_SX679_.jpg",
+            "image": "71o2BbXDAHL._AC_SX679_.jpg"
         }
     },
     {
@@ -199,14 +199,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002910572",
-            "name": "Himalayan Salt Lamp White Noise Machine",
-            "brand": "YASAY",
-            "description": "3-in-1 Salt Lamp, White Noise Machine and Aromatherapy Diffuser. This must have 3-in-1 design combines 3 incredibly important natural remedies to provide ultimate calm, relaxation and deeper sleep.",
+            "name": "BYBI Beauty CBD Booster",
+            "brand": "BYBI",
+            "description": "This day and night booster contains cannabidiol (CBD) to help reduce redness and treat areas of inflammation including blemishes, breakouts and spots.",
             "price": 24.99,
-            "category": 2,
+            "category": 4,
             "rating": 3.72,
-            "image_url": "https://m.media-amazon.com/images/I/61Wx6dW8YmL._AC_SX569_.jpg",
-            "image": "61Wx6dW8YmL._AC_SX569_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/41VbzOXBGbL._AC_SX466_.jpg",
+            "image": "41VbzOXBGbL._AC_SX466_.jpg"
         }
     },
     {
@@ -214,14 +214,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002990740",
-            "name": "Himalayan Salt lamp 4kg ",
-            "brand": "YASAY",
-            "description": "Self-Care Gift for Stress Relief & Meditation, andcrafted Unique Rectangle Rock Salt. Home Decor Accessory for Mood Lighting in Bedroom",
+            "name": "CBD Face Shield 50ml ",
+            "brand": "This Works",
+            "description": "This Works Stress Check CBD Face Shield is a face mist that contains CBD and Hyaluronic Acid to hydrate and protect skin and alleviate discomfort.",
             "price": 44.00,
-            "category": 2,
+            "category": 4,
             "rating": 4.03,
-            "image_url": "https://m.media-amazon.com/images/I/7190PY6Dh4S._AC_SX679_.jpg",
-            "image": "7190PY6Dh4S._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/61WuQaxN2dL._AC_SY679_.jpg",
+            "image": "61WuQaxN2dL._AC_SY679_.jpg"
         }
     },
     {
@@ -229,14 +229,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003050248",
-            "name": "Proworks Yoga Mat, Eco Friendly NBR, Non-Slip",
-            "brand": "YASAY",
-            "description": "Improve your health, fitness and wellbeing with these thick, cushioned exercise mats from Proworks; perfect for yoga, gymnastics, Pilates, stretching, abdominal exercises and general workouts.",
+            "name": "This Works CBD Skin Booster",
+            "brand": "This Works",
+            "description": "Moisturises and improves skin appearance by helping to unblock and cleanse pores. Evens skin tone and brightens.Moisturises and improves skin appearance by helping to unblock and cleanse pores. Evens skin tone and brightens.",
             "price": 22.22,
-            "category": 3,
+            "category": 4,
             "rating": 3.76,
-            "image_url": "https://m.media-amazon.com/images/I/61jtsQyyqHL._AC_SX679_.jpg",
-            "image": "61jtsQyyqHL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71rkecsYECL._AC_SY679_.jpg",
+            "image": "71rkecsYECL._AC_SY679_.jpg"
         }
     },
     {
@@ -244,14 +244,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003070787",
-            "name": "Xn8 Sports Yoga Mat Non Slip Workout Mat 6mm",
-            "brand": "YASAY",
-            "description": "Landing on a good yoga mat is a thing of luck and a challenge on its own. Either you are in luck landing here or your research skills are phenomenal to find out the Xn8 Sports yoga mat. Now, don’t overthink your decision of buying this phenomenal gymnastics mat because we only have few left in the store.",
+            "name": "This Works Sleep Plus Bath Oil, 5ml",
+            "brand": "This Works",
+            "description": "A 100% natural bath oil expertly blended with Lavender, Vetivert and Camomile essential oils and 2% CBD to help you relax and unwind during your presleep.",
             "price": 17.99,
-            "category": 3,
+            "category": 4,
             "rating": 3.83,
-            "image_url": "https://m.media-amazon.com/images/I/81WIJW9jLDL._AC_SX679_.jpg",
-            "image": "81WIJW9jLDL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/51ghamFH7hL._AC_SX466_.jpg",
+            "image": "51ghamFH7hL._AC_SX466_.jpg"
         }
     },
     {
@@ -259,14 +259,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003090182",
-            "name": "Yoga Deck: 50 Poses and Meditations",
-            "brand": "YASAY",
-            "description": "Now beginners, experts, and teachers alike can make rejuvenating meditations part of daily life with this beautifully illustrated deck of fifty yoga poses and meditations. Each easy-to-use card gives detailed instructions, benefits, and an affirmation.",
+            "name": "Douvall Skin-High Organic Hemp and Argan oil 50ml",
+            "brand": "Douvall",
+            "description": "Improves dry skin, acne, inflammation, oily skin, sensitive skin, eczema, psoriasis, dermatitis, wrinkles, ageing, sun damage, discolouration, patchiness, redness, rosacea.",
             "price": 10.55,
-            "category": 3,
+            "category": 4,
             "rating": 3.62,
-            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41PGq0Z1oaL._SY338_BO1,204,203,200_.jpg",
-            "image": "41PGq0Z1oaL._SY338_BO1,204,203,200_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71gQicQv3AL._AC_SX679_.jpg",
+            "image": "71gQicQv3AL._AC_SX679_.jpg"
         }
     },
     {
@@ -274,14 +274,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003090186",
-            "name": "Yoga Blocks Set of 2",
-            "brand": "YASAY",
-            "description": "Non-slip high density foam blocks offer superior traction ensuring stable support on all surfaces; feel confident to perform all moves with our yoga blocks and strap set; accompanied by lightweight foam for easy transport",
+            "name": "This Works Stress Check CBD Lip Mask 10ml",
+            "brand": "This Works",
+            "description": "weet Almond Oil and mood-enhancing Chocolate, Peppermint and Cardamom oils to help protect from the harsh effects on lips.",
             "price": 12.99,
-            "category": 3,
+            "category": 4,
             "rating": 3.74,
-            "image_url": "https://m.media-amazon.com/images/I/71-52cUCftL._AC_SX679_.jpg",
-            "image": "71-52cUCftL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/61mH9j9o5qL._AC_SY679_.jpg",
+            "image": "61mH9j9o5qL._AC_SY679_.jpg"
         }
     },
     {
@@ -289,14 +289,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003161326",
-            "name": "Instructional Yoga Mat with Poses Printed On It & Carrying Strap",
-            "brand": "GRAND BASICS",
-            "description": "Yoga Your Way - Whether you are teaching yourself the basics or you need a way to follow a class without constantly staring at your instructor, this non-toxic, non-slip 68”x24” yoga mat with poses and exercises printed on it is your ultimate companion as you strive to become a more complete yogi.",
+            "name": "I-Shushi Premium Sushi Rice 10 kg",
+            "brand": "I-Shushi",
+            "description": "Premium sushi rice is not only of a premium quality but also versatile so that it can be used in almost any dish. It is quick and easy to prepare. Ideal for restaurants, kitchens andeven for students.",
             "price": 12.99,
-            "category": 3,
+            "category": 5,
             "rating": 4.52,
-            "image_url": "https://m.media-amazon.com/images/I/816mJ+SP30S._AC_SX679_.jpg",
-            "image": "816mJ+SP30S._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/91APBI0jUmL._AC_SY879_.jpg",
+            "image": "91APBI0jUmL._AC_SY879_.jpg"
         }
     },
     {
@@ -304,14 +304,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003230723",
-            "name": "Yoga Wheel 13 - The Best Balance Accessory for Stretching",
-            "brand": "Zenocity",
-            "description": "MADE TO MOVE YOU INTO MEDITATION: At Zenocity, we built a yoga balance accessory that easily helps transition your body into healing, peaceful poses. Because our back wheel is so solid, you will not hear any annoying creaking noises, allowing you to drift easily into a meditative state.",
+            "name": "Eat Water Slim Rice Zero Carbohydrate 270g Pack of 5",
+            "brand": "Eat Water",
+            "description": "Scientifically proven for weight loss, this plant-based konjac pasta contains zero carbohydrates and a paltry 9 calories per 100g! Its suitable for people with an intolerance for gluten with our unique recipe called Juroat, this water and fibre rich food keeps you feeling full for longer - just like regular pasta.",
             "price": 38.20,
-            "category": 3,
+            "category": 5,
             "rating": 4.52,
-            "image_url": "https://m.media-amazon.com/images/I/71fDg0xg-AL._AC_SX679_.jpg",
-            "image": "71fDg0xg-AL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/81AuCpRJoCL._AC_SY879_PIbundle-5,TopRight,0,0_SH20_.jpg",
+            "image": "81AuCpRJoCL._AC_SY879_PIbundle-5,TopRight,0,0_SH20_.jpg"
         }
     },
     {
@@ -319,14 +319,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003270936",
-            "name": "WRIST BUDDY YOGA BLOCKS 2 PACK",
-            "brand": "Wrist Buddy",
-            "description": "60% LESS WRIST PRESSURE, Chiropractor-designed blocks optimize wrist angle and shift weight to the palm for rock-solid yoga wrist support | Best yoga accessories for women and men.COARSE HAND SURFACE FOR ANTI-SLIP GRIP. Max control and stability help you master difficult poses.",
+            "name": "Biona Organic Risotto Rice Brown, 500g",
+            "brand": "Biona",
+            "description": "Biona organic risotto rice mix is Lightly aromatic, gourmet blend of black Venus and white Arborio rice. It is suitable for use in risotto, paella or rice salad.",
             "price": 33.20,
-            "category": 3,
+            "category": 5,
             "rating": 3.58,
-            "image_url": "https://m.media-amazon.com/images/I/81V0Aq9hLOL._AC_SX679_.jpg",
-            "image": "81V0Aq9hLOL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/91QbikIWpML._AC_SY879_.jpg",
+            "image": "91QbikIWpML._AC_SY879_.jpg"
         }
     },
     {
@@ -334,14 +334,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003360384",
-            "name": "URBNFit Pilates Ring",
-            "brand": "URBNFit Store",
+            "name": "Biona Wild Rice Mix Organic 500 g",
+            "brand": "Biona",
             "description": "Use our versatile Pilates equipment for pelvic floor and full body resistance training - sculpt your body your way!Crafted from robust fibreglass with a sweat-resistant foam covering, our yoga ring won't crack, re-forming after each exercise.",
             "price": 12.60,
-            "category": 3,
+            "category": 5,
             "rating": 3.98,
-            "image_url": "https://m.media-amazon.com/images/I/91Ho0JYxbrL._AC_SX679_.jpg",
-            "image": "91Ho0JYxbrL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/91NDDbigKpL._AC_SY879_.jpg",
+            "image": "91NDDbigKpL._AC_SY879_.jpg"
         }
     },
     {
@@ -349,14 +349,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003440111",
-            "name": "Trideer Extra Thick Yoga Ball Exercise Ball, 5 Sizes Gym Ball",
-            "brand": "Trideer",
-            "description": "SLOW DEFLATION - Our exercise ball is made with the honey comb structure which makes it deflate slowly resistant if punctured, thus reducing the risks of injury due to falls to the ground and offering you the most caring protection like your endearing mom!The Swiss ball is not picky at all when it comes to the practice venue - be it home, the gym or outdoors, the premium slip prevention will leave you feeling safe and your movements worry free. Not to mention it’s one-thing-for-all - Pilates, Yoga, pregnancy gymnastics or various other low-impact exercises, you name it. And don’t forget the total body pilates ball HIIT cardio workout!",
+            "name": "Biona Organic Black Venus Rice 500g (Pack of 3)",
+            "brand": "Biona",
+            "description": "All our ingredients are of the highest quality,completely natural and suitable for vegetarians.",
             "price": 12.60,
-            "category": 3,
+            "category": 5,
             "rating": 4.48,
-            "image_url": "https://m.media-amazon.com/images/I/61OpNFbLSIS._AC_SX679_.jpg",
-            "image": "61OpNFbLSIS._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/9110Bx5vhgL._AC_SY879_PIbundle-3,TopRight,0,0_SH20_.jpg",
+            "image": "9110Bx5vhgL._AC_SY879_PIbundle-3,TopRight,0,0_SH20_.jpg"
         }
     },
     {
@@ -364,14 +364,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003540313",
-            "name": "Exercise Ball Chair",
-            "brand": "MANTRA SPORTS",
-            "description": " Why spend money on the gym? Our multi-purpose home gym system has everything you need to support your fitness goals. Whether it's Pilates, Yoga, CrossFit or a full body workout, you can burn fat & tone all muscle groups with the professional grade ball, adjustable resistance bands & the glossy A1 size exercise wall poster.",
+            "name": "Biona Organic Basmati Brown Rice, 1 kg",
+            "brand": "Biona",
+            "description": " The bags are completely plastic free and come in paper bags, which can be easily recycled.",
             "price": 36.99,
-            "category": 3,
+            "category": 5,
             "rating": 4.0,
-            "image_url": "https://m.media-amazon.com/images/I/91uT+NnPa0L._AC_SX679_.jpg",
-            "image": "91uT+NnPa0L._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/81STePxPtxL._AC_SY879_.jpg",
+            "image": "81STePxPtxL._AC_SY879_.jpg"
         }
     },
     {
@@ -379,14 +379,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003560513",
-            "name": "Yoga Studio Yoga Bolster",
-            "brand": "Yoga Studio",
-            "description": "Specifically designed to provide you a stable support system when exercising, this yoga bolster is a perfect pick for your yoga sessions. This is a great yoga prop that can be used for stretching exercises.",
+            "name": "Felicia Organic Brown Rice Spaghetti",
+            "brand": "Felicia Organic",
+            "description": "In just a few minutes you can conjure a delicious pasta dish on the dining table. Pestos, tomato sauces - enjoy the pasta with a variety of different sauces.",
             "price": 18.20,
-            "category": 3,
+            "category": 5,
             "rating": 3.72,
-            "image_url": "https://m.media-amazon.com/images/I/51KzB5XpMVL._AC_SX679_.jpg",
-            "image": "51KzB5XpMVL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71NyrFP6q1L._AC_SY879_.jpg",
+            "image": "71NyrFP6q1L._AC_SY879_.jpg"
         }
     },
     {
@@ -394,14 +394,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003560948",
-            "name": "Acupoint Physical Therapy Massage Balls",
-            "brand": "ACUPOINT",
-            "description": "Yoga massage ball set: Set of excellent therapy balls for self myofascial release and trigger point massage therapy. The balls are made specifically for massage therapy and are ideal for physical therapy equipment. They are similar in size to lacrosse balls and can can be used for pinched nerve lower back pain, herniated disc pain relief, and pinched nerve neck pain.",
+            "name": "Altricereali Gnocchi Quinoa",
+            "brand": "PROBIOS Srl",
+            "description": "AltriCereali's Gluten-Free Gnocchi is made with nutritious and filling quinoa flour and potatoes.",
             "price": 12.60,
-            "category": 3,
+            "category": 5,
             "rating": 4.43,
-            "image_url": "https://m.media-amazon.com/images/I/81FV9lccS-L._AC_SX679_.jpg",
-            "image": "81FV9lccS-L._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/61kyya1FNUL._AC_SX679_.jpg",
+            "image": "61kyya1FNUL._AC_SX679_.jpg"
         }
     },
     {
@@ -409,14 +409,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003570628",
-            "name": "MelkTemn Aerial Yoga Swing Set",
-            "brand": "MelkTemn",
-            "description": "The material is flowy and silky but tough as nails. All the seams are tight and the carabiners are strong. Soft and comfortable when exercise on it. Easy to carry and pack. Quickly dries after being wet.",
+            "name": "5-43 Whole Wheat Spaghetti Chitarra",
+            "brand": "Garofalo",
+            "description": "Garofalo organic wheat pasta is made with unprocessed organic whole durum wheat and water. We only use the best wheat with a specific gluten level and flavour.",
             "price": 12.60,
-            "category": 3,
+            "category": 5,
             "rating": 4.26,
-            "image_url": "https://m.media-amazon.com/images/I/61n5XpOh7ZL._AC_SX679_.jpg",
-            "image": "61n5XpOh7ZL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/51nbj8NGqUL._AC_SX679_.jpg",
+            "image": "51nbj8NGqUL._AC_SX679_.jpg"
         }
     },
     {
