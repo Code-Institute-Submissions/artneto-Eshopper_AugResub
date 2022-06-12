@@ -4,14 +4,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001340155",
-            "name": "BOSTON BLACK TEA",
-            "brand": "looseleaf",
-            "description": "This strong and aromatic black tea with some real depth, where earthy flavour meets fresh sour cherries and sweet papaya. This is a charming tea, which invokes a bookish atmosphere of Boston’s narrow streets and brick buildings, and cosy bookshops.",
-            "price": 6.70,
+            "name": "KIKI Health Liquid Chlorophyll 125ml",
+            "brand": "KIKI",
+            "description": "Chlorophyll is a green pigment that is naturally derived from plants and algae and which is characterised by its green colour. It is the most important and nutritious component of most green foods and gives them a unique colour. Chlorophyll helps plants transform sunlight into energy and is wealthy in a multitude of vital nutrients.",
+            "price": 14.95,
             "category": 1,
             "rating": 5,
-            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1598661152775-D7VEMXBCIXORMPXYXKV1/Bon+Tea+T%26C.png",
-            "image": "Boston+Tea+T&C.png"
+            "image_url": "https://m.media-amazon.com/images/I/610L5e2tf0L._AC_SX679_.jpg",
+            "image": "610L5e2tf0L._AC_SX679_.jpg"
         }
     },
     {
@@ -19,14 +19,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001600425",
-            "name": "AHINSA, CEYLON OP, SRI LANKA, ORGANIC",
-            "brand": "looseleaf",
-            "description": "This organic tea is from the fields of a small family-run farm located in the southwestern part of the Sri Lanka island, almost at sea level. Wiry dark leaves give a wonderful copper coloured infusion and full-bodied, slightly spicy taste. This is a great breakfast tea to start your morning on a high note!",
+            "name": "Bach Original Flower Remedy Mimulus",
+            "brand": "Bach",
+            "description": "From the makers of the UK's no.1 emotional wellbeing brand, RESCUE Remedy*, Edward Bach discovered the 38 BachTM Original Flower Remedies in the 1930s to support emotional wellbeing & balance.",
             "price": 8.80,
             "category": 1,
             "rating": 3.99,
-            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1638756829814-9CC8XH7BE12VUQF7N25G/Ahinsa%2C+Ceylon+OP%2C+Organic+T%26C.png",
-            "image": "Ahinsa,+Ceylon+OP,+Organic+T&C.png"
+            "image_url": "https://m.media-amazon.com/images/I/51XCNgEEuAL._AC_SX679_.jpg",
+            "image": "51XCNgEEuAL._AC_SX679_.jpg"
         }
     },
     {
@@ -34,14 +34,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001730010",
-            "name": "TURMERIC CHAI",
-            "brand": "looseleaf",
-            "description": "Warming chillies let you adjust the spiciness to your liking. Our Turmeric Chai with no added flavouring can be brewed like normal tea or used as a foundation for various chai recipes!",
+            "name": "Nelsons Rescue Remedy Night Spray",
+            "brand": "Nelsons",
+            "description": "Contains the original RESCUE tincture - Dr Bach's famous combination of five natural flower essences plus white chestnut, hand-picked from his original gardens in the UK. Combine with other RESCUE emotional support products to help stay on top of your day",
             "price": 6.20,
             "category": 1,
             "rating": 2.79,
-            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1594429904199-TFX9RTD0BFM97U8MLE6I/Turmeric+Chai+T%26C.png",
-            "image": "Turmeric+Chai+T&C.png"
+            "image_url": "https://m.media-amazon.com/images/I/81amFsdyi7L._AC_SY879_.jpg",
+            "image": "81amFsdyi7L._AC_SY879_.jpg"
         }
     },
     {
@@ -49,14 +49,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5001890157",
-            "name": "CHUNG HAO JASMINE, CHINA OP",
-            "brand": "looseleaf",
-            "description": "This special tea was exclusively reserved for the Imperial Court in former times. Luxury green tea with a light yellow cup and the expressive jasmine scent and a light fruity-tangy note.",
+            "name": "Tisserand Aromatherapy The Little Box of Happiness",
+            "brand": "Tisserand",
+            "description": "Vegan-friendly, Lye, free from parabens, SLS/SLES/ALS/mcit/ cocamide DEA and animal-derived ingredients, not tested on animals, This beautiful kit contains 3 pulse-point Roller balls made with 100% natural pure essential oils: shine bright, creative space, happy vibes",
             "price": 11.50,
             "category": 1,
             "rating": 5,
-            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1579035821204-NYM1LGZR7A8PBQJ2H04M/Jasmin+Chung+Hao+T%26C.png",
-            "image": "Jasmin+Chung+Hao+T&C.png"
+            "image_url": "https://m.media-amazon.com/images/I/61eKh7IQS6L._AC_SX679_.jpg",
+            "image": "61eKh7IQS6L._AC_SX679_.jpg"
         }
     },
     {
@@ -64,14 +64,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002111605",
-            "name": "EARL GREY PREMIUM, SRI LANKA",
-            "brand": "looseleaf",
-            "description": "The excellent basis of the spicy Ceylon with its wiry and regular leaf and elegant Yunnan are in perfect harmony, with just right touch of bergamot.",
+            "name": "Ainsworths 30C Arsen ALB Homoeopathic Remedy",
+            "brand": "Ainsworths",
+            "description": "Arsen Alb is a homeopathic medicine in 30c potency, chosen to stimulate your body to cure itself and fit the person as well as complaint.cIt is a very safe form of medicinec homeopathy is the most natural form of healing.",
             "price": 6.20,
             "category": 1,
             "rating": 3.94,
-            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1598132240261-GA59VYU1N0B56X60ZGAF/Earl+Grey+Premium+T%26C.png",
-            "image": "Earl+Grey+Premium+T&C.png"
+            "image_url": "https://m.media-amazon.com/images/I/41EiB8mh1ML._AC_.jpg",
+            "image": "41EiB8mh1ML._AC_.jpg"
         }
     },
     {
@@ -79,14 +79,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5002260206",
-            "name": "SUNDA PURWA PS, JAVA",
-            "brand": "looseleaf",
-            "description": "Sunda Purwa OP green tea is harvested and produced in Kiwidey, south of Bandung. This coarse Pekoe-type tea is a very down-to-earth variety made from medium leaves. Expressive body and intensive flavour, it is great for multiple infusions.",
+            "name": "Higher Nature Bio Minerals - 90 Tablets",
+            "brand": "HIGHER NATURE",
+            "description": "Trace minerals are frequently lacking in the modern diet due to intensive farming practices. This producgt provides a full spectrum of trace minerals from botanicals.",
             "price": 5.20,
             "category": 1,
             "rating": 4.02,
-            "image_url": "https://images.squarespace-cdn.com/content/v1/5a983f78b40b9dca3d99998f/1526824091686-KHH954XCEL5V2PSPIQPG/Sunda+Purwa+T%26C.jpg",
-            "image": "Sunda+Purwa+T&C.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/51opewWsrUL._AC_SY879_.jpg",
+            "image": "51opewWsrUL._AC_SY879_.jpg"
         }
     },
     {
