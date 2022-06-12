@@ -544,14 +544,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003950574",
-            "name": "Bulk Ultra Fine Scottish Oats",
-            "brand": "Bulk",
-            "description": "Premium, high-quality Scottish Oats from a leading sports nutrition brand. 100% natural with no added ingredients. A premium source of carbohydrates that is high in fibre, low in sugar and contains over 10% protein. Typically consumed at breakfast, but also a great addition to shakes, smoothies and baking.",
+            "name": "Kellogg'S Just Right Cereal, 500 G",
+            "brand": "Kellogg",
+            "description": "A harmony of wholewheat, corn, and rice flakes with sultanas and slices almonds. With whole grain; Source of fibre; No artificial colours or flavours.",
             "price": 2.20,
-            "category": 4,
+            "category": 6,
             "rating": 4.15,
-            "image_url": "https://m.media-amazon.com/images/I/61cutj76cVL._AC_SX679_.jpg",
-            "image": "61cutj76cVL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/91mhQpqOE5L._AC_SY879_.jpg",
+            "image": "91mhQpqOE5L._AC_SY879_.jpg"
         }
     },
     {
@@ -559,14 +559,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003950576",
-            "name": "Bulk Natural Roasted Peanut Butter Tub",
-            "brand": "Bulk",
-            "description": "100% natural, smooth peanut butter from a leading sports nutrition brand. High in protein, and a source of fibre. No added preservatives, sugar, salt or palm oil .Calorie dense food source that is perfect for anyone living an active lifestyle",
+            "name": "Kellogg's Fruit 'n' Fibre Cereal, 700g",
+            "brand": "Kellogg",
+            "description": "This breakfast cereal is great tasting, it has plenty of pieces of dried fruit banana, raisins , apple, coconut and crispy bran flakes.",
             "price": 11.00,
-            "category": 4,
+            "category": 6,
             "rating": 3.67,
-            "image_url": "https://m.media-amazon.com/images/I/71E32MC-HnL._AC_SX679_.jpg",
-            "image": "71E32MC-HnL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71sCT63UGAL._AC_SX679_.jpg",
+            "image": "71sCT63UGAL._AC_SX679_.jpg"
         }
     },
     {
@@ -574,14 +574,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003960062",
-            "name": "ManiLife Peanut Butter",
-            "brand": "ManiLife",
-            "description": "USING ONLY THE FINEST PEANUTS FROM A SINGLE FARM IN ARGENTINA - Manilife source the best from people we know and love. Our hi-oleic peanuts are not only naturally sweeter than most but, with a fat profile akin to olive oil, are naturally better for you too.",
-            "price": 11.00,
-            "category": 4,
+            "name": "We Made Drinks Zesty Lemon (12 x 330ml Cans)",
+            "brand": "We Made",
+            "description": "None of the artificial flavours and sweeteners as well as no refined sugar. Offering a healthier option, without compromising on taste.",
+            "price": 6.00,
+            "category": 7,
             "rating": 3.79,
-            "image_url": "https://m.media-amazon.com/images/I/61YCkyZ+XQL._AC_SX679_.jpg",
-            "image": "61YCkyZ+XQL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/61AITvEWV+L._AC_SX679_PIbundle-12,TopRight,0,0_SH20_.jpg",
+            "image": "61AITvEWV+L._AC_SX679_PIbundle-12,TopRight,0,0_SH20_.jpg"
         }
     },
     {
@@ -589,14 +589,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003960682",
-            "name": "Vegan Mango Protein Powder",
-            "brand": " Alpha Foods",
-            "description": "Plant Based Protein Powder: Unlike whey protein we use only plant-derived proteins from sprouted yellow peas, brown rice, sunflower seeds, flax seeds and other seeds and beans for a well-rounded, complex and highly bioavailable vegan protein powder low calorie, low carb & high protein levels ",
-            "price": 18.99,
-            "category": 4,
+            "name": "VIT HIT Sparkling - 12 x Pink Grapefruit + Lime + White Tea",
+            "brand": " VIT HIT",
+            "description": "Vegan, Low Sugar, Low Calories, Rich in vitamin C, B, Folic Acid and Biotin - to support a healthy immune system and energy levels. ",
+            "price": 12.99,
+            "category": 7,
             "rating": 4.02,
-            "image_url": "https://m.media-amazon.com/images/I/71ff1Z9KDXL._AC_SX679_.jpg",
-            "image": "71ff1Z9KDXL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/91VkACXyXzL._AC_SX679_.jpg",
+            "image": "91VkACXyXzL._AC_SX679_.jpg"
         }
     },
     {
@@ -604,14 +604,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003960775",
-            "name": "Morning Fuel - Protein Breakfast Shake with Vanilla-Matcha Flavor ",
-            "brand": " Alpha Foods",
-            "description": "HIGH PROTEIN VEGAN BREAKFAST SHAKE: Alpha Foods Morning Fuel Vanilla Matcha provides over 9 Grams of Protein Per Serving (15g) - Our Vegan Breakfast Powder is from sprouted Yellow Peas, sustainably grown in the South of Germany. Our Morning Fuel is the ideal Vegan Shake to kickstart your morning & fuel your body. Micronutrients: A powerful vegan blend of Algae, Spinach, Almonds, Alfalfa and Maca Root, Vitamins B6 and B12 for a healthy & natural supply of Vitamins, Minerals & Trace Minerals.",
+            "name": "UFIT High 22g Protein Shake, No Added Sugar",
+            "brand": "UFIT",
+            "description": "Banana flavoured milk drink with added fibre, vitamins and minerals Designed to support the demands of an active lifestyle Helps maintain healthy muscle and bones Tastiest way to get some goodness.",
             "price": 11.20,
-            "category": 4,
+            "category": 7,
             "rating": 4.37,
-            "image_url": "https://m.media-amazon.com/images/I/71ExFjZCgtL._AC_SX679_.jpg",
-            "image": "71ExFjZCgtL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/51GAmPtTP8L._AC_SX679_.jpg",
+            "image": "51GAmPtTP8L._AC_SX679_.jpg"
         }
     },
     {
@@ -619,14 +619,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003990736",
-            "name": "Vegan Protein Powder - Coconut Flavour",
-            "brand": " Alpha Foods",
-            "description": "Naturally delicious: We only used naturally extracted or distilled flavorings from real whole foods like vanilla beans, blueberries or cacao beans that we complement with a dash of the finest Ceylon cinnamon and creamy coconut milk powder for a heavenly creamy texture and the finest genuine taste.",
-            "price": 21.20,
-            "category": 4,
+            "name": "Old El Paso Regular Gluten Free Tortilla Wraps, Pack of 6",
+            "brand": "Old El Paso",
+            "description": "The same great taste as our standard Old El Paso tortillas, now Gluten Free! Light and easy to fold, these gluten free tortillas are ideal for wraps and burritos. In the mood for fajitas or tacos? These versatile tortillas are perfect for this too!",
+            "price": 11.20,
+            "category": 7,
             "rating": 4.48,
-            "image_url": "https://m.media-amazon.com/images/I/71SwJtOLXLL._AC_SX679_.jpg",
-            "image": "71SwJtOLXLL._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/81Gzsbqx3xL._AC_SX679_.jpg",
+            "image": "81Gzsbqx3xL._AC_SX679_.jpg"
         }
     },
     {
@@ -634,14 +634,14 @@
         "model": "products.product",
         "fields": {
             "sku": "pp5003990746",
-            "name": "Mighty Human Vegan Protein Powder ",
-            "brand": "Mighty",
-            "description": "20G of plant protein per serving - Each 30g serving of Mighty Human Protein Powder provides 20g of protein from pea, rice, hemp and flaxseed. Only 110 calories per great tasting serving. Can be used in shakes, smoothies, cooking and baking.",
-            "price": 21.20,
-            "category": 4,
+            "name": "Sukrin Fibre Bread Mix - Low carb, Gluten Free",
+            "brand": "Sukrin",
+            "description": "his bread mix makes low-carb bread that contains no gluten, milk or yeast. One slice of bread contains just 1 gram of carbohydrates and 65 calories.",
+            "price": 8.20,
+            "category": 7,
             "rating": 3.84,
-            "image_url": "https://m.media-amazon.com/images/I/61hs5M34AOS._AC_SX679_.jpg",
-            "image": "61hs5M34AOS._AC_SX679_.jpg"
+            "image_url": "https://m.media-amazon.com/images/I/71KVN92KhxS._AC_SY879_.jpg",
+            "image": "71KVN92KhxS._AC_SY879_.jpg"
         }
     },
     {
