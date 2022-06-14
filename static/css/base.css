@@ -65,7 +65,6 @@ html {
 }
 
 
-
 /* from Bulma */
 .icon {
     align-items: center;
@@ -174,7 +173,7 @@ a.category-badge > span.badge:hover {
 }
 
 /* Footer */
-footer {
+.footer {
     display: grid;
     position: fixed;
     background-color: #BB390F;
@@ -187,7 +186,7 @@ footer {
        
 }
 
-footer i {
+.footer i {
     color: #fafafa;
     
 }
