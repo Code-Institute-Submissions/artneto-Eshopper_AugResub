@@ -175,15 +175,15 @@ a.category-badge > span.badge:hover {
 /* Footer */
 .footer {
     display: grid;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     position: fixed;
     background-color: #BB390F;
     color: #fafafa;
     font-family: 'Open Sans', sans-serif;
-    bottom: 0;
     height: 2rem;
     font-size: 1rem;
-    
-       
 }
 
 .footer i {
@@ -198,6 +198,10 @@ a.category-badge > span.badge:hover {
     font-size: 1rem;
 }
  
+
+.icon-main {
+    margin-right: 33rem;
+}
   
                     
 /* -------------------------------- Media Queries */
