@@ -1,58 +1,60 @@
-{% extends "base.html" %}
-{% load static %}
-
-{% block page_header %}
-    <div class="container header-container">
+<section id="products" class="products">
+    <div class="container">
         <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
-
-{% block content %}
-</div>
-<div class="container-fluid container-home">
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <div class="my-5">
-                    <h4>
-                        <a href = "{% url 'products' %}" class = "btn-shop">shop now</a>
-                        
-                    </h4>
-                </div>
+          <div class="col-sm-12">
+             <div class="headline text-center mb-5">
+               <h2 class="pb-3 position-relative d-inline-block">Best Sold Products</h2>
+              </div>
             </div>
         </div>
-    </div>
-</div>
-
-<div class="container">
-    <div class="row pt-5">
-        <div class="col-12 col-4-lg">
-            <h3 class="main-font section-title text-center">About our Products</h3>
-            <br>
-            <p>We offer a wide range of trusted brands and products for sports nutrition,
-            including many specialty US products approved in the UK and Europe.</p>
-            <br>
-            <hr class="w-50">
+        <div class="row">
+           <div class="col-sm-6 col-lg-4">
+             <a href="#" class="d-block text-center mb-4">
+               <div class="product-list">
+                 <div class="product-image position-relative"> 
+                     <span class="sale">Sale</span>
+                     <img src="assets/images/p1.jpg" alt="products" class="img-fluid product-image-first">
+                     <img src="assets/images/p3.jpg" alt="products" class="img-fluid product-image-secondary"> 
+                 </div>
+                 <div class="product-name pt-3">
+                   <h3 class="text-capitalize">Winter Long Sleeve Black White</h3>
+                   <p class="mb-0 amount">$400.00 <del>$580.00</del></p>
+                   <div class="py-1">
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                       <span class="ti-star"></span>
+                   </div>
+                   <button type="button" class="add_to_Card">ADD TO CARD</button>
+                 </div>
+               </div>
+              </a> 
+           </div>
         </div>
     </div>
-</div>
+     
+</section>
+
+
+
 
 
 <div class="container">
      
     <div class="row">
         {% for product in products %}
-            <div class="col-12 col-md-4 mb-3">
+            <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                 <div class="card h-100 border-0">
                     {% if product.image %}
                     <a href="{% url 'product_detail' product.id %}">
+                       
                         <img class="card-img-top img-fluid" src="{{ product.image }}" alt="{{ product.name }}">
                     </a>
                     {% else %}
-                    <a href="{% url 'product_detail' product.id %}">
-                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}no-image.png" alt="{{ product.name }} w-100">
+                    <a href="#">
+                        
+                        <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}no-image.png" alt="{{ product.name }}">
                     </a>
                     {% endif %}
                     <div class="card-body pb-0">
@@ -102,7 +104,3 @@
         {% endfor %}
     </div>
 </div>
-
-
-
-{% endblock %}

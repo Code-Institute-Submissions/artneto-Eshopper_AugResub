@@ -65,6 +65,11 @@ html {
 }
 
 
+.card-img-top {
+    max-height: 207px!important;
+    object-fit: contain!important;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -182,13 +187,17 @@ a.category-badge > span.badge:hover {
     background-color: #BB390F;
     color: #fafafa;
     font-family: 'Open Sans', sans-serif;
-    height: 2rem;
+    height: 3rem;
     font-size: 1rem;
 }
 
 .footer i {
     color: #fafafa;
     
+}
+
+.list-inline-item {
+    margin-top: -22px!important;
 }
 
 
@@ -350,7 +359,7 @@ a.category-badge > span.badge:hover {
 }
 
 #delivery-banner h4 {
-    font-size: .9rem;
+    font-size: .19px;
 }
 
 .btn.btn-outline-black.rounded-0,
