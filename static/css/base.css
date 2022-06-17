@@ -30,11 +30,12 @@ html {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    padding: 6px 42px;
+    padding: 16px 126px;
     color: #ffffff;
     background: #D8B34E;
     text-transform: uppercase;
-    border-radius: 7px;
+    border-radius: 2px;
+    position: relative;
 }
 
 .btn-shop:hover{
@@ -199,6 +200,14 @@ a.category-badge > span.badge:hover {
 
 .w-25 {
     width: 20% !important;
+}
+
+@media (max-width: 600px) {
+    .btn-shop {
+        padding: 4px 82px;
+    }
+
+   
 }
 
 /* Footer */
