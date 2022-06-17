@@ -40,6 +40,13 @@ html {
 .btn-shop:hover{
     background-color: #ffffff;
 	color:#000;
+    text-decoration: none;
+}
+
+.para-01 {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 }
 /*---Base.html*/
 
@@ -58,10 +65,10 @@ html {
     background: #F2CB05;
 }
 
-.delivery-banner-txt {
+.delivery-banner-text {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 13.19px;
+    font-size: 16px;
 }
 
 
@@ -75,6 +82,16 @@ html {
 .card-img-top {
     max-height: 207px!important;
     object-fit: contain!important;
+}
+
+.main-left {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color:#BB390F;
+    bottom: 139px;
+    right: 12rem;
 }
 
 /* from Bulma */
@@ -156,10 +173,10 @@ a.category-badge > span.badge:hover {
 }
 
 .btt-button {
-    height: 28px;
-    width: 21px;
+    height: 44px;
+    width: 22px;
     position: fixed;
-    bottom: 52px;
+    bottom: 79px;
     right: 10px;
 }
 

@@ -16,6 +16,7 @@
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
                 <div class="my-5">
+                    <h2 class="main-left">Find the Best Organic Products here</h2>
                     <h4>
                         <a href = "{% url 'products' %}" class = "btn-shop">shop now</a>
                         
@@ -30,12 +31,12 @@
     <div class="row pt-5">
         <div class="col-12 col-4-lg">
             <h2 class="text-center pt-4">ABOUT US</h2>
-            <div class="border-top border-primary w-25 mx-auto my3"></div>
+            
             <br>
-            <p>We offer a wide range of trusted brands and products for sports nutrition,
+            <p class="para-01">We offer a wide range of trusted brands and products for sports nutrition,
             including many specialty US products approved in the UK and Europe.</p>
 
-            <p>If you think that an athlete's body is healthy, toned, and slender, 
+            <p class="para-01">If you think that an athlete's body is healthy, toned, and slender, 
             just because of high-intensity physical exercises, you are very wrong. 
             In addition to regular activities, the quality of food for athletes is 
             a fundamental part of keeping the body strong in the face of training overloads. 
@@ -52,13 +53,14 @@
     <h1 clas="text-dark pt-4">OUR BEST SELLERS</h1>
     <div class="border-top border-primary w-25 mx-auto my3"></div>
 </div>
+<br>
 
 <div class="container">
      
     <div class="row">
         {% for product in products %}
             <div class="col-12 col-md-4 mb-3">
-                <div class="card h-100 border-1">
+                <div class="card h-100 border-0">
                     {% if product.image %}
                     <a href="{% url 'product_detail' product.id %}">
                         <img class="card-img-top img-fluid" src="{{ product.image }}" alt="{{ product.name }}">
