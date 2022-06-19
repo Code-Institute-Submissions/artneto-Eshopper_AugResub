@@ -231,6 +231,12 @@ a.category-badge > span.badge:hover {
     margin-top: -22px!important;
 }
 
+.support-txt a {
+    text-decoration: none;
+    color: #0D0D0D;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 .footer-link {
@@ -242,7 +248,11 @@ a.category-badge > span.badge:hover {
 .icon-main {
     margin-right: 33rem;
 }
-  
+
+
+.text-muted h5{
+    font-style: italic!important;
+}
                     
 /* -------------------------------- Media Queries */
 
