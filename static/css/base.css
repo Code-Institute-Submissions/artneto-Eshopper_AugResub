@@ -30,7 +30,7 @@ html {
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    padding: 16px 126px;
+    padding: 16px 185px;
     color: #ffffff;
     background: #D8B34E;
     text-transform: uppercase;
@@ -95,8 +95,7 @@ html {
     text-transform: uppercase;
     color: white;
     background-color:#BB390F;
-    bottom: 139px;
-    right: 12rem;
+    margin-right: 2px;
 }
 
 /* from Bulma */
@@ -116,16 +115,19 @@ html {
     width: fit-content;
 }
 
+/*--Buttons*/
+
 .btn-black {
     background: black;
     color: white;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn-outline-black {
     background: white;
     color: black !important;
     border: 1px solid black;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -134,6 +136,7 @@ html {
 .btn-outline-black:focus {
     background: black;
     color: white !important;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -143,8 +146,11 @@ html {
 .btn-black:focus {
     background: #222;
     color: white;
+    font-family: 'Roboto', sans-serif;
     
 }
+
+
 
 .text-black {
     color: #000 !important;
@@ -249,9 +255,15 @@ a.category-badge > span.badge:hover {
     margin-right: 33rem;
 }
 
+.contact-txt {
+    font-size: 18px;
+    color:#D7D7D9;
+    font-weight: 700;
+}
 
-.text-muted h5{
-    font-style: italic!important;
+a:hover {
+    text-decoration: none;
+    color:#ECE1DB;
 }
                     
 /* -------------------------------- Media Queries */
@@ -267,18 +279,24 @@ a.category-badge > span.badge:hover {
 @media (max-width: 600px) {
     .btn-shop {
         padding: 4px 82px;
+        padding-right: 14px;
     }
 
-   
+    .btn-shop a {
+        text-align: center;
+    }
 }
 
 @media (max-width: 320px){
     .btn-shop {
         padding: 0px 54px;
+        margin-left: -20%;
+        text-align: center;
     }
 
-    .main-left h2 {
+    .main-left {
         font-size:23px;
+        margin-left: -28px;
     }
 
 }
@@ -290,6 +308,19 @@ a.category-badge > span.badge:hover {
     margin-top: 1.5rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
     
+}
+
+.btn-allauth {
+    background: black;
+    color: #EAE7EA;
+    font-size: 16px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title-allauth {
+    font-family: "Black Ops One", sans-serif;
+    color: black;
 }
 
 .allauth-form-inner-content input {
