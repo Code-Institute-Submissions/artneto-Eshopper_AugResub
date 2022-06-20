@@ -93,7 +93,7 @@
                             <div class="text-center">
 
                                 <p class="my-0">
-                                  <img src='/media/human-brain.png' alt="icon-main" 
+                                  <img src="{{ MEDIA_URL }}human-brain.png" alt="icon-main" 
                                    width="25px"> Account
                                 </p>
                             </div>
@@ -116,7 +116,7 @@
                             href="{% url 'view_bag' %}">
                             <div class="text-center">
                                 <p class="my-0">
-                                    <img src='/media/grocery.png' alt="bag icon"
+                                    <img src="{{ MEDIA_URL }}grocery.png" alt="bag icon"
                                         width="25px">
                                     {% if grand_total %}
                                     €{{ grand_total|floatformat:2 }}
