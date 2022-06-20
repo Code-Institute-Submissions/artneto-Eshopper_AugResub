@@ -93,9 +93,10 @@ html {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    background-color:#BB390F;
-    margin-right: 2px;
+    color: black;
+    margin-right: -52px;
+    font-weight: 900;
+    
 }
 
 /* from Bulma */
@@ -417,7 +418,7 @@ a:hover {
     }
 
     .header-container {
-        padding-top: 90px;
+        padding-top: 25px;
     }
 }
 
