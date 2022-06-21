@@ -291,8 +291,8 @@ a:hover {
 
 @media (max-width: 320px){
     .btn-shop {
-        padding: 0px 54px;
-        margin-left: -20%;
+        padding: 5px 54px;
+        margin-left: -55%;
         text-align: center;
     }
 
