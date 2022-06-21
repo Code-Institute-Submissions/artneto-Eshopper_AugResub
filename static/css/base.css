@@ -120,7 +120,7 @@ html {
 /*--Buttons*/
 
 .btn-black {
-    background: black;
+    background: #BB390F;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -130,6 +130,8 @@ html {
     color: black !important;
     border: 1px solid black;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    
     
 }
 
@@ -316,6 +318,7 @@ a:hover {
 .allauth-form-inner-content input[type='submit'] {
 	/* btn */
 	display: inline-block;
+    text-transform: uppercase;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -324,12 +327,12 @@ a:hover {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #BB390F;
+    border: 1px solid #BB390F;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    border-radius: 0;
+   
    
 
     /* standard bootstrap btn transitions */
@@ -338,9 +341,9 @@ a:hover {
 
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
-    background-color: #222;
-    border-color: #222;
+	color: black;
+    background-color: #EAE7EA;
+    border-color: #EAE7EA;
     
 }
 
@@ -459,6 +462,9 @@ a:hover {
 
 .increment-qty, .decrement-qty {
     padding: .25rem .5rem !important;
+    color:#6c757d;
+    background-color: #BB390F;
+    
 }
 
 
