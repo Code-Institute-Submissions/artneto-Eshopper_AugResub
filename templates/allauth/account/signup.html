@@ -11,8 +11,8 @@
   <h2 class="logo-font text-center">{% trans "Register" %}</h2>
   <hr>
 
-  <p>{% blocktrans %}Already have an account? Then please <button><a href="{{ login_url }}" id="account-exist">sign
-        in</a></button>.{% endblocktrans %}
+  <p>{% blocktrans %}Already have an account? Then please <a href="{{ signup_url }}"
+     id="exist-user">sign up</a>.{% endblocktrans %}
   </p>
 
 
@@ -23,7 +23,7 @@
     <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
     {% endif %}
     <div class="form-btn my-0">
-      <a class="btn back-login" href="{% url 'account_login' %}">Back to Login</a>
+      <a class="btn btn-outline-black rounded-0" href="{% url 'account_login' %}">Back to Login</a>
       <button type="submit">{% trans "Sign Up" %}</button>
     </div>
   </form>

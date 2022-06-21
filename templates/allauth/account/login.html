@@ -6,7 +6,7 @@
 {% block head_title %}{% trans "Sign In" %}{% endblock %}
 
 {% block inner_content %}
-<div class="member-form">
+<div class="form-">
   <hr>
   <h2 class="mb-4 text-center">{% trans "Sign In" %}</h2>
   <hr>
@@ -32,7 +32,7 @@
 
   {% else %}
   <p>{% blocktrans %}If you have not created an account yet, then please
-    <a href="{{ signup_url }}" id="account-exist">sign up</a> first.{% endblocktrans %}</p>
+    <a href="{{ signup_url }}" id="account-exist">sign up here</a>.{% endblocktrans %}</p>
   {% endif %}
 
   <form class="login" method="POST" action="{% url 'account_login' %}">

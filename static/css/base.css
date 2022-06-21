@@ -219,9 +219,7 @@ a.category-badge > span.badge:hover {
 
 
 /* Footer */
-.txt-copyright{
-    
-}
+
 
 .txt-copyright {
     color:#0D0D0D;
@@ -282,9 +280,16 @@ a:hover {
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    color: #080e13; /* text-secondary */
     
 }
+
+.text-center {
+    text-align: center!important;
+    text-transform: uppercase!important;
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 .btn-allauth {
     background: black;
@@ -300,9 +305,8 @@ a:hover {
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
-    border-radius: 0;
-    
+    border:none;
+    background: none;
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
@@ -310,8 +314,8 @@ a:hover {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #aab7c4;
-    
+    color: #323e4b;
+    font-style: italic;
 }
 
 .allauth-form-inner-content button,
@@ -348,8 +352,8 @@ a:hover {
 }
 
 .allauth-form-inner-content a {
-	color: #4a56a1d3; /* text-info */
-   
+	color: #BB390F; /* text-info */
+    font-weight: 600;
     
 }
 
@@ -382,6 +386,7 @@ a:hover {
     border-radius: 0;
     
 }
+
 
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
@@ -473,5 +478,4 @@ a:hover {
     padding-top: 75px;
     scroll-padding-bottom: 75px;
 }
-
 
