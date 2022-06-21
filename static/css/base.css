@@ -217,50 +217,22 @@ a.category-badge > span.badge:hover {
 
 
 /* Footer */
-.footer {
-    display: grid;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    position: fixed;
-    background-color: #BB390F;
-    color: #fafafa;
-    font-family: 'Open Sans', sans-serif;
-    height: 11%;
-    font-size: 1rem;
-}
-
-.footer i {
-    color: #fafafa;
+.txt-copyright{
     
 }
 
-.list-inline-item {
-    margin-top: -22px!important;
+.txt-copyright {
+    color:#0D0D0D;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
 }
-
-.support-txt a {
-    text-decoration: none;
-    color: #0D0D0D;
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-
-.footer-link {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-}
- 
-
-.icon-main {
-    margin-right: 33rem;
-}
+    
 
 .contact-txt {
     font-size: 18px;
     color:#D7D7D9;
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 
 a:hover {
