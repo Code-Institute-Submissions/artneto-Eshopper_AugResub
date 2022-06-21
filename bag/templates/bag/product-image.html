@@ -2,5 +2,5 @@
 <img class="img-fluid rounded" width="150" height="auto" src="{{ item.product.image.url }}"
     alt="{{ item.product.name }}">
 {% else %}
-<img class="img-fluid rounded" src="{{  }}noimage.png" alt="{{ item.product.name }}">
+<img class="img-fluid rounded" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
 {% endif %}
