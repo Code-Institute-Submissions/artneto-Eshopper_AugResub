@@ -144,6 +144,9 @@ html {
     
 }
 
+.chechout-btn .btn-lg{
+    color:#080e13;
+}
 
 .btn-black:hover,
 .btn-black:active,
@@ -235,6 +238,10 @@ a.category-badge > span.badge:hover {
     font-family: 'Roboto', sans-serif;
 }
 
+.contact-01 {
+    font-weight: 400;
+}
+
 a:hover {
     text-decoration: none;
     color:#ECE1DB;
@@ -271,6 +278,16 @@ a:hover {
     .main-left {
         font-size:23px;
         margin-left: -28px;
+    }
+
+    .chechout-btn .btn-lg{
+        color:#080e13;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+
+    .icon-checkout{
+        color: #BB390F;
     }
 
 }
