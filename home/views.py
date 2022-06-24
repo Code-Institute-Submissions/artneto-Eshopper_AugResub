@@ -2,6 +2,7 @@ from django.shortcuts import render
 import pandas as pd
 from checkout.models import OrderLineItem
 from django.db.models import Count
+from .models import Review
 # Create your views here.
 
 
@@ -34,3 +35,13 @@ def index(request):
     
 
     return render(request, 'home/index.html',context)
+
+def add_review(request):
+    """ add a review """
+
+    if not request.user.is_authenticated:
+        return redirect(reverse('home'))
+    profile = UserProfile.objects.get(user=request.user)
+    review = Review(user_profile=profile, text=request.POST["text"])
+    review.save()
+    return redirect(reverse('home'))
