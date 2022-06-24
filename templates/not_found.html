@@ -1,3 +1,4 @@
+{% extends 'base.html' %}
 {% load static %}
 
 {% block extra_meta %}
@@ -25,18 +26,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
-<main style="background-color: #9dc1eb88;">
-    <center>
-        <br /><br /><br />
-        <h2 class="text-black">404 - Page not found!</h2>
-        <p class="text-black">Sorry, an error has occured, Requested page not found!<br />
+<section class="page_404">
+	<div class="container">
+		<div class="row">	
+		<div class="col-sm-12 ">
+		<div class="col-sm-10 col-sm-offset-1  text-center">
+		<div class="four_zero_four_bg">
+			<h1 class="text-center ">404</h1>
+		
+		
+		</div>
+		
+		<div class="contant_box_404">
+		<h3 class="h2">
+		Look like you're lost
+		</h3>
+		
+		<p>the page you are looking for not avaible!</p>
+        <br />
             The following problems could be the case:<br><br>
             • The link is broken<br />
             • This page never existed<br />
-            • This page has been removed<br /><br /><br /></p>
-        <button class="buttons text-white"><a href="{% url 'home' %}">Click here to go back home</a></button>
-        <br /><br /><br />
-    </center>
-</main>
+            • This page has been removed<br /><br />
+		
+		<a href="{% url 'home' %}" class="link_404">Go to Home</a>
+	</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</section>
 
 {% endblock %}
+
+
+

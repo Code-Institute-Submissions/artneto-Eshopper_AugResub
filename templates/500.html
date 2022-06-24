@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_meta %}
+<meta name="description" content="500 page on the Eshopper online">
+<meta name="keywords"
+    content="food, supplements, vitamin, protein, rice, lunch, superfood" href="">
+<meta property="og:title" name="title" content="Eshopper" />
+<meta property="og:description" content="500 page on the Eshopper" />
+<meta property="og:url" content="https://e-shopperonline.herokuapp.com/" />
+{% endblock %}
+
+{% block extra_title %} 500 {% endblock %}
+
+{% block content %}
+
+<main style="background-color: #ECE1DB;">
+    <center>
+        <br /><br /><br /><br><br>
+        <h2 class="pb-4 text-black">500 - Internal Server Error </h2>
+        <p class="text-black">How embarrassing... Sorry about that.<br><br>
+            <br /></p>
+        <button class="buttons text-white"><a href="{% url 'home' %}">Click here to go back home</a></button>
+        <br /><br /><br />
+    </center>
+</main>
+{% endblock %}
