@@ -109,6 +109,18 @@ html {
     width: 1.5rem;
 }
 
+
+.icon-checkout{
+    color: #BB390F;
+}
+
+
+.chechout-btn .btn-lg{
+    color:#080e13;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -265,6 +277,11 @@ a:hover {
 
     .btn-shop a {
         text-align: center;
+    }
+    .chechout-btn .btn-lg{
+        color:#080e13;
+        font-size: 13px;
+        text-transform: uppercase;
     }
 }
 

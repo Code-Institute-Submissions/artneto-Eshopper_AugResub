@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block extra_meta %}
+<meta name="description" content="404 page on the Eshopper online">
+<meta name="keywords"
+    content="food, supplements, vitamin, protein, rice, lunch, superfood" href="">
+<meta property="og:title" name="title" content="Eshopper" />
+<meta property="og:description" content="404 page on the Eshopper" />
+<meta property="og:url" content="https://e-shopperonline.herokuapp.com/" />
+{% endblock %}
+
+
+{% block extra_title %} 404 {% endblock %}
+
+{% block content %}
+
+<head>
+    <!-- Enter your title of the page -->
+    <title>404 - Page not found</title>
+    <!--  Enter your website icon -->
+    <link rel="icon" href="YOUR_WEBSITE_ICON_LINK">
+    <!-- This one is very important, don't skip this part! -->
+    <base href=""> <!-- Enter your website URL here -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<main style="background-color: #9dc1eb88;">
+    <center>
+        <br /><br /><br />
+        <h2 class="text-black">404 - Page not found!</h2>
+        <p class="text-black">Oops! Itseems like you're lost, let me help you find your way back home! :)<br />
+            The following problems could be the case:<br><br>
+            • The link is broken<br />
+            • This page never existed<br />
+            • This page has been removed<br /><br /><br /></p>
+        <button class="buttons text-white"><a href="{% url 'home' %}">Click here to go back home</a></button>
+        <br /><br /><br />
+    </center>
+</main>
+
+{% endblock %}
