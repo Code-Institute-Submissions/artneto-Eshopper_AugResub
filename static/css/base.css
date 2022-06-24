@@ -523,7 +523,7 @@ a:hover {
 
 .four_zero_four_bg{
  
- background-image: url(https://dribbble.com/shots/18107062-Search-Not-Found-Illustration);
+    background: url('/media/errormessage.webp');
     height: 400px;
     background-position: center;
  }
