@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'profiles',
+    'newsletter',
 
     # Other forms
     'crispy_forms',
@@ -65,6 +66,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
 ]
+
+
 
 ROOT_URLCONF = 'eshopper_store.urls'
 
