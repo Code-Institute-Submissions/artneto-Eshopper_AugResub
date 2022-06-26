@@ -3,8 +3,11 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
-from .models import Product, Category
-from .forms import ProductForm
+
+###Views####
+
+from .models import Product, Category, Comment
+from .forms import ProductForm, CommentForm
 
 
 def all_products(request):
@@ -136,3 +139,18 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+##Comments Function##
+
+def add_comment(request, pk):
+	product = Product.Objects.get(id=pk)
+	
+	form = CommentForm()
+	
+	context = {
+        'product': product,
+		'form': form
+	}
+	
+	return render(request, 'add_comment.html', context)

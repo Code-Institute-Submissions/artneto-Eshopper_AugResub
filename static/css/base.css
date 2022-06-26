@@ -322,8 +322,15 @@ a:hover {
     text-align: center!important;
     text-transform: uppercase!important;
     font-family: 'Open Sans', sans-serif;
+   
 }
 
+.text-center-access {
+    text-align: center!important;
+    text-transform: uppercase!important;
+    font-family: 'Roboto', sans-serif;
+    padding: 19px;
+}
 
 .btn-allauth {
     background: black;
@@ -536,4 +543,3 @@ a:hover {
     display: inline-block;}
 	.contant_box_404{ margin-top:-50px;}
 
-/*---Newsletter*/

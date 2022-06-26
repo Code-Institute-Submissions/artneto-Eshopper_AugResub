@@ -94,6 +94,28 @@
                         </div>
                     </form>
                 </div>
+                <div class="col-md-4">
+                    <div style="margin: 10px">
+                        Add Comments
+                        <br>
+                        <hr>
+                        {% if not product.comments.all %}
+                    
+                        <p> No comments added yet...</p>
+                    
+                        {% else %}
+                        
+                          {% for comment in product.comments.all %}
+                    
+                            <h3><strong>{{ comment.commenter_name }}</strong></h3>
+                             <p><small> {{ comment.comment_body }}</small></p>
+                        
+                        {% endfor %}
+                         {% endif %}
+                    
+                        <p><a class="btn btn-primary" href=""> Add Comment </a></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
