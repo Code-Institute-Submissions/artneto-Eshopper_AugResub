@@ -144,25 +144,12 @@ def delete_product(request, product_id):
 ##Comments Function##
 
 
-@login_required
-def add_comment(request, product_id):
-    """ Add a review of a product """
+def add_comment(request,product_id):
+    """ add a comment """
+
+    if not request.user.is_authenticated:
+        return redirect(reverse('account_login'))
     product = get_object_or_404(Product, pk=product_id)
-    if request.user.is_authenticated:
-        if request.method == 'POST':
-            form = CommentForm(request.POST)
-            if form.is_valid():
-                comment = form.save(commit=False)
-                comment.product = product
-                comment.comment_author = request.user
-                comment.save()
-                messages.success(
-                    request, 'Successfully added your review!')
-                return redirect(reverse('product_detail', args=[product.id]))
-            else:
-                messages.error(
-                    request, 'Failed to add comment. Please ensure the form \
-                        is valid')
-    context = {
-        'form': form
-    }
+    comment = Comment(product=product)
+    comment.save()
+    return redirect(reverse('home'))

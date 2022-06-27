@@ -95,33 +95,27 @@
                     </form>
                 </div>
                 <div class="col-md-4">
-                    <div style="margin: 10px">
-                        Add Comments
-                        <br>
-                        <hr>
-                        {% if not product.comments.all %}
-                    
-                        <p> No comments added yet...</p>
-                    
-                        {% else %}
-                        
-                          {% for comment in product.comments.all %}
-                    
-                            <h3><strong>{{ comment.commenter_name }}</strong></h3>
-                             <p><small> {{ comment.comment_body }}</small></p>
-                        
-                        {% endfor %}
-                         {% endif %}
-                    
-                        <p><a class="btn btn-primary" href=""> Add Comment </a></p>
-                    </div>
+                    <form action="{% url 'add_comment' product.id %}#comment" method="POST">
+                        {% csrf_token %}
+                        <div class="columns">
+                            <div class="column">
+                                {{ form|crispy }}
+                            </div>
+                        </div>
+                        <div class="columns has-text-centered reverse-mobile">
+                            <div class="column is-6">
+                                <button class="button is-danger" type="submit">Add comment <i class="fas fa-plus ml-2"></i></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div>
-    </div>
-{% endblock %}
+        {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 {% endblock %}
+
+
+
