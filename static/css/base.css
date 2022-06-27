@@ -94,9 +94,10 @@ html {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
-    color: black;
+    color: brown;
     margin-right: -52px;
     font-weight: 900;
+    background: wheat;
     
 }
 

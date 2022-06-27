@@ -155,13 +155,13 @@ def add_comment(request, product_id):
                 comment = form.save(commit=False)
                 comment.product = product
                 comment.comment_author = request.user
-                review.save()
+                comment.save()
                 messages.success(
                     request, 'Successfully added your review!')
                 return redirect(reverse('product_detail', args=[product.id]))
             else:
                 messages.error(
-                    request, 'Failed to add review. Please ensure the form \
+                    request, 'Failed to add comment. Please ensure the form \
                         is valid')
     context = {
         'form': form
