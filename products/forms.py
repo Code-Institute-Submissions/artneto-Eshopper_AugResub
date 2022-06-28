@@ -1,5 +1,5 @@
 from django import forms
-from .models import Product, Category, Comment
+from .models import Product, Category, Review
 from .widgets import CustomsCleareableFileInput
 
 
@@ -20,13 +20,7 @@ class ProductForm(forms.ModelForm):
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
 
-
-
-class CommentForm(forms.ModelForm):
+class ReviewForm(forms.ModelForm):
     class Meta:
-        model = Comment
-        fields = ['commenter_name','comment_body']
-        widgets = {
-		    'commenter_name': forms.TextInput(attrs={'class': 'form-control'}),
-		    'comment_body': forms.Textarea(attrs={'class': 'form-control'}),
-		}
+        model = Review
+        fields = ['review_title', 'review']

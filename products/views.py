@@ -6,8 +6,8 @@ from django.contrib.auth.decorators import login_required
 
 ###Views####
 
-from .models import Product, Category, Comment
-from .forms import ProductForm, CommentForm
+from .models import Product, Category
+from .forms import ProductForm, ReviewForm
 
 
 def all_products(request):
@@ -141,15 +141,26 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
-##Comments Function##
+##Comments view##
 
-
-def add_comment(request,product_id):
-    """ add a comment """
-
-    if not request.user.is_authenticated:
-        return redirect(reverse('account_login'))
+@login_required
+def add_review(request, product_id):
+    """ Add a review of a product """
     product = get_object_or_404(Product, pk=product_id)
-    comment = Comment(product=product)
-    comment.save()
-    return redirect(reverse('home'))
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            form = ReviewForm(request.POST)
+            if form.is_valid():
+                review = form.save(commit=False)
+                review.product = product
+                review.review_author = request.user
+                review.save()
+                messages.success(
+                    request, 'Successfully added your review!')
+                return redirect(reverse('product_detail', args=[product.id]))
+            else:
+                messages.error(
+                    request, 'Failed to add review. Please ensure the form \
+                        is valid')
+
+            return redirect(reverse('product_detail', args=[product.id]))

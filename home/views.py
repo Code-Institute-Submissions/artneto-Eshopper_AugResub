@@ -2,7 +2,6 @@ from django.shortcuts import render
 import pandas as pd
 from checkout.models import OrderLineItem
 from django.db.models import Count
-from .models import Review
 # Create your views here.
 
 
