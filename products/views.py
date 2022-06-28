@@ -61,16 +61,27 @@ def all_products(request):
 
 
 def product_detail(request, product_id):
-    """View to show individual product details """
-
+    """ A view to show individual product details """
     product = get_object_or_404(Product, pk=product_id)
+    form = ReviewForm
+    reviews = product.reviews.filter(active=True)
+    new_review = None
+    if request.method == 'POST':
+        form = ReviewForm(data=request.POST)
+        if form.is_valid():
+            new_review = form.save(commit=True)
+            new_review.product = product
+            new_review.save()
+        else:
+            form = ReviewForm()
 
-    context = {
-        'product': product,
-    }
-
-    return render(request, 'products/product_detail.html', context)
-
+    return render(request, 'products/product_detail.html',
+                  {'product': product,
+                   'form': form,
+                   'reviews': reviews,
+                   'new_review': new_review
+                   })
+                   
 
 @login_required
 def add_product(request):
@@ -162,5 +173,4 @@ def add_review(request, product_id):
                 messages.error(
                     request, 'Failed to add review. Please ensure the form \
                         is valid')
-
             return redirect(reverse('product_detail', args=[product.id]))
