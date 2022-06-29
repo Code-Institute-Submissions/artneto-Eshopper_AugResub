@@ -445,6 +445,14 @@ a:hover {
     }
 }
 
+/*----Comment-section----*/
+
+.review-container {
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+}
+
 
 /* ---------- bootstrap toasts */
 
