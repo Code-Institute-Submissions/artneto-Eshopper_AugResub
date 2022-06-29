@@ -39,7 +39,7 @@ class Review(models.Model):
     review_author = models.ForeignKey(
         User, on_delete=models.PROTECT, null=True, blank=True)
     review = models.TextField(max_length=1000)
-    review_title = models.TextField(max_length=254)
+    review_title = models.TextField(max_length=100)
     added_on = models.DateTimeField(auto_now_add=True)
     active = models.BooleanField(default=True)
 
