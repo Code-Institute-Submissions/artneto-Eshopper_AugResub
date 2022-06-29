@@ -101,9 +101,7 @@
 		<div class="review-container">
             <div class="col-md-6">
 			<h3 class="my-3">
-				{% if user.is_authenticated %}
-				    <button data-toggle="modal" data-target="#productReview" type="button" class="btn btn-black rounded-0 text-uppercase mt-5">Add Review</button>
-				{% endif %}
+				<button data-toggle="modal" data-target="#productReview" type="button" class="btn btn-black rounded-0 text-uppercase mt-5">Add Review</button>
 			</h3>
 	    {% if user.is_authenticated %}
             <!-- Product Review -->
@@ -122,22 +120,29 @@
                                 <table class="table table-bordered">
                                     {{ form|crispy }}
                                     <tr>
-                                        <td colspan="2">
-                                            <button type="submit" class="btn btn-black rounded-0 text-uppercase mt-5">Submit</button>
-                                            <input type="reset" class="reset-text" value="Reset" id="reset" />
-                                        </td>
+                                        
+
+                                        <div class="col-12 mt-2">
+                                            <button type="submit" class="btn btn-outline-black rounded-0 mt-5">Submit</button>
+                                                
+                                
+                                            </a>
+                                            <input type="reset" class="btn btn-black rounded-0 text-uppercase mt-5" value="Reset">
+                                        </div>
                                     </tr>
                                 </table>
                                 <p class="ajaxRes"></p>
                             </form>
                         </div>
                     </div>
+                    
                 </div>
             </div>
-            <!-- Product Review End -->
+         {% else %}
+            <p class="no-data">Please <a href="{% url 'account_login' %}">log in</a> to add a review for {{product.name}}</p> 
         {% endif %}
                 </h3>
-                <div class="column is-7 is-10-mobile is-offset-1-mobile card review-card my-3">
+                <div class="card">
                     <div class="card-body review-list" style="max-height: 400px; overflow: auto;">
                         <!-- Detail -->
                         {% if reviews %}
@@ -159,8 +164,9 @@
                 </div>
             </div>
         </div>
+        </br>
         <!---Comment Section end-->
-        </div>
+        
     </div>
     
 {% endblock %}
