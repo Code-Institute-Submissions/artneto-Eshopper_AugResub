@@ -141,7 +141,7 @@
                     <div class="card-body review-list" style="max-height: 400px; overflow: auto;">
                         <!-- Detail -->
                         {% if reviews %}
-                            {% for review in reviews %}
+                        {% for review in product.reviews.all %}
                             <blockquote class="blockquote text-center">
                             <small>{{review.review}}</small>
                             <footer class="blockquote-footer">
