@@ -447,12 +447,13 @@ a:hover {
 
 /*----Comment-section----*/
 
-.review-container {
-    margin: 25px;
-    width: 350px;
-    height: 200px;
+.reset-text{
+    margin-top: 46px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
 }
-
 
 /* ---------- bootstrap toasts */
 
