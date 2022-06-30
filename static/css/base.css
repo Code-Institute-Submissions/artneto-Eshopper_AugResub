@@ -17,6 +17,13 @@ html {
     height: 100%;
 }
 
+body {
+    min-height: 100vh; 
+    margin: 0; 
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 .container-home {
     background: url('/media/background-img.jpg') no-repeat center center fixed;
     background-size: cover;
@@ -246,9 +253,13 @@ a.category-badge > span.badge:hover {
 
 .contact-txt {
     font-size: 18px;
-    color:#D7D7D9;
+    color:#0d0d47;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+    font-weight: 900;
 }
 
 .contact-01 {
@@ -326,6 +337,13 @@ a:hover {
    
 }
 
+.text-basket {
+    text-align: center!important;
+    text-transform: uppercase!important;
+    font-family: 'Roboto', sans-serif;
+   
+}
+
 .text-center-access {
     text-align: center!important;
     text-transform: uppercase!important;
@@ -398,6 +416,12 @@ a:hover {
     font-weight: 600;
     
 }
+
+.text-danger, .edit-opt {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 
 /* Product Form */
 
