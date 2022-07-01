@@ -148,7 +148,7 @@
                         {% if reviews %}
                         {% for review in product.reviews.all %}
                             <blockquote class="blockquote text-center">
-                            <small>{{review.review}}</small>
+                            <small class="comment-text">{{review.review}}</small>
                             <footer class="blockquote-footer">
                                 <cite title="Source Title">
                                     <p class="subtitle-att">By: {{ review.review_author }}, {{ review.added_on|timesince }} ago</p>

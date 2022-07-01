@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;500;900&display=swap');
 
 
-/*
-    font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
-#ECE1DB - linen
-#BB390F - rust
-#EAE7EA - platinum
-#D8B34E - gold metallic
-
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
-
 html {
     height: 100%;
 }
@@ -56,8 +44,10 @@ body {
 .para-01 {
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
-    font-style: italic;
+    font-style: uppercase;
 }
+
+
 /*---Base.html*/
 
 .logo-font,
@@ -76,6 +66,7 @@ body {
 
 .delivery-banner {
     background: #F2CB05;
+   
 }
 
 .delivery-banner-text {
@@ -124,11 +115,25 @@ body {
 
 
 .chechout-btn .btn-lg{
-    color:#080e13;
+    color:#BB390F;
     font-size: 17px;
     text-transform: uppercase;
 }
 
+.chechout-btn {
+    color:#000;
+    font-weight: 900;
+    background-color: #BB390F;
+}
+
+
+
+.chechout-btn:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: #BB390F;
+}
+    
 .logo-font {
     text-transform: uppercase;
 }
@@ -365,8 +370,8 @@ a:hover {
 }
 
 .allauth-form-inner-content input {
-    border:none;
-    background: none;
+    border-color: #000;
+    border-radius: 0;
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
@@ -374,8 +379,9 @@ a:hover {
 }
 
 .allauth-form-inner-content input::placeholder {
-    color: #323e4b;
+    color: #aab7c4;
     font-style: italic;
+    font-weight: 400;
 }
 
 .allauth-form-inner-content button,
@@ -422,6 +428,14 @@ a:hover {
     text-transform: uppercase;
 }
 
+.comment-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle-att {
+    font-size: 12px;
+}
 
 /* Product Form */
 
@@ -534,6 +548,7 @@ a:hover {
     font-size: .19px;
 }
 
+
 .btn.btn-outline-black.rounded-0,
 .btn.btn-black.rounded-0 {
     padding: .375rem .375rem;
@@ -581,4 +596,5 @@ a:hover {
     margin: 20px 0;
     display: inline-block;}
 	.contant_box_404{ margin-top:-50px;}
+
 
