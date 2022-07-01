@@ -1,3 +1,4 @@
+""" Admin for 'products' app"""
 from django.contrib import admin
 from .models import Product, Category, Review
 
@@ -17,6 +18,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     ordering = ('sku',)
 
+
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
@@ -26,6 +28,7 @@ class CategoryAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
+
 
 class ReviewAdmin(admin.ModelAdmin):
     list_display = ('review_title', 'review', 'review_author', 'product')
