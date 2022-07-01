@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+<link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
 {% endblock %}
 
 {% block page_header %}
@@ -14,6 +14,7 @@
 {% endblock %}
 
 {% block content %}
+{% if request.user.is_authenticated %}
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
@@ -48,10 +49,17 @@
                             {% for order in orders %}
                                 <tr>
                                     <td>
-                                        <a href="{% url 'order_history' order.order_number %}"
-                                        title="{{ order.order_number }}">
-                                            {{ order.order_number|truncatechars:6 }}
-                                        </a>
+                                        <button class="btn general-btn text-white"><a
+                                                href="{% url 'order_history' order.order_number %}"
+                                                title="{{ order.order_number }}">
+                                                View
+                                            </a>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <p>
+                                            {{ order.order_number|slice:6 }}
+                                        </p>
                                     </td>
                                     <td>{{ order.date }}</td>
                                     <td>€{{ order.grand_total }}</td>
@@ -62,9 +70,30 @@
                 </div>
             </div>
         </div>
+    </div>
+    {% else %}
+        <div class="container align-items-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="page-title text-center">Opss...</h1>
+                </div>
+                <div class="col-sm-12">
+                    <p class="page-desc text-center">Only users who have an account are allowed to access this place.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 text-center brand-img">
+                    <button class="buttons"><a href="{% url 'account_signup' %}">Register</a></button>
+                    <button class="buttons"><a href="{% url 'products' %}">Home Page</a></button>
+                </div>
+            </div>
+        </div>
+   {% endif %}
+<br>
+<br>
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{{ block.super }}
+<script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
 {% endblock %}

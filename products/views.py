@@ -4,7 +4,6 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
 
-###Views####
 
 from .models import Product, Category
 from .forms import ProductForm, ReviewForm
@@ -41,13 +40,14 @@ def all_products(request):
 
         if 'q' in request.GET:
             query = request.GET['q']
+
             if not query:
-                messages.error(request, "Please enter a valid search criteria!")
+                messages.error(request, "Please enter a valid \
+                               \search criteria!")
                 return redirect(reverse('products'))
 
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-            
     current_sorting = f'{sort}_{direction}'
 
     context = {
@@ -81,7 +81,7 @@ def product_detail(request, product_id):
                    'reviews': reviews,
                    'new_review': new_review
                    })
-                   
+
 
 @login_required
 def add_product(request):
@@ -89,7 +89,7 @@ def add_product(request):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-    
+
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
@@ -100,7 +100,7 @@ def add_product(request):
             messages.error(request, 'Failed to add product. Please try again')
     else:
         form = ProductForm()
-            
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -151,8 +151,6 @@ def delete_product(request, product_id):
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
 
-
-##Comments view##
 
 @login_required
 def add_review(request, product_id):

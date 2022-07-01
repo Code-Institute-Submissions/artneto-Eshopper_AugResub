@@ -222,7 +222,7 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
-    size: 8px;
+    resize: 8px;
 }
 
 
