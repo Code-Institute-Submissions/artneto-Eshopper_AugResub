@@ -43,3 +43,6 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 |---|---|---|---|
 | Viewing Products & Navigation |
 | 1  | User/Shopper | view the website from any device (mobile, desktop, tablet) | identify their qualities and compare. |
+| 2  | User/Shopper   |to be able to navigate through the menu bar | to browse products. |
+| 3  | User/Shopper    | to be able to find products by categories| to purchase products according to your interest. |
+| 4  | User/Shopper   | to search product in the search tool | to find product according to brand, type or key words. |
