@@ -37,6 +37,9 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
   - [Media](https://github.com/)
   - [Acknowledgements](https://github.com/)
 
+
+## **UX (User Experience)**
+
 ### **User Stories**
 
 | User Story ID  | As a/an  | I want to be able to...  | So that I can... |
@@ -69,3 +72,10 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 |  21 | User/Shopper | sign up for newsletter  | and receive emails with newsletter from the website |
 |  22 | Admin/Management | create comments for each products  | leave my review about the products for future users. |
 
+[Back to contents](#contents)
+
+## **Design Choices**
+
+### **Typography**
+
+- The logo, navigation bar, page titles, and buttons are all in the "'Open Sans'" font family. This design has a very become and neutral, yet friendly appearance, and even though the website is dedicated to health and fitness, it just seemed appropriate to employ.
