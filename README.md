@@ -56,9 +56,8 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 | 10  | User/Shopper   | to search product in the search tool | find product according to brand, type or key words. |
 |11 | User/Shopper  | sort by price, name, category and rating  | view a wide range and choose which to buy. |
 |12 | User/Shopper  | view the best sellers products on the home page  | choose the best range according to best sold products. |
-
- | Checkout  |
- | 13  | User/Shopper | have a total amount for selected products | stay within my budget.|
+| Checkout  |
+| 13  | User/Shopper | have a total amount for selected products | stay within my budget.|
 | 14 | User/Shopper  | view my bag contents |track of which products I have selected for purchase. 
 | 15 | User/Shopper | adjust the quantity of products before the payment | stay on the page without being redirected to the home page. |
 | 16  | User/Shopper  |  enter my payment details | to complete the purchase quickly. |
