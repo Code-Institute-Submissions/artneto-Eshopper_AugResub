@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap:https://e-shopperonline.herokuapp.com/sitemap.xml
