@@ -78,4 +78,14 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 
 ### **Typography**
 
-- The logo, navigation bar, page titles, and buttons are all in the "'Open Sans'" font family. This design has a very become and neutral, yet friendly appearance, and even though the website is dedicated to health and fitness, it just seemed appropriate to employ.
+- The navigation bar, page titles, and buttons are all in the "'Open Sans'" font family. This design has a very become and neutral, yet friendly appearance, and even though the website is dedicated to health and fitness, it just seemed appropriate to employ.
+- And for Logo I decided to apply 'Roboto' to allows letters to take up the space needed to give power aspect to logo. 
+
+
+### **Colour Scheme**
+
+The colors used in this project are:
+#(BB390F) - rust
+#(EAE7EA )- platinum
+(D8B34E) - metallic gold
+The combination of these colors gave a very attractive look to the site.
