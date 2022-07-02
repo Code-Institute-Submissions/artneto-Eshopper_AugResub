@@ -45,7 +45,6 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 | 1  | User/Shopper | view the website from any device (mobile, desktop, tablet) | identify their qualities and compare. |
 | 2  | User/Shopper   |to be able to navigate through the menu bar | to browse products. |
 | 3  | User/Shopper    | to be able to find products by categories| to purchase products according to your interest. |
-
 | Registration and Accounts |
 | 4  | User/Shopper | register for an account | keep track of my orders and check my personal details. |
 | 5  | User/Shopper   | receive email confirmation upon signing up | verify my set up was successful. |
