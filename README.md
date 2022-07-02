@@ -85,10 +85,10 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 ### **Colour Scheme**
 
 The colors used in this project are:
-- (#BB390F) - rust
-- (#EAE7EA )- platinum
-- (#D8B34E) - metallic gold
-The combination of these colors gave a very attractive look to the site. I decided go for rust for the buttons because stand out and packs an energetic punch.
+- (#BB390F) - Rust
+- (#EAE7EA )- Platinum
+- (#D8B34E) - Metallic gold
+  - The combination of these colors gave a very attractive look to the site. I decided go for rust for the buttons because stand out and packs an energetic punch.
 
 -   ### Wireframes
     -   [View Mockups](https://github.com/\\\\\)The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
