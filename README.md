@@ -85,7 +85,49 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 ### **Colour Scheme**
 
 The colors used in this project are:
-#(BB390F) - rust
-#(EAE7EA )- platinum
-(D8B34E) - metallic gold
-The combination of these colors gave a very attractive look to the site.
+- (#BB390F) - rust
+- (#EAE7EA )- platinum
+- (#D8B34E) - metallic gold
+The combination of these colors gave a very attractive look to the site. I decided go for rust for the buttons because stand out and packs an energetic punch.
+
+-   ### Wireframes
+    -   [View Mockups](https://github.com/\\\\\)The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
+
+## Features
+
+### Exisiting Features
+
+#### Register an account
+- Anyone can register free of charge and make their own account with their essential information. In the navigation bar, there is a registration button. Only a username, email address and password are required.
+
+#### Log In/ Log Out to/from Account
+- Registered users can securely log in and out using the login/logout buttons on the navigation bar.
+
+#### View, search and sort products 
+- The "Shop Now" button on the home page and the navigation bar both provide access to the products. By clicking on the image of the product they to give more information about the product, users may view detailed information such as cost, brand, and product ratings.
+Users can search for a specific product by name or by keyword using the search box at the top of the page.
+A search box at the top of the screen allows you to filter products by category, and a dropdown selector on the right of the screen allows you to sort by price, classification as A-Z products, or low-to-high pricing.
+
+#### Add/remove products to/from cart and update quantity
+- On the product detail page, unregistered users can add items to their shopping cart.
+Once logged in, customers can add items from the detailed product page to their bag and choose how many of that particular item to add to their cart. The user must click on the cart information to be taken to the cart page, where there will be action buttons to remove items from the cart and entries to change the quantity.
+
+#### Payment, save information and confirmation email 
+-
+
+
+
+#### Profiles 
+- In the profile page, the user will be able to update the delivery information, as well as have access to the promotional codes and order history.
+
+#### Review
+
+
+#### Admin Superuser
+
+ 
+### Features Left to Implement
+
+- 
+- 
+
