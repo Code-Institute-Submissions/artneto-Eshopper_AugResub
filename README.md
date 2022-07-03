@@ -251,5 +251,167 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
   - [Lucidchart](https://www.lucidchart.com/pages/)
 
+[Back to contents](#contents)
+
+## Testing
+
+### Validators
+
+- [W3C HTML Validator](https://validator.w3.org) 
+- [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
+
+### Creating an account
+
+I've created my own personal account, along with the superuser account (/admin). Confirm authentication  worked as expected.
+
+### Logging in to an account
+
+Several attempts to Log In and Log Out were performed. Worked as expected.
+
+### Add | Remove a product from cart 
+
+Plenty of testing was done to ensure that each product can be added and remove from the cart. Works as expected. 
+
+### Add | Comment in the products details
+
+Comments can be added by admin and other users logged in the website.
+
+
+
+### Sort by Price or Rating and Filter by Category 
+
+#### Sorting 
+- Sorting by "Price" works accordingly:
+    - ascending (Low to High)
+    - descending (High to Low)
+- Sorting by "Rating" works accordingly:
+    - ascending (lowest to highest)
+    - descending (highest to lowest)
+
+#### Filter 
+- Filter by Category works accordingly:
+    - When selecting a particular category, only the products that belong to that category are displayed.
+
+### Payment 
+
+Several payments were performed and it always worked as expected.
+
+### Other testing 
+- The project was tested on the following browsers: Google Chrome, Safari, Edge, Brave and Opera.
+- The project was tested on the following devices: MacBookAir, Huawei P30, Iphone XS and Ipad (list of bugs bellow).
+- Eshopper was tested by friends and family to obtain User feedback, improve User Experience and detect any potencial issues.
+
+### Know Bugs 
+- The quantity input on the cart page is too big for small screens. It is not displayed properly and it is impossible to see the input number. 
+- Home page hero image is not rendered on Iphone nor Ipad
+- On mobile phones, once the page is loaded, the page content is often zoomed in. Needs to be adjusted manually or refresh page.
+- On mobile phones, in the shopping cart page, the table does not fit in the screen completly. Needs to be adjusted manually.
+
+[Back to contents](#contents)
+
+## Deployment
+
+### Deployment to Heroku
+
+This project was deployed to [Heroku](https://www.heroku.com/). Find the steps bellow:
+
+1. Go to Heroku webpage and create a new app
+1. Click on "Resources" tab and provision a new PostgreSQL database.
+1. In order to use PostgreSQL, both packages `dj_database_url` and `psycopg2` have to be installed on Gitpod.
+1. Import `dj_database_url` into the project's [`settings.py`](/eshopper/settings.py) to setup new database.
+1. Disable the default database(SQLite) in the project's [`settings.py`](/eshopper/settings.py) and add the PostgreSQL database URL stored in the variable `DATABASE_URL`(can be found by clicking on the "settings" tab followed by clicking on "reveal config vars") in order to connect to PostgreSQL.
+1. Run migrations (due to the use of PostreSQL) on Gitpod.
+
+    ```
+    $ python3 manage.py migrate
+    ```
+
+1. Load data (Categories and Products JSON files in the [`fixtures`](/products/fixtures) folder).
+- Load categories first 
+
+    ```
+    $ python3 manage.py loaddata categories
+    ```
+
+- Then load products
+
+    ```
+    $ python3 manage.py loaddata categories
+    ```
+
+1. Create superuser:
+
+    ```
+    $ python3 manage.py createsuperuser 
+    ```
+
+1. In the project's [`settings.py`](/eshopper/settings.py), re-enable the projec's default database(disabled in step number 5) and with an if statment make sure that when the app is running on Heroku the connection is made to PostgreSQL or otherwise to default database (SQLite).
+1. Install `gunicorn` package on Gitpod
+1. Create Procfile
+1. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
+
+    ```
+    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app eshopper
+    ```
+
+1. Add `ALLOWED_HOSTS` variable(containing host name of the premiumbody app and the localhost) to project's [`settings.py`](/eshopper/settings.py) file.
+1. Commit and Push to Github
+1. Since the app was created via the Heroku webpage, initializing heroku git remote is necessary before pushing to Heroku
+
+    ```
+    $ heroku git:remote -a eshopper
+    ```
+
+1. Push to Heroku
+
+    ```
+    $ git push heroku master
+    ```
+
+1. Finally, enable automatic deployment to Heroku when pushing to Github by going to Heroku webpage, clicking on the "Deploy" tab and then on "Connect to Github" button. Search for the eshopper repo and click on "Connect". Scroll down to the "Automatic deploys" section and click on "Enable Automatic Deploys".
+
+[Back to contents](#contents)
+
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+1. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/artneto/Eshopper)
+1. Under the repository name, click "Clone or download".
+1. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+1. Open Git Bash
+1. Change the current working directory to the location where you want the cloned directory to be made.
+1. Type "git clone", and then paste the URL you copied in Step 3.
+
+    ```
+    $ git clone https://github.com/artneto/Eshopper
+    ```
+    
+ ### Amazon Services (S3)
+ 
+ After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in Eshopper app. 
+
+## Credits
+
+### Media
+
+-   The hero image is from the free stock image library [Pexels](https://pexels.com/).
+-   The product pictures came from Amazon [Amazon](https://amazon.co.uk/).
+
+### Acknowledgements
+
+
+-   A major part of the logic and web application structure used in the Eshopper project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
+
+- My Friends and family for testing the site and giving feedback on different devices.
+
+[Back to contents](#contents)
 
 
