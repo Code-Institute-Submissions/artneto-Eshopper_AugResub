@@ -24,7 +24,7 @@ Link to the [site](http://e-shopperonline.herokuapp.com//)
 - [Web Marketing & Business]()
   - [Responsive Design](https://github.com/)
   - [Defensive Design](https://github.com/)
-- [Database Schema](https://github.com/)
+  - [Database Schema](https://github.com/)
 - [Technologies](https://github.com/)
   - [Languages](https://github.com/)
   - [Frameworks and Libraries](https://github.com/)
@@ -93,6 +93,9 @@ The colors used in this project are:
 -   ### Wireframes
     -   [View Mockups](https://github.com/\\\\\)The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
 
+
+
+[Back to contents](#contents)
 ## Features
 
 ### Exisiting Features
@@ -113,25 +116,25 @@ A search box at the top of the screen allows you to filter products by category,
 Once logged in, customers can add items from the detailed product page to their bag and choose how many of that particular item to add to their cart. The user must click on the cart information to be taken to the cart page, where there will be action buttons to remove items from the cart and entries to change the quantity.
 
 #### Payment, save information and confirmation email 
--
+  - Users with and without accounts can buy products. When the user is ready to proceed with the  payment and is on the cart page, they can click the "checkout" button to be taken to the payment page, that they can fill out the required fields that really are missing (users can choose to store the information), and then complete their order. Users are routed to a success page where order information is available after the order has indeed been completed. When an order is completed, users are automatically sent a confirmation email including the order details.
 
 
 
 #### Profiles 
-- The user can modify the delivery details under the profile page management.
+  - The user can modify the delivery details under the profile page management.
 
 #### Review
 
-- The product details tab allows users who are logged in to leave reviews for each item. The user will view a message asking for his login in order to submit a comment if he is not currently logged in.
+  - The product details tab allows users who are logged in to leave reviews for each item. The user will view a message asking for his login in order to submit a comment if he is not currently logged in.
 
 #### Admin Superuser
 To access the admin interface by adding /admin to the end of the Eshopper URL.
 
-In the admin interface, a superuser or administrator can:
- -  View the list of categories and goods and create, update, or delete them.
-  -  Product and its information may be edited, deleted, or added.
-  -  View the whole list of users and remove any you want.
-  -  View the order history and all associated details. Which user, when, how much, what order number, etc.
+  In the admin interface, a superuser or administrator can:
+  -  View the list of categories and goods and create, update, or delete them.
+    -  Product and its information may be edited, deleted, or added.
+    -  View the whole list of users and remove any you want.
+    -  View the order history and all associated details. Which user, when, how much, what order number, etc.
  
 ### Features Left to Implement
 
@@ -165,5 +168,22 @@ In the admin interface, a superuser or administrator can:
 
     - Only users who have received approval can leave a review about the available product. The comment box will be available on the products details page.
 
-    
+  - Bag 
+
+   - Validation has been put in place to ensure sure that it only 99 items at the most can be put there in bag.
+    If 0 is selected, the item is taken out of the bag.
+    The user will have access to the necessary information, such as the front addition for purchases under 50 euros.
+
+   
+
+[Back to contents](#contents)
+
+#### Database Schema
+
+  - PostgreSQL: SQL triught  PostgreSQL was used for fixtures categories.json and products.json
+  
+  - SQLite: A cloud-based database that stores fields for products, users, orders..
+  
+- The Database schema is below:
+
 
