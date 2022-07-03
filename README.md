@@ -132,15 +132,16 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
   In the admin interface, a superuser or administrator can:
   -  View the list of categories and goods and create, update, or delete them.
-    -  Product and its information may be edited, deleted, or added.
-    -  View the whole list of users and remove any you want.
-    -  View the order history and all associated details. Which user, when, how much, what order number, etc.
+  -  Product and its information may be edited, deleted, or added.
+  -  View the whole list of users and remove any you want.
+  -  View the order history and all associated details. Which user, when, how much, what order number, etc.
  
 ### Features Left to Implement
 
 - Integrate OAuth app to add Google login for quick user registration and login.
 - A star rating or upvote feature for the products.
 - Implement a space where users can discuss diet or training tips with other users.
+- Adding a Sold Out option to price field.
 
 ### Responsive Design
 
@@ -184,7 +185,7 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
   
   - SQLite: A cloud-based database that stores fields for products, users, orders.
   
-- The Database schema is below:
+  - The Database schema is below:
 
 
 ## Technologies
@@ -211,7 +212,11 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
 ### **Libraries**
 
-  - Built on top of the Python programming language, Panda Library is an open source data analysis  and manipulation tool that is quick, strong, adaptable, and simple to use. On the home page, it was utilized to create a section listing the best sold products.
+  - Panda: Built on top of the Python programming language, Panda Library is an open source data analysis  and manipulation tool that is quick, strong, adaptable, and simple to use. On the home page, it was utilized to create a section listing the best sold products.
+
+  - OS: included in this website in order to provide basic utility modules for Python.
+
+  - SYS: functions and variables that was used to manipulate different parts of the Python runtime environment.
 
 ### **Tools**
 
@@ -302,10 +307,9 @@ Several payments were performed and it always worked as expected.
 - Eshopper was tested by friends and family to obtain User feedback, improve User Experience and detect any potencial issues.
 
 ### Know Bugs 
-- The quantity input on the cart page is too big for small screens. It is not displayed properly and it is impossible to see the input number. 
-- Home page hero image is not rendered on Iphone nor Ipad
-- On mobile phones, once the page is loaded, the page content is often zoomed in. Needs to be adjusted manually or refresh page.
-- On mobile phones, in the shopping cart page, the table does not fit in the screen completly. Needs to be adjusted manually.
+
+- Home page hero image is not rendered on Iphone 12 pro Max.
+
 
 [Back to contents](#contents)
 
@@ -410,7 +414,11 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 
 -   A major part of the logic and web application structure used in the Eshopper project is from a Code Institute tutorial that can be found in this [GitHub repository](https://github.com/ckz8780/boutique_ado_v1). 
 
-- My Friends and family for testing the site and giving feedback on different devices.
+- My Family for testing the site and giving feedback on different devices.
+
+- Code Institute slack channel for porviding further information and support. 
+
+- My friend and collegue Beatriz Amorim for supporting me and providing me feedback.
 
 [Back to contents](#contents)
 
