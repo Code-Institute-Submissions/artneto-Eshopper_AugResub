@@ -19,12 +19,11 @@ Is an online store that offers to customers who are looking for food or suppleme
 - [**Design Choices**](#design-choices)
   - [**Typography**](#Typography)
   - [**Colour Scheme**](#colour-scheme)
-  - [**Imagery**](#imagery)
   - [**Wireframes**](#wireframes)
 - [**Features**](#features)
   - [**Site Navigation**](#site-navigation)
-  - [**Features Implemented**](#features-implemented)
-  - [**Future Features**](#features-left-to-implement)
+  - [**Future Features**](#feature-features)
+  - [**Error Page**](#error-page)
   - [**Responsive Design**](#responsive-design)
   - [**Defensive Design**](#defensive-design)
 - [**Database Schema**](#database-schema)
@@ -107,6 +106,23 @@ The colors used in this project are:
 [Back to contents](#table-of-contents)
 ## Features
 
+
+#### Site Navigation
+
+Links essential for ease of access are displayed in the navigation bar.
+
+| Link | Not logged in  | Logged in | Logged in as super user |
+|---------------|---------------|---------------|-------------|
+| Home | &#10003;| &#10003; | &#10003; |
+| Log In  | &#10003;  | &#10007;  | &#10007;  |
+| Register | &#10003;  | &#10007;  | &#10007;  |
+| Profile  | &#10007;  | &#10003;  | &#10003;  |
+| Log Out  | &#10007;  | &#10003;  | &#10003;  |
+| Search  | &#10003;  | &#10003;  | &#10003;  |
+| Add Product | &#10007; |&#10007;  |  &#10003; |
+| edit/remove Product | &#10007; |&#10007;  |  &#10003; |
+| Add Comment | &#10007; |&#10003;  |  &#10003; |
+
 ### Exisiting Features
 
 #### Register an account
@@ -145,12 +161,18 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
   -  View the whole list of users and remove any you want.
   -  View the order history and all associated details. Which user, when, how much, what order number, etc.
  
-### Features Left to Implement
+### Feature Features
 
 - Integrate OAuth app to add Google login for quick user registration and login.
 - A star rating or upvote feature for the products.
 - Implement a space where users can discuss diet or training tips with other users.
 - Adding a Sold Out option to price field.
+
+### Error Page
+
+ - 404 page created to redirect users back to the main site in case of an error
+
+ - 500 error page created to redirect users to the main site after a server error
 
 ### Responsive Design
 
@@ -184,7 +206,8 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
     If 0 is selected, the item is taken out of the bag.
     The user will have access to the necessary information, such as the front addition for purchases under 50 euros.
 
-   
+
+
 
 [Back to contents](#contents)
 
