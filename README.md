@@ -1,5 +1,7 @@
 # E-shopperonline
 
+![](static/docs/images/mockup.png)
+
 ## About
 
 **E-shopperonline** 
