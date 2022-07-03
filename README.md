@@ -24,24 +24,22 @@ Is an online store that offers to customers who are looking for food or suppleme
 - [**Features**](#features)
   - [**Site Navigation**](#site-navigation)
   - [**Features Implemented**](#features-implemented)
-  - [**Future Features**](#future-features)
+  - [**Future Features**](#features-left-to-implement)
   - [**Responsive Design**](#responsive-design)
   - [**Defensive Design**](#defensive-design)
-- [**Database**](#database)
+- [**Database Schema**](#database-schema)
 - [**Technologies**](#technologies)
   - [**Languages**](#languages)
-  - [**Frameworks and Libraries**](#frameworks)
+  - [**Frameworks**](#frameworks)
+  - [**Libraries**](#libraries)
   - [**Tools**](#tools)
 - [**Testing**](#testing)
 - [**Bugs**](#bugs)
   - [**Bugs fixed**](#bugs-fixed)
   - [**Known Bugs**](#known-bugs)
-- [**Version Control**](#version-control)
 - [**Deployment**](#deployment)
-  - [**Running Locally**](#running-locally)
+  - [**Running Locally**](#forking-the-gitHub-repository)
 - [**Credits**](#credits)
-  - [**Code**](#code)
-  - [**Content**](#content)
   - [**Media**](#media)
   - [**Acknowledgements**](#acknowledgements)
 
@@ -314,6 +312,11 @@ Several payments were performed and it always worked as expected.
 - The project was tested on the following browsers: Google Chrome, Safari, Edge, Brave and Opera.
 - The project was tested on the following devices: MacBookAir, Huawei P30, Iphone XS and Ipad (list of bugs bellow).
 - Eshopper was tested by friends and family to obtain User feedback, improve User Experience and detect any potencial issues.
+
+
+### Bugs fixed
+
+- I needed to remove to add review in the product_detail view but the solution was to define in the product_detail view.
 
 ### Know Bugs 
 
