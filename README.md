@@ -118,16 +118,23 @@ Once logged in, customers can add items from the detailed product page to their 
 
 
 #### Profiles 
-- In the profile page, the user will be able to update the delivery information, as well as have access to the promotional codes and order history.
+- The user can modify the delivery details under the profile page management.
 
 #### Review
 
+- The product details tab allows users who are logged in to leave reviews for each item. The user will view a message asking for his login in order to submit a comment if he is not currently logged in.
 
 #### Admin Superuser
+To access the admin interface by adding /admin to the end of the Eshopper URL.
 
+In the admin interface, a superuser or administrator can:
+ -  View the list of categories and goods and create, update, or delete them.
+  -  Product and its information may be edited, deleted, or added.
+  -  View the whole list of users and remove any you want.
+  -  View the order history and all associated details. Which user, when, how much, what order number, etc.
  
 ### Features Left to Implement
 
-- 
+- Integrate OAuth app to add Google login for quick user registration and login.
 - 
 
