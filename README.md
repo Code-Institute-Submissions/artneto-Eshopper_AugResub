@@ -189,16 +189,67 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
 ## Technologies
 
-- [Gitpod](https://gitpod.io/)
-- [Github](https://github.com/)
-- [pexels](https://www.pexels.com/)
-- [Lucidchart](https://www.lucidchart.com/pages/)
-- [Fontawesome](https://fontawesome.com/start)
+
+### **Languages**
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - Used as the main markup language for the website content.
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+  - Used to style the individual webpages.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - Used to show the questions through pagination and for the game play.
+- [Python 3](https://www.python.org/)
+    - Used to run the site and database
+
+
+    
+### **Frameworks**
+
+- [Bulma](https://bulma.io/)
+
 - [Django](https://www.djangoproject.com/)
-- [Heroku](https://id.heroku.com/)
-- [Balsamiq](https://balsamiq.cloud/)
-- [PEP8online.com](http://pep8online.com/)
-- [W3C](https://validator.w3.org/#validate_by_input)
-- [Bootstrap](https://getbootstrap.com/)
-- [Htmlcolorcodes](https://htmlcolorcodes.com/)
+
+### **Libraries**
+
+  - Built on top of the Python programming language, Panda Library is an open source data analysis  and manipulation tool that is quick, strong, adaptable, and simple to use. On the home page, it was utilized to create a section listing the best sold products.
+
+### **Tools**
+
+  - [Git](https://git-scm.com/)
+
+  - [GitHub](https://github.com/)
+  
+  - [Gitpod](https://www.gitpod.io/)
+  
+  - [Heroku](https://www.heroku.com/home)
+
+  - [AWS](https://aws.amazon.com/)
+
+  - [Stripe](https://stripe.com/)
+
+  - [Google fonts](https://fonts.google.com/)
+
+  - [Htmlcolorcodes](https://htmlcolorcodes.com/)
+
+  - [Favicons](https://favicon.io/)
+  
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+  - [Website Mockup Generator](https://websitemockupgenerator.com/)
+
+  - [JSHint](https://jshint.com/)
+
+  -  [Balsamiq](https://balsamiq.cloud/)
+
+  - [PEP8 Online](http://pep8online.com/)
+
+  - [W3C Markup Validator](https://validator.w3.org/)
+
+  - [Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+
+  - [web page mobile friendly ](https://www.google.com/search?q=mobile+friendly+test/)
+
+  - [Lucidchart](https://www.lucidchart.com/pages/)
+
+
 
