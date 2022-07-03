@@ -305,19 +305,19 @@ The Database schema is below:
 
 ### Creating an account
 
-I've created my own personal account, along with the superuser account (/admin). Confirm authentication  worked as expected.
+Along with the superuser account (/admin), I've made a personal account for myself. Verify that authentication went smoothly.
 
 ### Logging in to an account
 
-Several attempts to Log In and Log Out were performed. Worked as expected.
+There were several attempts to log in and out. It performed as intended.
 
 ### Add | Remove a product from cart 
 
-Plenty of testing was done to ensure that each product can be added and remove from the cart. Works as expected. 
+The ability of each product to be added to and removed from the cart has been thoroughly tested. Functions as intended.
 
 ### Add | Comment in the products details
 
-Comments can be added by admin and other users logged in the website.
+Administrators and other users who are logged in to the website can add comments.
 
 
 
@@ -332,17 +332,17 @@ Comments can be added by admin and other users logged in the website.
     - descending (highest to lowest)
 
 #### Filter 
-- Filter by Category works accordingly:
-    - When selecting a particular category, only the products that belong to that category are displayed.
+- Filter by Category operates as follows:
+  - When a certain category is chosen, only items that fall within that category are shown.
 
 ### Payment 
 
-Several payments were performed and it always worked as expected.
+Several payments were made, and each time everything went as planned.
 
 ### Other testing 
-- The project was tested on the following browsers: Google Chrome, Safari, Edge, Brave and Opera.
-- The project was tested on the following devices: MacBookAir, Huawei P30, Iphone XS and Ipad (list of bugs bellow).
-- Eshopper was tested by friends and family to obtain User feedback, improve User Experience and detect any potencial issues.
+- Google Chrome, and Safari, were among the browsers on which the project was evaluated.
+- The project was tested on the iPad, iPhone 12 Pro Max, Iphone 10 mini, MacBook Air, and Samsung galaxy a32.
+- To get user feedback, enhance the user experience, and find any potential problems, Eshopper was put to the test among friends and family.
 
 
 ### Bugs fixed
