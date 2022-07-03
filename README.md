@@ -136,5 +136,34 @@ In the admin interface, a superuser or administrator can:
 ### Features Left to Implement
 
 - Integrate OAuth app to add Google login for quick user registration and login.
-- 
+- A star rating or upvote feature for the products.
+- Implement a space where users can discuss diet or training tips with other users.
+
+### Responsive Design
+
+- The application has been developed for mobile devices but it has been adjusted to provide such a wonderful experience for desktop and tablet users too though.
+
+### Defensive Design
+
+ - Form Validation
+
+    - All forms also have form validation to help ensure the required information is entered        before    submission.
+    If incorrect data is entered, a warning message will be displayed to advise the user on how to proceed.
+
+    - A default image will be added if a product is added without an associated image, however form ’ll work this unlikely.
+
+ - Unauthorised Attempts
+
+    - If a user attempts to access a section of the website for that they're not permitted, they will receive an error 404 message when the page is loaded.
+
+ - @login_required
+
+   -  Addition of the login required decorator to prohibit access to specific pages. Only users     who've been granted approval can add, edit, delete, and edit products.
+    A user whom have logged out would be sent to the login page if they attempt to access a restricted page.
+
+ - Review
+
+    - Only users who have received approval can leave a review about the available product. The comment box will be available on the products details page.
+
+    
 
