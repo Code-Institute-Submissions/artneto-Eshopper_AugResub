@@ -8,37 +8,43 @@
 **E-shopperonline** 
 Is an online store that offers to customers who are looking for food or supplements, from athletes to anyone who wants to get fit. This website has functions to make it easily available our range of products to all users, the website is made to be responsive and simple to use on a range of devices.
 
-Please note: This site was created solely for educational purposes.
+**Please note**: This site was created solely for educational purposes.
 [Click here for a live demo version of this project.](http://e-shopperonline.herokuapp.com/)
 
 ## Table of Contents
 
-- [UX (User Experience)]
-- [User Stories]
-- [Design Choices]
-  - [Fonts](https://github.com/)
-  - [Colors](https://github.com/)
-  - [Imagery](https://github.com/)
-  - [Wireframes](https://github.com/)
-- [Features](https://github.com/)
-  - [Site Navigation](https://github.com/)
-  - [Features Implemented](https://github.com/)
-  - [Future Features](https://github.com/)
-- [Web Marketing & Business]()
-  - [Responsive Design](https://github.com/)
-  - [Defensive Design](https://github.com/)
-  - [Database Schema](https://github.com/)
-- [Technologies](https://github.com/)
-  - [Languages](https://github.com/)
-  - [Frameworks and Libraries](https://github.com/)
-  - [Tools](https://github.com/)
-- [Testing](https://github.com/)
-- [Deployment](https://github.com/)
-- [Credits](https://github.com/)
-  - [Code](https://github.com/)
-  - [Content](https://github.com/)
-  - [Media](https://github.com/)
-  - [Acknowledgements](https://github.com/)
+
+- [**UX (User Experience)**](#ux-user-experience)
+  - [**User Stories**](#user-stories)
+- [**Design Choices**](#design-choices)
+  - [**Fonts**](#fonts)
+  - [**Colours**](#colours)
+  - [**Imagery**](#imagery)
+  - [**Wireframes**](#wireframes)
+- [**Features**](#features)
+  - [**Site Navigation**](#site-navigation)
+  - [**Features Implemented**](#features-implemented)
+  - [**Future Features**](#future-features)
+  - [**Responsive Design**](#responsive-design)
+  - [**Defensive Design**](#defensive-design)
+- [**Database**](#database)
+- [**Technologies**](#technologies)
+  - [**Languages**](#languages)
+  - [**Frameworks and Libraries**](#frameworks)
+  - [**Tools**](#tools)
+- [**Testing**](#testing)
+- [**Bugs**](#bugs)
+  - [**Bugs fixed**](#bugs-fixed)
+  - [**Known Bugs**](#known-bugs)
+- [**Version Control**](#version-control)
+- [**Deployment**](#deployment)
+  - [**Running Locally**](#running-locally)
+- [**Credits**](#credits)
+  - [**Code**](#code)
+  - [**Content**](#content)
+  - [**Media**](#media)
+  - [**Acknowledgements**](#acknowledgements)
+
 
 
 ## **UX (User Experience)**
