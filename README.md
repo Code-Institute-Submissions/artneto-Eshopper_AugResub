@@ -182,8 +182,23 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
   - PostgreSQL: SQL triught  PostgreSQL was used for fixtures categories.json and products.json
   
-  - SQLite: A cloud-based database that stores fields for products, users, orders..
+  - SQLite: A cloud-based database that stores fields for products, users, orders.
   
 - The Database schema is below:
 
+
+## Technologies
+
+- [Gitpod](https://gitpod.io/)
+- [Github](https://github.com/)
+- [pexels](https://www.pexels.com/)
+- [Lucidchart](https://www.lucidchart.com/pages/)
+- [Fontawesome](https://fontawesome.com/start)
+- [Django](https://www.djangoproject.com/)
+- [Heroku](https://id.heroku.com/)
+- [Balsamiq](https://balsamiq.cloud/)
+- [PEP8online.com](http://pep8online.com/)
+- [W3C](https://validator.w3.org/#validate_by_input)
+- [Bootstrap](https://getbootstrap.com/)
+- [Htmlcolorcodes](https://htmlcolorcodes.com/)
 
