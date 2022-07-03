@@ -1,6 +1,7 @@
 # E-shopperonline
 
-![](static/docs/images/mockup.png)
+![](static/docs/images/mockup.PNG)
+
 
 ## About
 
@@ -8,7 +9,7 @@
 Is an online store that offers to customers who are looking for food or supplements, from athletes to anyone who wants to get fit. This website has functions to make it easily available our range of products to all users, the website is made to be responsive and simple to use on a range of devices.
 
 Please note: This site was created solely for educational purposes.
-Link to the [site](http://e-shopperonline.herokuapp.com//)
+[Click here for a live demo version of this project.](http://e-shopperonline.herokuapp.com/)
 
 ## Table of Contents
 
