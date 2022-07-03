@@ -79,7 +79,7 @@ Is an online store that offers to customers who are looking for food or suppleme
 |  21 | User/Shopper | sign up for newsletter  | and receive emails with newsletter from the website |
 |  22 | Admin/Management | create comments for each products  | leave my review about the products for future users. |
 
-[Back to contents](#contents)
+[Back to contents](#table-of-contents)
 
 ## **Design Choices**
 
@@ -97,12 +97,14 @@ The colors used in this project are:
 - (#D8B34E) - Metallic gold
   - The combination of these colors gave a very attractive look to the site. I decided go for rust for the buttons because stand out and packs an energetic punch.
 
+  ![](static/docs/images/color.PNG)
+
 -   ### Wireframes
     -   [View Mockups](https://github.com/\\\\\)The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
 
 
 
-[Back to contents](#contents)
+[Back to contents](#table-of-contents)
 ## Features
 
 ### Exisiting Features
@@ -194,7 +196,7 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
   
   - The Database schema is below:
 
-
+[Back to contents](#table-of-contents)
 ## Technologies
 
 
@@ -209,13 +211,15 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 - [Python 3](https://www.python.org/)
     - Used to run the site and database
 
-
+[Back to contents](#table-of-contents)
     
 ### **Frameworks**
 
 - [Bulma](https://bulma.io/)
 
 - [Django](https://www.djangoproject.com/)
+
+[Back to contents](#table-of-contents)
 
 ### **Libraries**
 
@@ -224,6 +228,8 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
   - OS: included in this website in order to provide basic utility modules for Python.
 
   - SYS: functions and variables that was used to manipulate different parts of the Python runtime environment.
+
+[Back to contents](#table-of-contents)
 
 ### **Tools**
 
@@ -263,7 +269,7 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
   - [Lucidchart](https://www.lucidchart.com/pages/)
 
-[Back to contents](#contents)
+[Back to contents](#table-of-contents)
 
 ## Testing
 
@@ -323,7 +329,7 @@ Several payments were performed and it always worked as expected.
 - Home page hero image is not rendered on Iphone 12 pro Max.
 
 
-[Back to contents](#contents)
+[Back to contents](#table-of-contents)
 
 ## Deployment
 
@@ -386,7 +392,7 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
 
 1. Finally, enable automatic deployment to Heroku when pushing to Github by going to Heroku webpage, clicking on the "Deploy" tab and then on "Connect to Github" button. Search for the eshopper repo and click on "Connect". Scroll down to the "Automatic deploys" section and click on "Enable Automatic Deploys".
 
-[Back to contents](#contents)
+[Back to contents](#table-of-contents)
 
 
 ### Forking the GitHub Repository
