@@ -101,7 +101,9 @@ The colors used in this project are:
 -   ### Wireframes
     - The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
 
-  ![Wireframe](static/docs/images/wireframe.PNG)
+  [wireframe](https://github.com/artneto/Eshopper/blob/main/static/docs/images/wireframe.png)
+
+  
 
 [Back to contents](#table-of-contents)
 ## Features
@@ -299,6 +301,8 @@ The Database schema is below:
 [Back to contents](#table-of-contents)
 
 ## Testing
+
+
 
 ### Validators
 
