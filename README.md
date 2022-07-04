@@ -99,9 +99,9 @@ The colors used in this project are:
   ![](static/docs/images/color.PNG)
 
 -   ### Wireframes
-    -   [View Mockups](https://github.com/\\\\\)The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
+    - The wireframes, for desktop and mobile, were created using Balsamiq and can be found bellow:
 
-
+  ![Wireframe](static/docs/images/wireframe.PNG)
 
 [Back to contents](#table-of-contents)
 ## Features
@@ -283,6 +283,8 @@ The Database schema is below:
   - [JSHint](https://jshint.com/)
 
   -  [Balsamiq](https://balsamiq.cloud/)
+  
+  -  [Mailchimp](https://mailchimp.com/)
 
   - [PEP8 Online](http://pep8online.com/)
 
