@@ -357,7 +357,7 @@ The Database schema is below:
 
  ![](static/docs/images/bag1.PNG)
 
-    The user has the option to change the quantity and contents of their bag. The + and - icons can be used by the user to raise or reduce the product amount. By clicking the update button, the user can then update their bag with the necessary quantity adjustment, which also updates the overall bag total. The user also has the option of manually entering the quantity they want to change. By choosing the remove button, the user can also take the item out of the bag. The object in the bag will be fully removed as a result. A fresh alert message containing the changes will appear each time a change is made to the bag.
+  The user has the option to change the quantity and contents of their bag. The + and - icons can be used by the user to raise or reduce the product amount. By clicking the update button, the user can then update their bag with the necessary quantity adjustment, which also updates the overall bag total. The user also has the option of manually entering the quantity they want to change. By choosing the remove button, the user can also take the item out of the bag. The object in the bag will be fully removed as a result. A fresh alert message containing the changes will appear each time a change is made to the bag.
 
  - Only the admin or the person who added the product on the Eshopper website can edit or delete the selected product, this function is not available for non-users.
 
@@ -386,47 +386,25 @@ The Database schema is below:
 
   ![](static/docs/images/eshopperemail.PNG)
 
+### Creating an account
+
+  Along with the superuser account (/admin), I've made a personal account for myself. Verify that authentication went smoothly.
+
+  ![](static/docs/images/register.PNG)
+
+### Logging in to an account
+
+  There were several attempts to log in and out. It performed as intended.
+
+  ![](static/docs/images/signin.PNG)
 
 ### Validators
 
 - [W3C HTML Validator](https://validator.w3.org) 
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
 
-### Creating an account
-
-Along with the superuser account (/admin), I've made a personal account for myself. Verify that authentication went smoothly.
-
-### Logging in to an account
-
-There were several attempts to log in and out. It performed as intended.
-
-### Add | Remove a product from cart 
-
-The ability of each product to be added to and removed from the cart has been thoroughly tested. Functions as intended.
-
-### Add | Comment in the products details
-
-Administrators and other users who are logged in to the website can add comments.
 
 
-
-### Sort by Price or Rating and Filter by Category 
-
-#### Sorting 
-- Sorting by "Price" works accordingly:
-    - ascending (Low to High)
-    - descending (High to Low)
-- Sorting by "Rating" works accordingly:
-    - ascending (lowest to highest)
-    - descending (highest to lowest)
-
-#### Filter 
-- Filter by Category operates as follows:
-  - When a certain category is chosen, only items that fall within that category are shown.
-
-### Payment 
-
-Several payments were made, and each time everything went as planned.
 
 ### Other testing 
 - Google Chrome, and Safari, were among the browsers on which the project was evaluated.
