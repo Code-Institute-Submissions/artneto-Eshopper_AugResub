@@ -32,7 +32,7 @@ Is an online store that offers to customers who are looking for food or suppleme
   - [**Frameworks**](#frameworks)
   - [**Libraries**](#libraries)
   - [**Tools**](#tools)
-- [**Testing**](#testing)
+- [**Manual Testing**](#manual-testing)
 - [**Bugs**](#bugs)
   - [**Bugs fixed**](#bugs-fixed)
   - [**Known Bugs**](#known-bugs)
@@ -301,9 +301,18 @@ The Database schema is below:
 
 [Back to contents](#table-of-contents)
 
-## Testing
+## Manual Testing
+
+  ## Home Page
+
+  - The user is given an introductory text and a "Shop Now" button on the homepage. The user will be directed to the products page by this.
 
 
+  ![](static/docs/images/home.PNG)
+
+  - The header area also provides access to the products page for the user. The user can choose from a variety of categories from which the products are then sorted. 
+
+  ![](static/docs/images/navbar.PNG)
 
 ### Validators
 
