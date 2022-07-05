@@ -401,10 +401,34 @@ The Database schema is below:
 ### Validators
 
 - [W3C HTML Validator](https://validator.w3.org) 
+  - checkout_success.html
+  - checkout_success.html
+  - checkout.html
+  - index.html
+  - add_products.html
+  - edit_product.html
+  - product_detail.html
+  - products.html
+  - quantity_input_script.html
+  - profile.html
+  - 404.html
+  - 500.html
+  - base.html
+  - main-nav.html
+  - mobile_top_header.html
+  - toast_error.html
+  - toast_info.html
+  - toast_success.html
+  - toast_warning.html
+  - authentication_error.html
+  - connections.html
+  - login_cancelled.html
+  - signup.html
+
+
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
-
-
-
+ - base.css
+ - profile.css
 
 ### Other testing 
 - Google Chrome, and Safari, were among the browsers on which the project was evaluated.
