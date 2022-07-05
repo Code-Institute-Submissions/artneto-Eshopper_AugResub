@@ -38,6 +38,7 @@ Is an online store that offers to customers who are looking for food or suppleme
   - [**Known Bugs**](#known-bugs)
 - [**Deployment**](#deployment)
   - [**Running Locally**](#forking-the-gitHub-repository)
+- [**Web Marketing & Business**](#web-marketing-&-business)
 - [**Credits**](#credits)
   - [**Media**](#media)
   - [**Acknowledgements**](#acknowledgements)
@@ -449,7 +450,14 @@ By forking the GitHub Repository we make a copy of the original repository on ou
     
  ### Amazon Services (S3)
  
- After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in Eshopper app. 
+ After the deployment to Heroku, Amazon Web Services(AWS) - S3 was used to store all the media and static files in Eshopper app.
+
+ ## Web Marketing & Business
+
+ A Facebook page for Eshopper was made as part of the website marketing campaign.
+ Please take note that I made a fake Facebook page using the Code Institute template.
+
+ ![](static/docs/images/facebook.PNG)
 
 ## Credits
 
