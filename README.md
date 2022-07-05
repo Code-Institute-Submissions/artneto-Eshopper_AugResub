@@ -177,6 +177,8 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
  - 500 error page created to redirect users to the main site after a server error
 
+ ![](static/docs/images/500error.PNG)
+
 ### Responsive Design
 
 - The application has been developed for mobile devices but it has been adjusted to provide such a wonderful experience for desktop and tablet users too though.
@@ -349,10 +351,21 @@ The Database schema is below:
 
   ![](static/docs/images/review3.PNG)
 
- - By selecting the product, the user will receive a notice that the product has been added to the  bag. The customer will see the value of the product, the current offer and will have the option to continue buying or finalizing the purchase.
+ - By selecting the product, the user will receive a notice that the product has been added to the  bag. The customer will see the value of the product, the current offer and will have the option to view bag or finalizing the purchase.
 
  ![](static/docs/images/bag1.PNG)
 
+ - Only the admin or the person who added the product on the Eshopper website can edit or delete the selected product, this function is not available for non-users.
+
+ ![](static/docs/images/admin01.PNG)
+
+ - To edit the product you need the information needed to complete the form in the Porduct Management area.
+
+ ![](static/docs/images/editpro.PNG)
+
+ - This non-image image will be displayed by default if the product doesn't have a picture.
+
+  ![](static/docs/images/no-img.PNG)
 
 ### Validators
 
