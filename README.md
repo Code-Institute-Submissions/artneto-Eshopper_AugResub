@@ -314,6 +314,46 @@ The Database schema is below:
 
   ![](static/docs/images/navbar.PNG)
 
+  - The user can utilise the search bar in the header area to look up products. By entering different keywords, brand or sku, the search bar will provide a filtered list of results for those that do.
+
+  ![](static/docs/images/topnav.PNG)
+
+  - Testing product search bar. 
+
+  ![](static/docs/images/test01.PNG)
+
+ - The homepage also includes a newsletter signup area that will appear on desktop computers and other devices.
+
+ ![](static/docs/images/newsletter.PNG)
+
+ - Last but not least, I also developed a function that displays the best-selling items depending on the transactions handled throughout the test period.
+
+ ![](static/docs/images/home1.PNG)
+
+ ## Products
+
+ - The user is presented with a list of products from the products page, each of which includes an image, the product name, category, price, brand, and rating. The top left corner also shows the overall number of goods. Using the filter bar in the upper right corner, the user can also continue to filter the products. The user can choose the headline choice and the level of filtering specificity from the dropdown menus to filter for particular categories.
+
+ ![](static/docs/images/productsearch.png)
+
+
+ - Only registered user will be allowed to leave a review for the product.
+
+  ![](static/docs/images/review01.PNG)
+
+ - User logged he can pick any product and write a review
+
+ ![](static/docs/images/reviw2.PNG)
+
+ - Once submitted an alert message will be displayed to indicate that the comment has been posted.
+
+  ![](static/docs/images/review3.PNG)
+
+ - By selecting the product, the user will receive a notice that the product has been added to the  bag. The customer will see the value of the product, the current offer and will have the option to continue buying or finalizing the purchase.
+
+ ![](static/docs/images/bag1.PNG)
+
+
 ### Validators
 
 - [W3C HTML Validator](https://validator.w3.org) 
