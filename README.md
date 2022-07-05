@@ -175,6 +175,8 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
 
  - 404 page created to redirect users back to the main site in case of an error
 
+  ![](static/docs/images/404error.PNG)
+
  - 500 error page created to redirect users to the main site after a server error
 
  ![](static/docs/images/500error.PNG)
@@ -355,6 +357,8 @@ The Database schema is below:
 
  ![](static/docs/images/bag1.PNG)
 
+    The user has the option to change the quantity and contents of their bag. The + and - icons can be used by the user to raise or reduce the product amount. By clicking the update button, the user can then update their bag with the necessary quantity adjustment, which also updates the overall bag total. The user also has the option of manually entering the quantity they want to change. By choosing the remove button, the user can also take the item out of the bag. The object in the bag will be fully removed as a result. A fresh alert message containing the changes will appear each time a change is made to the bag.
+
  - Only the admin or the person who added the product on the Eshopper website can edit or delete the selected product, this function is not available for non-users.
 
  ![](static/docs/images/admin01.PNG)
@@ -366,6 +370,22 @@ The Database schema is below:
  - This non-image image will be displayed by default if the product doesn't have a picture.
 
   ![](static/docs/images/no-img.PNG)
+
+
+ ## Purchase 
+
+ - The user will be asked to provide the delivery details along with the complete list of the purchase's items. The "Adjust Bag" button allows the user to return to the shopping bag and make additional changes. Otherwise, the user may choose to pay by clicking the "Complete Order" button. Through Stripe, which uses a secure way, the payment is handled.
+
+ ![](static/docs/images/bag02.PNG)
+
+ - The user is redirected to the confirmation page, where the order confirmation is displayed, after the order has been submitted.
+
+  ![](static/docs/images/bag3.PNG)
+
+ - Email confirmation:
+
+  ![](static/docs/images/eshopperemail.PNG)
+
 
 ### Validators
 
