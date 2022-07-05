@@ -465,7 +465,7 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
 1. Set `DISABLE_COLLECTSTATIC` to `1` on Heroku (so heroku does not collect static files during deployment).
 
     ```
-    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app eshopper
+    $ heroku config:set DISABLE_COLLECTSTATIC=1 --app e-shopperonline
     ```
 
 1. Add `ALLOWED_HOSTS` variable(containing host name of the premiumbody app and the localhost) to project's [`settings.py`](/eshopper/settings.py) file.
@@ -473,7 +473,7 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
 1. Since the app was created via the Heroku webpage, initializing heroku git remote is necessary before pushing to Heroku
 
     ```
-    $ heroku git:remote -a eshopper
+    $ heroku git:remote -a e-shopperonline
     ```
 
 1. Push to Heroku
