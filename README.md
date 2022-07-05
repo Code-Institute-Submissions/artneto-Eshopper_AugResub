@@ -474,7 +474,7 @@ This project was deployed to [Heroku](https://www.heroku.com/). Find the steps b
 - Then load products
 
     ```
-    $ python3 manage.py loaddata categories
+    $ python3 manage.py loaddata products
     ```
 
 1. Create superuser:
