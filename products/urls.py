@@ -9,5 +9,7 @@ urlpatterns = [
     path('delete/<int:product_id>/', views.delete_product,
          name='delete_product'),
     path('add_review/<int:product_id>/', views.add_review, name='add_review'),
+    path('add-wishlist',views.add_wishlist, name='add_wishlist'),
+    path('my-wishlist',views.my_wishlist, name='my_wishlist'),
 
 ]

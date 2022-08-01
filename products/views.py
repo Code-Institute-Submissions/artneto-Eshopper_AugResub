@@ -5,7 +5,7 @@ from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
 
 
-from .models import Product, Category
+from .models import Product, Category, Wishlist
 from .forms import ProductForm, ReviewForm
 
 
@@ -172,3 +172,29 @@ def add_review(request, product_id):
                     request, 'Failed to add review. Please ensure the form \
                         is valid')
             return redirect(reverse('product_detail', args=[product.id]))
+
+
+@login_required
+def add_wishlist(request):
+	pid=request.GET['product']
+	product=Product.objects.get(pk=pid)
+	data={}
+	checkw=Wishlist.objects.filter(product=product,user=request.user).count()
+	if checkw > 0:
+		data={
+			'bool':False
+		}
+	else:
+		wishlist=Wishlist.objects.create(
+			product=product,
+			user=request.user
+		)
+		data={
+			'bool':True
+		}
+	return JsonResponse(data)
+
+# My Wishlist
+def my_wishlist(request):
+	wlist=Wishlist.objects.filter(user=request.user).order_by('-id')
+	return render(request, 'user/wishlist.html',{'wlist':wlist})
