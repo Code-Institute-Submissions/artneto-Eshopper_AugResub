@@ -1,6 +1,6 @@
 """ Admin for 'products' app"""
 from django.contrib import admin
-from .models import Product, Category, Review, Wishlist
+from .models import Product, Category, Review
 
 
 # Register your models here.
@@ -36,4 +36,3 @@ class ReviewAdmin(admin.ModelAdmin):
 
 admin.site.register(Review, ReviewAdmin)
 
-admin.site.register(Wishlist)
