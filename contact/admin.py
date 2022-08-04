@@ -1,4 +1,6 @@
-from django.contrib import admin
-from .models import Contact
+from django.apps import AppConfig
 
-admin.site.register(Contact)
+
+class ContactUsConfig(AppConfig):
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'contact'
