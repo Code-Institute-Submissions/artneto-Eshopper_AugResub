@@ -1,16 +1,11 @@
-from django import forms
+from django.forms import ModelForm
+from .models import Contact
 
 
-class ContactForm(forms.Form):
-    name = forms.CharField(min_length=3,
-                           max_length=100, label='Name',
-                           widget=forms.TextInput())
-
-    email = forms.EmailField(widget=forms.EmailInput(),
-                             label='Your Email Address')
-    subject = forms.CharField(min_length=3,
-                              max_length=40, label='Subject',
-                              widget=forms.TextInput())
-    message = forms.CharField(min_length=5,
-                              max_length=40,
-                              widget=forms.Textarea(), label='Message')
+class ContactForm(ModelForm):
+    """
+    form for managing crud for blogs
+    """
+    class Meta:
+        model = Contact
+        fields = '__all__'

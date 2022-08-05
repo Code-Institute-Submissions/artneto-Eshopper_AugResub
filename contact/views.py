@@ -23,10 +23,10 @@ def contact(request):
                 [settings.DEFAULT_FROM_EMAIL],
                 fail_silently=False,)
 
-            messages.success(request, 'Your message has been sent!')
+            messages.success(request, 'Thank you for your email!')
             return redirect(reverse('contact'))
         else:
-            messages.error(request, 'Message not sent please try again.')
+            messages.error(request, 'Error! please try again.')
     else:
         form = ContactForm()
 
