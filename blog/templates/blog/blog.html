@@ -29,14 +29,14 @@
                         <div class="col-12">
                             {% for blog in blog %}
                             <div class="card w-100">
-                                <h2 class="card-title">{{ blog.title }}</h2>
-                                <p class="card-body text-left">{{blog.body}}</p>
+                                <h2 class="contact-title">{{ blog.title }}</h2>
+                                <p class="card-body text-journal">{{blog.body}}</p>
                                 <div class="card-footer">
                                     <p> {{ blog.added_on }}</p>
                                 {% if user.is_authenticated %}
                                     <small class="ml-3">
                                         <a class="btn btn-black" href="{% url 'edit_blog' blog.id %}">Edit</a> 
-                                        <a class="btn btn-danger" href="{% url 'delete_blog' blog.id %}">Delete</a>
+                                        <a class="btn btn-black" href="{% url 'delete_blog' blog.id %}">Delete</a>
                                     </small>
                                 {% endif %}
                                 </div>

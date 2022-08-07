@@ -6,9 +6,7 @@ from django.conf import settings
 
 
 def contact(request):
-    """
-    View to submit contact form for contact.html
-    """
+    
     if request.method == 'POST':
         form = ContactForm(request.POST)
         user_message = request.POST.get('message')
@@ -23,10 +21,10 @@ def contact(request):
                 [settings.DEFAULT_FROM_EMAIL],
                 fail_silently=False,)
 
-            messages.success(request, 'Your message has been sent!')
+            messages.success(request, 'We have received your email!')
             return redirect(reverse('contact'))
         else:
-            messages.error(request, 'Message not sent please try again.')
+            messages.error(request, 'Wrong request, please try again.')
     else:
         form = ContactForm()
 

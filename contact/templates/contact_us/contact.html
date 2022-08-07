@@ -2,34 +2,33 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container header-container">
+    <div class="container">
         <div class="row">
             <div class="col"></div>
         </div>
     </div>
 {% endblock %}
+
+
 {% block content %}
     <div class="overlay"></div>
-    <div class="container container-checkout">
+    <div class="container container-contact">
         <div class="row ">
-            <div class="col col-checkout">
+            <div class="col col-contact">
                 <hr>
                 <h2 class="text-center mb-3 ">Contact Us</h2>
-                <p class="text-center font-weight-bold"> Thank you for reaching our site. Please fill the form below to contact us.</p>
+                <p class="text-center font-weight-bold">  Please, fill in the form below to submit a request.</p>
             </div>  
         </div>
         <div class="row">
-            <div class="col col-contact">
+            <div class="col col-contact_us">
                 
                 <!--Form to submit message-->
                 <form method="POST" action="{% url 'contact' %}" class="form">
                     {% csrf_token %}
                     {{ form|crispy }}
                     <div class="form-group">
-                        <button class="btn gear-button rounded text-uppercase" type="submit">
-                            Send
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
+                        <button class="btn btn-black" type="submit">Send</button>
                     </div>
                 </form>
             </div>

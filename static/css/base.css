@@ -230,6 +230,10 @@ a.category-badge > span.badge:hover {
     resize: 8px;
 }
 
+.text-journal p {
+    text-transform: initial!important;
+    text-align: justify!important;
+}
 
 .pb-5 {
   padding-bottom: 1rem !important;
@@ -336,9 +340,10 @@ a:hover {
 }
 
 .text-center {
-    text-align: center!important;
-    text-transform: uppercase!important;
+    text-transform: initial!important;
+    text-align: justify!important;
     font-family: 'Open Sans', sans-serif;
+   
    
 }
 

@@ -6,9 +6,7 @@ from .forms import BlogForm
 
 
 def blog(request):
-    """
-    view for blod page
-    """
+   
     blog = Blog.objects.all()
 
     template = 'blog/blog.html'
@@ -21,12 +19,10 @@ def blog(request):
 
 @login_required
 def add_blog(request):
-    """
-    view to add products to the db
-    """
-    # checks if user has permition to add products
+   
+
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only site admin can do that.')
+        messages.error(request, 'Sorry, only user with access can do that.')
         return redirect(reverse('blog'))
 
     if request.method == 'POST':
@@ -38,7 +34,7 @@ def add_blog(request):
         else:
             messages.error(
                 request,
-                'The blog was not added. Please check the form is valid.'
+                'Error with the form, please try again'
             )
     else:
         form = BlogForm()
@@ -53,12 +49,10 @@ def add_blog(request):
 
 @login_required
 def edit_blog(request, blog_id):
-    """
-    view to edit blog in the db
-    """
-    # checks if user has permition to add products
+   
+  
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only site admin can do that.')
+        messages.error(request, 'Sorry, only user with access can do that.')
         return redirect(reverse('home'))
     blog = get_object_or_404(Blog, pk=blog_id)
 
@@ -70,7 +64,7 @@ def edit_blog(request, blog_id):
             return redirect(reverse('blog'))
         else:
             messages.error(
-                request, 'item was not updated please check the from is valid'
+                request, 'Post not updated please check the form is valid'
             )
     else:
         form = BlogForm(instance=blog)
@@ -87,9 +81,9 @@ def edit_blog(request, blog_id):
 
 @login_required
 def delete_blog(request, blog_id):
-    """ Delete a blog from the store """
+    
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store admin can do that.')
+        messages.error(request, 'Sorry, only user with access can do that')
         return redirect(reverse('home'))
 
     blog = get_object_or_404(Blog, pk=blog_id)
