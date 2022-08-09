@@ -1,12 +1,12 @@
+""" module for journal page"""
 from django.db import models
 
-class Blog(models.Model):
-    """
-    modle for blog page
-    """
 
-    title = models.CharField(max_length=250, null=False, default='Add Blog title here', unique=True)
-    body = models.TextField(null=False, default='Add Blog content here')
+class Blog(models.Model):
+
+    title = models.CharField(max_length=250, null=False, default="",
+                             unique=True)
+    body = models.TextField(null=False, default="")
     added_on = models.DateTimeField(auto_now_add=True)
 
     class Meta:

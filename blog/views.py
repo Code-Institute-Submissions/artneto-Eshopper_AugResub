@@ -6,7 +6,7 @@ from .forms import BlogForm
 
 
 def blog(request):
-   
+
     blog = Blog.objects.all()
 
     template = 'blog/blog.html'
@@ -19,7 +19,6 @@ def blog(request):
 
 @login_required
 def add_blog(request):
-   
 
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only user with access can do that.')
@@ -49,8 +48,7 @@ def add_blog(request):
 
 @login_required
 def edit_blog(request, blog_id):
-   
-  
+
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only user with access can do that.')
         return redirect(reverse('home'))
@@ -81,7 +79,7 @@ def edit_blog(request, blog_id):
 
 @login_required
 def delete_blog(request, blog_id):
-    
+
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only user with access can do that')
         return redirect(reverse('home'))
