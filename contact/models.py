@@ -1,3 +1,4 @@
+"""Models for 'contact' app"""
 from django.db import models
 
 

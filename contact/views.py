@@ -1,3 +1,4 @@
+"""Views for 'contact' app"""
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 from .forms import ContactForm
@@ -6,7 +7,7 @@ from django.conf import settings
 
 
 def contact(request):
-    
+
     if request.method == 'POST':
         form = ContactForm(request.POST)
         user_message = request.POST.get('message')

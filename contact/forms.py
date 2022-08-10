@@ -1,3 +1,4 @@
+"""Forms for 'contact' app"""
 from django.forms import ModelForm
 from .models import Contact
 

@@ -1,6 +1,6 @@
 """ Test models for 'checkout' app"""
-rom django.test import TestCase
 from .models import Order
+from django.test import TestCase
 from products.models import Product
 
 
