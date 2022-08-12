@@ -16,7 +16,7 @@ class TestViews(TestCase):
         """Testing Send message."""
         mail.send_mail(
             'subject', 'user_message',
-            'eshopper_store@example.com', ['to@example.com'],
+            'eshopper_store@example.com', ['eshopper_store@example.com'],
             fail_silently=False,
         )
 
