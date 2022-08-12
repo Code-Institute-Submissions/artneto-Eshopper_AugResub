@@ -32,7 +32,7 @@
 
   {% else %}
   <p>{% blocktrans %}If you have not created an account yet, then please
-    <a href="{{ signup_url }}" id="account-exist">sign up here</a>.{% endblocktrans %}</p>
+    <a href="{{ signup_url }}" id="account-login">sign up here</a>.{% endblocktrans %}</p>
   {% endif %}
 
   <form class="login" method="POST" action="{% url 'account_login' %}">
@@ -47,7 +47,7 @@
     </div>
     <p class="mt-2">
       <a class="button secondaryAction " href="{% url 'account_reset_password' %}"
-        id="account-exist"  aria-label="forgot_password">{% trans "Forgot Password?" %}</a>
+        id="account-forgot"  aria-label="forgot_password">{% trans "Forgot Password?" %}</a>
     </p>
   </form>
 </div>
