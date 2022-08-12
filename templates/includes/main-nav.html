@@ -10,7 +10,7 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-label="all-products-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -23,7 +23,7 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Vitamins & Supplements
             </a>
-            <div class="dropdown-menu border-0" aria-label="supplement-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'products' %}?category=homeopathic" class="dropdown-item">Homeopathic & Flower Remedies</a>
                 <a href="{% url 'products' %}?category=cbd_oils" class="dropdown-item">Cbd Oils and Creams</a>
                 <a href="{% url 'products' %}?category=supplements_vegan" class="dropdown-item">Supplements for Vegans</a>
@@ -37,7 +37,7 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Food & Drink
             </a>
-            <div class="dropdown-menu border-0" aria-label="food-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'products' %}?category=rice_pasta" class="dropdown-item">Rice and Pasta</a>
                 <a href="{% url 'products' %}?category=breakfast" class="dropdown-item">Breakfast Cereals</a>
                 <a href="{% url 'products' %}?category=gluten_free" class="dropdown-item">Gluten Free Food & Drink</a>
@@ -51,7 +51,7 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Weight Management
             </a>
-            <div class="dropdown-menu border-0" aria-label="weight-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'products' %}?category=weight_management" class="dropdown-item">Weight Management</a>
                 <a href="{% url 'products' %}?category=protein" class="dropdown-item">Lean Protein</a>
                 <a href="{% url 'products' %}?category=weight_management,protein" 
@@ -64,7 +64,7 @@
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Connect
             </a>
-            <div class="dropdown-menu border-0" aria-label="weight-link">
+            <div class="dropdown-menu border-0">
                 <a href="{% url 'blog' %}" class="dropdown-item">Blog</a>
                 <a href="{% url 'contact' %}" class="dropdown-item">Contact Us</a>
             </div>
