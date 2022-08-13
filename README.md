@@ -398,6 +398,20 @@ The Database schema is below:
 
   ![](static/docs/images/signin.PNG)
 
+
+## Journal 
+ 
+  User/Admin can create journal post with this model. 
+
+ ![](static/docs/images/blog.PNG)
+
+
+## Contact 
+ 
+  User/Shopper can contact website admin in case needs help with your order or website access. The user received a confirmation or error message if the form is invalid.
+
+ ![](static/docs/images/form1.PNG)
+
 ### Validators
 
 - [W3C HTML Validator](https://validator.w3.org) 
