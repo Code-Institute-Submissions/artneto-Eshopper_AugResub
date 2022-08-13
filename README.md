@@ -110,7 +110,7 @@ The colors used in this project are:
 ## Features
 
 
-#### Site Navigation
+### Site Navigation
 
 Links essential for ease of access are displayed in the navigation bar.
 
@@ -399,14 +399,14 @@ The Database schema is below:
   ![](static/docs/images/signin.PNG)
 
 
-## Journal 
+### Journal 
  
   User/Admin can create journal post with this model. 
 
  ![](static/docs/images/blog.PNG)
 
 
-## Contact 
+### Contact 
  
   User/Shopper can contact website admin in case needs help with your order or website access. The user received a confirmation or error message if the form is invalid.
 
@@ -438,6 +438,10 @@ The Database schema is below:
   - connections.html
   - login_cancelled.html
   - signup.html
+  - blog.html
+  - add_blog.html
+  - edit_blog.html
+  - contact.html 
 
 
 - [W3C CSS Validator](http://jigsaw.w3.org/css-validator/)
