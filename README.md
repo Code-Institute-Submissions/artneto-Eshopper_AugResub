@@ -226,7 +226,8 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
   
 
   The ER diagram schema is below:
-  ![](static/docs/images/ERdiagram.PNG)
+
+![](static/docs/images/ERdiagram.PNG)
   
 
 [Back to contents](#table-of-contents)
