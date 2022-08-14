@@ -225,8 +225,9 @@ To access the admin interface by adding /admin to the end of the Eshopper URL.
   - SQLite: A cloud-based database that stores fields for products, users, orders.
   
 
-  The Database schema is below:
+  The ER diagram schema is below:
   ![](static/docs/images/ERdiagram.PNG)
+  
 
 [Back to contents](#table-of-contents)
 ## Technologies
