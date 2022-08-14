@@ -44,7 +44,7 @@ body {
 .para-01 {
     text-align: justify;
     font-family: 'Open Sans', sans-serif;
-    font-style: uppercase;
+    text-transform: uppercase;
 }
 
 
@@ -227,7 +227,7 @@ a.category-badge > span.badge:hover {
 .update-link,
 .remove-item {
     cursor: pointer;
-    resize: 8px;
+    resize: 8%;
 }
 
 .text-journal p {
